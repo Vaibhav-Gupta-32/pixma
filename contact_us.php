@@ -2,10 +2,40 @@
 $page_title = "PIXMAINNOVATIONS || CONTACT US";
 $pagename = "Contact us";
 $current_page = basename($_SERVER['PHP_SELF']);
+$meta_description = "Reach out to our sales and service centre based in Raipur, New Delhi and Kolkata";
+$tblname = "contact_us";
+$tblkey = "id";
 ?>
 <?php include('includes/header.php'); ?>
 <?php include('includes/navbar.php'); ?>
 <?php include('includes/breadcrumb.php'); ?>
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $enquiry = $_POST['enquiry'];
+    $message = $_POST['message'];
+
+    $sql = "INSERT INTO $tblname (name, email, phone, enquiry, message) VALUES ('$name', '$email', '$phone', '$enquiry', '$message')";
+
+    if (mysqli_query($conn, $sql)) {
+        echo "<script>
+        document.addEventListener('DOMContentLoaded', function() {
+            Swal.fire({
+                title: 'Contact Form Submited Successfully',
+                icon: 'success',
+                draggable: true
+            });
+            });
+        </script>";
+    } else {
+        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }
+
+    mysqli_close($conn);
+}
+?>
 
 
 <!-- Contact Us Section Start -->
@@ -21,8 +51,9 @@ $current_page = basename($_SERVER['PHP_SELF']);
         </div>
         <div class="row mb-n30">
             <div class="col-md-6 mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
-                <div class="contact-head">
-                    <p class="text">Kimod tempoer incididunt onomes sundo ritoma amar korem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm od tempor inci didunt o ritoma amar korem ipsum</p>
+                <div class="contact-head" style="text-align: justify;">
+                    <p class="text">We are committed to providing exceptional service and building long-term relationships. Contact us today and let Pix Plus help you transform your space with innovative interactive solutions!
+                    </p>
                 </div>
                 <!-- Contact Information Start -->
                 <ul class="contact-info">
@@ -30,21 +61,25 @@ $current_page = basename($_SERVER['PHP_SELF']);
                         <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
                         <div class="contact-info-content">
                             <h3 class="title">Address</h3>
-                            <span class="text">20, Mounten Street, UK</span>
+                            <span class="text">A-140, A-1, Sector-7B, Kamal Vihar, <br> Raipur Chhattisgarh, 492004</span>
+
+
                         </div>
                     </li>
                     <li>
                         <div class="icon"><i class="fas fa-phone-alt"></i></div>
                         <div class="contact-info-content">
                             <h3 class="title">Phone</h3>
-                            <span class="text"><a href="tel:+123456789">+123 456 789</a></span>
+                            <span class="text"><a href="tel:+916291509470">+91-6291509470</a></span>
                         </div>
                     </li>
                     <li>
                         <div class="icon"><i class="fas fa-envelope"></i></div>
                         <div class="contact-info-content">
                             <h3 class="title">Email</h3>
-                            <span class="text"><a href="mailto:hello@avers.com">hello@avers.com</a></span>
+                            <span class="text"><a href="mailto:innovationswhitefeather@gmail.com">innovationswhitefeather@gmail.com</a>
+                            </span>
+
                         </div>
                     </li>
                 </ul>
@@ -52,22 +87,31 @@ $current_page = basename($_SERVER['PHP_SELF']);
             </div>
 
             <div class="col-md-6 mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
-                <form id="contact-form" class="contact-form" action="https://ethemestudio.com/demo/avers/assets/php/contact.php">
+                <form id="contact-form" class="contact-form" method="POST">
                     <div class="row">
                         <div class="col-lg-6 mb-3">
-                            <input placeholder="Your name" name="name">
+                            <label for="name">Your name</label>
+                            <input id="name" name="name">
                         </div>
                         <div class="col-lg-6 mb-3">
-                            <input type="email" placeholder="Your email" name="email">
+                            <label for="email">Your email</label>
+                            <input id="email" type="email" name="email">
                         </div>
                         <div class="col-lg-6 mb-3">
-                            <input placeholder="Your phone" name="phone">
+                            <label for="phone">Your phone</label>
+                            <input id="phone" name="phone">
                         </div>
                         <div class="col-lg-6 mb-3">
-                            <input placeholder="Subject" name="subject">
+                            <label for="enquiry">Enquiry</label>
+                            <select id="enquiry" name="enquiry" class="form-control">
+                                <option value="">Select</option>
+                                <option value="sales">Sales Enquiry</option>
+                                <option value="service">Service Enquiry</option>
+                            </select>
                         </div>
                         <div class="col-12 mb-3">
-                            <textarea name="message" placeholder="Write your comment here"></textarea>
+                            <label for="message">Write your comment here</label>
+                            <textarea id="message" name="message"></textarea>
                         </div>
                         <div class="col-12 text-left">
                             <button class="btn btn-style-one" type="submit"> <span>Submit Now</span> </button>

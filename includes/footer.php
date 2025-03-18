@@ -1,7 +1,7 @@
 <style>
     .white-icon {
-    color: white;
-}
+        color: white;
+    }
 </style>
 <!-- Footer Section Start -->
 <div class="footer footer-about">
@@ -16,14 +16,16 @@
                                     <img class="" src="assets/images/pixma-logo-2.png" alt="LogoImage">
                                 </a>
                             </div>
-                            <div class="" ><h2 style="color:#e5cce2;font-family: Playfair Display, serif;">PIXMA  + INNORVATION </h2></div>
+                            <div class="">
+                                <h2 style="color:#e5cce2;font-family: Playfair Display, serif;">PIXMA + INNORVATION </h2>
+                            </div>
                         </div>
                         <p class="footer-left-text">Innovating for a smarter future with cutting-edge technology and solutions.</p>
                         <ul class="footer-left-list-icon">
                             <li><i class="fas fa-map-marker-alt"></i> <span>Sales Office: 303, 3rd Floor, Besst Arcade Building, Sector-12, Dwarka, New Delhi-110075</span></li>
                             <li><i class="fas fa-map-marker-alt"></i> <span>East Zone: Office No. 17, 18th Floor, Infinity Benchmark, Salt Lake, Sector-V, Kolkata</span></li>
                             <li><i class="fas fa-map-marker-alt"></i> <span>Registered Office: A-140, A-1, Sector-7B, Kamal Vihar, Raipur, Chhattisgarh, 492004</span></li>
-                            
+
                         </ul>
                         <ul class="social-icon d-flex flex-start">
                             <li><a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
@@ -74,11 +76,13 @@
             <div class="row">
                 <div class="col-12 position-relative">
                     <div class="footer-copyright-inner">
-                        <p class="order-md-1 order-2">Designed and Developed by <span><a href="https://tdhdigitalagency.com/" style="color:#e5cce2;font-family: Playfair Display, serif;">the Digital House</a></span></p>
+                        <p class="order-md-1 order-2" style="color: black;">© 2025 <a href="https://pixmainnovations.com/" style="color:#1d4372;font-family: Playfair Display, serif;">Pixma</a> All Rights Reserved.</p>
                         <ul class="footer-bootm-list order-md-2 order-1">
-                            <li><a href="contact.html">Terms &amp; Condition</a></li>
+                            <li><p class="order-md-1 order-2">Designed and Developed by <span><a href="https://tdhdigitalagency.com/" style="color:#d1e8fa;font-family: Playfair Display, serif;">the Digital House</a></span></p></li>
+
+                            <!-- <li><a href="contact.html">Terms &amp; Condition</a></li>
                             <li><a href="contact.html">Privacy Policy</a></li>
-                            <li><a href="contact.html">Legal</a></li>
+                            <li><a href="contact.html">Legal</a></li> -->
                         </ul>
                     </div>
                 </div>
@@ -94,6 +98,11 @@
     <i class="arrow-bottom fas fa-angle-double-up"></i>
 </a>
 <!-- Scroll Top End -->
+
+
+<!-- SweetAlert JS -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+
 
 <!-- JS Vendor, Plugins & Activation Script Files -->
 
