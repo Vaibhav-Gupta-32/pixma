@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 include("admin/config/dbconnection.php");
 ?>
@@ -37,6 +37,10 @@ include("admin/config/dbconnection.php");
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- SweetAlert CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
 </head>
 
 <body>

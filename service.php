@@ -24,7 +24,7 @@ $meta_description = "One of the best and affordable Interactive Flat Panel sales
                 <div class="service-single">
                     <div class="service-single-image">
                         <div class="service-single-image-thumb">
-                            <img src="admin/dash/images/<?= $row['location']; ?>" alt="ServiceImage">
+                            <img src="admin/dash/<?= $row['location']; ?>" alt="ServiceImage">
                         </div>
                         <div class="service-single-image-content">
                             <div class="icon">

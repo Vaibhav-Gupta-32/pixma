@@ -54,7 +54,7 @@ $meta_description = "One of the best digital podium, flat interactive panel, sta
                 <div class="single-project">
                     <a class="thumbnail" href="products-details.html">
                     <!-- admin/dash/<?php // $row['location'] ?> -->
-                        <img src="admin/dash/images<?= $row['location'];?>" alt="ProjectImage">
+                        <img src="admin/dash/<?= $row['location'];?>" alt="ProjectImage">
                     </a>
                     <div class="content">
                         <span class="subtitle"><?= ucfirst($row['subtitle']); ?></span>
@@ -63,7 +63,7 @@ $meta_description = "One of the best digital podium, flat interactive panel, sta
                         </h3>
                     </div>
                     <div class="lightbox">
-                        <a class="item" href="admin/dash/images<?= $row['location'];?>"><i class="fas fa-external-link-alt"></i></a>
+                        <a class="item" href="admin/dash/<?= $row['location'];?>"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
                 <!-- Single Project End -->
