@@ -2,6 +2,9 @@
 $page_title = "PIXMAINNOVATIONS || PATNERS REGISTRATION";
 $pagename = "Partner Registration";
 $current_page = basename($_SERVER['PHP_SELF']);
+$meta_description = "Visit our new partner registeration panel";
+$tblname = "partner_registration";
+$tblkey = "id";
 ?>
 <?php include('includes/header.php'); ?>
 <?php include('includes/navbar.php'); ?>
@@ -38,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     move_uploaded_file($_FILES['bankfile']['tmp_name'], "admin/dash/uploads/bank_file/" . $bankfile);
 
     // Insert data into the database
-    $sql = "INSERT INTO partner_registration (company_name, company_address, company_bill_address, company_phone, company_email, company_subject, type_of_company, pan_no, gst_no, registration_file, proprietor_name, residential_address, ownership_percentage, mobile_no, telephone, account_no, signatories_no, account_type, bank_limits, lc_limit, bankfile) 
+    $sql = "INSERT INTO $tblname (company_name, company_address, company_bill_address, company_phone, company_email, company_subject, type_of_company, pan_no, gst_no, registration_file, proprietor_name, residential_address, ownership_percentage, mobile_no, telephone, account_no, signatories_no, account_type, bank_limits, lc_limit, bankfile) 
             VALUES ('$company_name', '$company_address', '$company_bill_address', '$company_phone', '$company_email', '$company_subject', '$type_of_company', '$pan_no', '$gst_no', '$registration_file', '$proprietor_name', '$residential_address', '$ownership_percentage', '$mobile_no', '$telephone', '$account_no', '$signatories_no', '$account_type', '$bank_limits', '$lc_limit', '$bankfile')";
 
     if (mysqli_query($conn, $sql)) {
@@ -65,42 +68,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="row">
             <!-- Heading Start -->
             <div class="heading-one text-center wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
-                <span class="heading-one-subtitle">Contact Us</span>
-                <h2 class="heading-one-title">Stay Connected</h2>
+                <span class="heading-one-subtitle">Partner Registration</span>
+                <h2 class="heading-one-title">Join Hands with Pix Plus</h2>
             </div>
             <!-- Heading End -->
         </div>
         <div class="row mb-n30">
-            <div class="col-md-12 mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
-                <div class="contact-head">
-                    <p class="text">Kimod tempoer incididunt onomes sundo ritoma amar korem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm od tempor inci didunt o ritoma amar korem ipsum</p>
-                </div>
-                <!-- Contact Information Start -->
-                <ul class="contact-info">
-                    <li>
-                        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
-                        <div class="contact-info-content">
-                            <h3 class="title">Address</h3>
-                            <span class="text">20, Mounten Street, UK</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="icon"><i class="fas fa-phone-alt"></i></div>
-                        <div class="contact-info-content">
-                            <h3 class="title">Phone</h3>
-                            <span class="text"><a href="tel:+123456789">+123 456 789</a></span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="icon"><i class="fas fa-envelope"></i></div>
-                        <div class="contact-info-content">
-                            <h3 class="title">Email</h3>
-                            <span class="text"><a href="mailto:hello@avers.com">hello@avers.com</a></span>
-                        </div>
-                    </li>
-                </ul>
-                <!-- Contact Information End -->
-            </div>
 
             <div class="col-md-12 mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
                 <form id="contact-form" class="contact-form" method="POST" enctype="multipart/form-data">
@@ -228,9 +201,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             <input type="file" id="bankfile" name="bankfile">
                         </div>
                     </div>
-                    <div class="col-12 text-left m-auto d-flex justify-content-center">
+                    <div class="col-12 text-left m-auto d-flex align-item-center justify-content-center">
                         <div class="col-lg-4 mb-3">
-                            <input class="btn btn-style-one text-white text-bold" type="submit" name="Submit Now">
+                            <input class="btn btn-style-one text-white text-bold" type="submit" name="Submit Now" style="height: 55px;">
                         </div>
                     </div>
 
