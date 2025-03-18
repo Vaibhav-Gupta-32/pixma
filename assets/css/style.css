@@ -660,7 +660,7 @@ hr {
 }
 
 .btn-style-two {
-  background: #4fcbf1;
+  background: linear-gradient(-45deg, #5BCFF2 20%, #417DD2 50%, #322fb3 100%);
   border: 0px;
   border-radius: 7px;
   text-transform: uppercase;
@@ -5971,7 +5971,8 @@ hr {
   position: relative;
 }
 .progress-section-content {
-  background-image: url(../images/progress/progress-bg.png);
+  /* background-image: url(../images/progress/progress-bg.png); */
+  background-color: #1d4372;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7496,7 +7497,8 @@ hr {
 /*  2.7 - Work Styles CSS
 /*----------------------------------------*/
 .work-bg {
-  background-image: url(../images/work/work-bg.png);
+  /* background-image: url(../images/work/work-bg.png); */
+  background-color: #1d4372;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14739,6 +14741,7 @@ hr {
   border: 1px solid #cbcbdc;
   height: 38px;
   border-radius: 7px;
+  padding-top: 5px;
   padding-right: 20px;
   padding-left: 20px;
   background-color: #ffffff;
@@ -15097,4 +15100,7 @@ hr {
 /* index page  */
 .custom-bg {
   background-color:#1d4372;
+}
+#registration_file {
+  margin: auto;
 }

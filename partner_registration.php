@@ -133,9 +133,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             <label for="gst_no">GST No :</label>
                             <input type="text" id="gst_no" name="gst_no">
                         </div>
-                        <div class="col-lg-4 mb-3">
+                        <div class="col-lg-4 mb-3" style="display: flex; justify-content: center; align-items: center;">
                             <label for="registration_file">Attach Appropriate File(s) :</label>
                             <input type="file" id="registration_file" name="registration_file">
+                            <!-- <input type="file" id="registration_file" name="registration_file"> -->
                         </div>
                     </div>
 
