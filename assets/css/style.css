@@ -660,7 +660,7 @@ hr {
 }
 
 .btn-style-two {
-  background: #4fcbf1;
+  background: linear-gradient(-45deg, #5BCFF2 20%, #417DD2 50%, #322fb3 100%);
   border: 0px;
   border-radius: 7px;
   text-transform: uppercase;
@@ -4551,10 +4551,11 @@ hr {
   }
 }
 .about .about-counter-1 {
-  background-color: #322fb3;
+  background-color: #1d4372;
 }
 .about .about-counter-2 {
-  background-color: #4fcbf1;
+  /* background-color: #4fcbf1; */
+  background-color: #d1e8fa;
 }
 .about .about-counter-title {
   font-size: 21px;
@@ -4628,7 +4629,7 @@ hr {
   }
 }
 .about-image-inner-thumb {
-  background-color: #322fb3;
+  background-color: #1d4372;
   color: #ffffff;
   padding: 40px 25px;
   border-radius: 10px;
@@ -4693,7 +4694,8 @@ hr {
 }
 .about-tab .nav-link {
   border: 1px solid transparent;
-  background-color: #322fb3;
+  /* background-color: #322fb3; */
+  background-color: #1d4372;
   padding: 35px 100px;
   border-radius: 10px 10px 0 0;
   font-size: 18px;
@@ -4702,7 +4704,7 @@ hr {
   color: #ffffff;
 }
 .about-tab .nav-link.active, .about-tab .nav-link:hover {
-  background-color: #4fcbf1;
+  background-color: #1d4372;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1549px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
   .about-tab .nav-link {
@@ -5969,7 +5971,8 @@ hr {
   position: relative;
 }
 .progress-section-content {
-  background-image: url(../images/progress/progress-bg.png);
+  /* background-image: url(../images/progress/progress-bg.png); */
+  background-color: #1d4372;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7494,7 +7497,8 @@ hr {
 /*  2.7 - Work Styles CSS
 /*----------------------------------------*/
 .work-bg {
-  background-image: url(../images/work/work-bg.png);
+  /* background-image: url(../images/work/work-bg.png); */
+  background-color: #1d4372;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14737,6 +14741,7 @@ hr {
   border: 1px solid #cbcbdc;
   height: 38px;
   border-radius: 7px;
+  padding-top: 5px;
   padding-right: 20px;
   padding-left: 20px;
   background-color: #ffffff;
@@ -15090,4 +15095,12 @@ hr {
   .newsletter-two-inner .footer-widget-form .btn {
     padding: 20px 25px;
   }
+}
+
+/* index page  */
+.custom-bg {
+  background-color:#1d4372;
+}
+#registration_file {
+  margin: auto;
 }

@@ -11,7 +11,8 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
 <!-- Slider Section start -->
 <div class="slider-one">
 
-    <div class="sliderbg-1" data-bg-color="#322fb3" data-bg-image="assets/images/slider/sliderbg-one.png">
+    <!-- <div class="custom-bg sliderbg-1" data-bg-color="#322fb3" data-bg-image="assets/images/slider/sliderbg-one.png"> -->
+    <div class="custom-bg sliderbg-1">
         <div class="shape-1 shape">
             <img src="assets/images/slider/sliderone-shape/shape1.png" alt="Shape">
         </div>
