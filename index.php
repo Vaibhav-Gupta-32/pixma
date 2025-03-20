@@ -163,8 +163,8 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
             <div class="col-12 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
                 <!-- Heading Start -->
                 <div class="heading-one text-center">
-                    <span class="heading-one-subtitle">We Are Experts</span>
-                    <h2 class="heading-one-title">Innovative Business Solutions</h2>
+                    <!-- <span class="heading-one-subtitle">We Are Experts</span> -->
+                    <h2 class="heading-one-title">Who We Are</h2>
                 </div>
                 <!-- Heading End -->
             </div>
@@ -184,8 +184,8 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
 
                     <!-- Strategy content Start -->
                     <div class="strategy-content">
-                        <h5 class="title">Growth Strategy</h5>
-                        <p>Maximize potential with tailored solutions. Achieve sustainable success through strategic innovation.</p>
+                        <!-- <h5 class="title">Growth Strategy</h5> -->
+                        <p>A trusted partner in interactive technology, transforming spaces with advanced solutions.</p>
                     </div>
                     <!-- Strategy content End -->
 
@@ -206,8 +206,8 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
 
                     <!-- Strategy content Start -->
                     <div class="strategy-content">
-                        <h5 class="title">Brand Marketing</h5>
-                        <p>Boost brand visibility with cutting-edge strategies. Drive engagement and lasting customer connections.</p>
+                        <!-- <h5 class="title">Brand Marketing</h5> -->
+                        <p>Specialists in interactive flat panels, digital platforms, wall displays, and standees for classrooms, businesses, and events.</p>
                     </div>
                     <!-- Strategy content End -->
 
@@ -228,8 +228,53 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
 
                     <!-- Strategy content Start -->
                     <div class="strategy-content">
-                        <h5 class="title">Data Analytics</h5>
-                        <p>Leverage data-driven insights for smarter decisions. Optimize performance with real-time analytics.</p>
+                        <!-- <h5 class="title">Data Analytics</h5> -->
+                        <p>We offer high-quality products such as OPS and I-frame standees at competitive prices.
+                        </p>
+                    </div>
+                    <!-- Strategy content End -->
+
+                </div>
+                <!-- Single Strategy End -->
+            </div>
+
+            <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".6s">
+                <!-- Single Strategy Start -->
+                <div class="strategy-single">
+
+                    <!-- Strategy Icon Start -->
+                    <div class="strategy-icon">
+                        <span></span>
+                        <img src="assets/images/icon/icon-3.png" alt="Icon">
+                    </div>
+                    <!-- Strategy Icon End -->
+
+                    <!-- Strategy content Start -->
+                    <div class="strategy-content">
+                        <!-- <h5 class="title">Data Analytics</h5> -->
+                        <p>Our commitment to customer satisfaction includes seamless installation, dependable after-sales support, and tailored solutions.</p>
+                    </div>
+                    <!-- Strategy content End -->
+
+                </div>
+                <!-- Single Strategy End -->
+            </div>
+
+            <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".6s">
+                <!-- Single Strategy Start -->
+                <div class="strategy-single">
+
+                    <!-- Strategy Icon Start -->
+                    <div class="strategy-icon">
+                        <span></span>
+                        <img src="assets/images/icon/icon-3.png" alt="Icon">
+                    </div>
+                    <!-- Strategy Icon End -->
+
+                    <!-- Strategy content Start -->
+                    <div class="strategy-content">
+                        <!-- <h5 class="title">Data Analytics</h5> -->
+                        <p>Dedicated to developing innovative environments that promote learning and enhance professional experiences.</p>
                     </div>
                     <!-- Strategy content End -->
 
@@ -255,25 +300,25 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
         <img src="assets/images/shape/shape-5.png" alt="Shape">
     </div>
 
-    <h2 class="rotate-title rotate-left d-none d-xxl-block">PIXMA</h2>
+    <h2 class="rotate-title rotate-left d-none d-xxl-block">PIX PLUS</h2>
 </div>
 <!-- Strategy Section end -->
 
 
 <!-- About Section Start -->
-<div class="about section-padding bg-one">
+<!-- <div class="about section-padding bg-one">
     <div class="container">
         <div class="row">
             <div class="col-xxl-8 col-xl-6 col-lg-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
-                <!-- Heading Start -->
+              
                 <div class="heading-one">
                     <span class="heading-one-subtitle">We are pioneer</span>
                     <h2 class="heading-one-title">Grow Your Business with Avers Today</h2>
                     <p class="heading-one-text-two">Lynci didunt onomes sundo ritoma am nsectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. </p>
                 </div>
-                <!-- Heading End -->
+                
 
-                <!-- About Details Start -->
+                
                 <div class="about-details">
                     <div class="col-one">
                         <p>Kimod tempoer incididunt onomes sundo ritoma amar Lorem ipsum dolor sit a elit, sed do eiusm od tempor incididunt ut labore et dolore magna aliqua quis nostrud exercitation ullamco </p>
@@ -312,10 +357,10 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
                         </div>
                     </div>
                 </div>
-                <!-- About Details End -->
+               
             </div>
             <div class="col-xxl-4 col-xl-6 col-lg-6">
-                <!-- About Image Start -->
+               
                 <div class="about-image">
                     <div class="about-counter">
                         <div class="about-counter-1 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
@@ -341,11 +386,11 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
                         </div>
                     </div>
                 </div>
-                <!-- About Image End -->
+                
             </div>
         </div>
     </div>
-    <!-- About Nav Tab Start -->
+   
     <ul class="nav about-tab wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
         <li class="nav-item" role="presentation">
             <button class="nav-link active" id="tab-one" data-bs-toggle="tab" data-bs-target="#one" type="button" role="tab" aria-controls="one" aria-selected="true">Strategy</button>
@@ -357,8 +402,8 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
             <button class="nav-link" id="tab-three" data-bs-toggle="tab" data-bs-target="#three" type="button" role="tab" aria-controls="three" aria-selected="false">Awards</button>
         </li>
     </ul>
-    <!-- About Nav Tab End -->
-</div>
+   
+</div> -->
 <!-- About Section End -->
 
 <!-- Tab Content Start -->
@@ -493,18 +538,18 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
 <!-- Tab Content End -->
 
 <!-- Progress Section Start -->
-<div class="section-padding progress-section pb-0">
+<!-- <div class="section-padding progress-section pb-0">
     <div class="container position-relative">
         <div class="row">
             <div class="col-lg-9 order-2 order-lg-1 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
                 <div class="progress-section-content">
-                    <!-- Heading Start -->
+                  
                     <div class="heading-one">
                         <span class="heading-one-subtitle">Our Features</span>
                         <h2 class="heading-one-title">Your Deserve the Best</h2>
                         <p class="">Wipsor thesit amet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna almusic over turnn of theiqua. </p>
                     </div>
-                    <!-- Heading End -->
+                    
                     <div class="row">
                         <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay=".1">
                             <div class="radial-progress-single">
@@ -562,19 +607,19 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
     <div class="shape shape-3">
         <img src="assets/images/shape/shape-8.png" alt="Shape">
     </div>
-</div>
-<!-- Progress Section End -->
+</div>  -->
 
-<!-- Service Section Start -->
+<!-- Service Section start -->
 <div class="service section-padding position-relative">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
-                <!-- Heading Start -->
+               
                 <div class="heading-one text-center">
-                    <span class="heading-one-subtitle">Our Services</span>
-                    <h2 class="heading-one-title">What we offer</h2>
-                    <p>Kimod tempoer incididunt onomes sundo ritoma amar Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                    <!-- <span class="heading-one-subtitle">Our Services</span> -->
+                    <h2 class="heading-one-title">Industries We are useful-
+                    </h2>
+                    <!-- <p>Kimod tempoer incididunt onomes sundo ritoma amar Lorem ipsum dolor sit amet, consectetur adipisicing</p> -->
                 </div>
                 <!-- Heading End -->
             </div>
@@ -591,7 +636,7 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
                             <div class="icon">
                                 <img src="assets/images/icon/service/icon-2.png" alt="Icon">
                             </div>
-                            <h4 class="title">Business <br> Automation</h4>
+                            <h4 class="title">Educational <br>Institutions</h4>
                         </div>
                     </div>
                     <div class="service-single-white">
@@ -599,8 +644,8 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
                             <div class="icon gradient-1">
                                 <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
                             </div>
-                            <span class="title">Business <br> Automation</span>
-                            <p>adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore hastedek hojaan mafko redao</p>
+                            <span class="title">Educational <br>Institutions</span>
+                            <p>Educational Institutions– Enhance interactive learning with digital flat panels and real-time collaboration tools.</p>
                         </a>
                     </div>
                 </div>
@@ -617,7 +662,7 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
                             <div class="icon">
                                 <img src="assets/images/icon/service/icon-2.png" alt="Icon">
                             </div>
-                            <h4 class="title">Market <br> Research</h4>
+                            <h4 class="title">Corporate <br> Offices </h4>
                         </div>
                     </div>
                     <div class="service-single-white">
@@ -625,8 +670,8 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
                             <div class="icon gradient-1">
                                 <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
                             </div>
-                            <span class="title">Market <br> Research</span>
-                            <p>adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore hastedek hojaan mafko redao</p>
+                            <span class="title">Corporate <br> Offices</span>
+                            <p> Streamline meetings with video conferencing, digital podiums, and professional display solutions.  </p>
                         </a>
                     </div>
                 </div>
@@ -643,7 +688,7 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
                             <div class="icon">
                                 <img src="assets/images/icon/service/icon-3.png" alt="Icon">
                             </div>
-                            <h4 class="title">Critical <br> Analysis</h4>
+                            <h4 class="title"> Retail & <br> Showrooms–</h4>
                         </div>
                     </div>
                     <div class="service-single-white">
@@ -651,8 +696,8 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
                             <div class="icon gradient-1">
                                 <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
                             </div>
-                            <span class="title">Critical <br> Analysis</span>
-                            <p>adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore hastedek hojaan mafko redao</p>
+                            <span class="title"> Retail & <br> Showrooms–</span>
+                            <p> Attract customers with dynamic digital signage and engaging promotional displays. </p>
                         </a>
                     </div>
                 </div>
@@ -669,7 +714,7 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
                             <div class="icon">
                                 <img src="assets/images/icon/service/icon-4.png" alt="Icon">
                             </div>
-                            <h4 class="title">Risk <br> Management</h4>
+                            <h4 class="title">Event <br> Venues</h4>
                         </div>
                     </div>
                     <div class="service-single-white">
@@ -677,8 +722,9 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
                             <div class="icon gradient-1">
                                 <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
                             </div>
-                            <span class="title">Risk <br> Management</span>
-                            <p>adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore hastedek hojaan mafko redao</p>
+                            <span class="title">Event <br>Venues</span>
+                            <p>  Elevate conferences and exhibitions with interactive standees and live presentation tools.  
+                            </p>
                         </a>
                     </div>
                 </div>
@@ -695,7 +741,7 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
                             <div class="icon">
                                 <img src="assets/images/icon/service/icon-5.png" alt="Icon">
                             </div>
-                            <h4 class="title">Annual <br> Reporting</h4>
+                            <h4 class="title">Hospitals <br>Healthcare Centers –</h4>
                         </div>
                     </div>
                     <div class="service-single-white">
@@ -703,8 +749,9 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
                             <div class="icon gradient-1">
                                 <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
                             </div>
-                            <span class="title">Annual <br> Reporting</span>
-                            <p>adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore hastedek hojaan mafko redao</p>
+                            <span class="title">Hospitals <br> Healthcare Centers –</span>
+                            <p>  Improve patient communication with self-check-in kiosks and digital information boards.
+                            </p>
                         </a>
                     </div>
                 </div>
@@ -721,7 +768,7 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
                             <div class="icon">
                                 <img src="assets/images/icon/service/icon-6.png" alt="Icon">
                             </div>
-                            <h4 class="title">Human <br> Resourses</h4>
+                            <h4 class="title">Hotels <br> Hospitality </h4>
                         </div>
                     </div>
                     <div class="service-single-white">
@@ -729,8 +776,9 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
                             <div class="icon gradient-1">
                                 <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
                             </div>
-                            <span class="title">Human <br> Resourses</span>
-                            <p>adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore hastedek hojaan mafko redao</p>
+                            <span class="title">Hotels <br>Hospitality –</span>
+                            <p>Enhance guest experience with interactive kiosks, digital signages, and smart display solutions.
+                            </p>
                         </a>
                     </div>
                 </div>
@@ -739,7 +787,7 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
         </div>
     </div>
 
-    <h2 class="rotate-title rotate-right d-none d-xxl-block">SERVICES</h2>
+    <h2 class="rotate-title rotate-right d-none d-xxl-block">INDUSTRIES</h2>
 
     <div class="shape shape-1">
         <img src="assets/images/shape/dot-2.png" alt="Shape">
@@ -764,17 +812,17 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
 
 <!-- Work Section Start -->
 <div class="work">
-    <div class="container-fluid position-relative">
+    <!-- <div class="container-fluid position-relative">
         <div class="row">
             <div class="col-lg-8 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
                 <div class="work-bg">
-                    <!-- Heading Start -->
+                   
                     <div class="heading-one">
                         <span class="heading-one-subtitle">Lets work Together</span>
                         <h2 class="heading-one-title">Want to Discuss About A New Project?</h2>
                         <p>Kimod tempoer incididunt onomes sundo ritoma amar Lorem ipsum dolor sit amet, consectetur adipisicing</p>
                     </div>
-                    <!-- Heading End -->
+                 
                     <div class="work-btn">
                         <a href="contact.html" class="btn-style-two">Let's Start Talking</a>
                         <a href="contact.html" class="view-btn">View Works</a>
@@ -787,49 +835,51 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="work-step">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
-                    <!-- Heading Start -->
+                <!-- <div class="col-lg-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
+                   
                     <div class="heading-one">
                         <span class="heading-one-subtitle">How IT Works</span>
                         <h2 class="heading-one-title">Simple Easy Steps to Follow</h2>
                         <p>Kimod tempoer incididunt onomes sundo ritoma amar Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
                     </div>
-                    <!-- Heading End -->
-                </div>
+                   
+                </div> -->
             </div>
             <div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-2 row-cols-1 mb-n30">
                 <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
                     <div class="work-step-single">
                         <div class="number">1</div>
-                        <a href="contact.html"><span class="title">Pick Up A Plan</span></a>
-                        <p>Pore et dolore magna aliqua. strud exercit ctetur adipisicing elit, sed do eiusmod tempor incidid</p>
+                        <a href="contact.html"><span class="title">Collaborative Video Conferencing Solutions</span></a>
+                        <p>Connect, collaborate, and communicate effortlessly.</p>
                     </div>
                 </div>
                 <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
                     <div class="work-step-single">
                         <div class="number">2</div>
-                        <a href="contact.html"><span class="title">Provide Information</span></a>
-                        <p>Pore et dolore magna aliqua. strud exercit ctetur adipisicing elit, sed do eiusmod tempor incidid</p>
+                        <a href="contact.html"><span class="title">Dynamic Signage Display Solutions
+                        </span></a>
+                        <p>Captivate your audience with stunning visuals.</p>
                     </div>
                 </div>
                 <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
                     <div class="work-step-single">
                         <div class="number">3</div>
-                        <a href="contact.html"><span class="title">Research & Analysis</span></a>
-                        <p>Pore et dolore magna aliqua. strud exercit ctetur adipisicing elit, sed do eiusmod tempor incidid</p>
+                        <a href="contact.html"><span class="title">Innovative Digital Signage Software
+                        </span></a>
+                        <p>Simplify content management like never before.</p>
                     </div>
                 </div>
-                <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
+                <!-- <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
                     <div class="work-step-single">
                         <div class="number">4</div>
                         <a href="contact.html"><span class="title">Get Final Report</span></a>
                         <p>Pore et dolore magna aliqua. strud exercit ctetur adipisicing elit, sed do eiusmod tempor incidid</p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="work-step-white-bg"></div>
@@ -847,11 +897,11 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
 <!-- Work Section End -->
 
 <!-- Quality Section Start -->
-<div class="quality section-padding">
+<!-- <div class="quality section-padding">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
-                <!-- Quality Images Start -->
+                
                 <div class="quality-images">
                     <div class="quality-images-one">
                         <img class="js-tilt" src="assets/images/quality/quality-one.png" alt="QualityImage">
@@ -863,16 +913,16 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
                         <img class="js-tilt" src="assets/images/quality/quality-two.png" alt="QualityImage">
                     </div>
                 </div>
-                <!-- Quality Images End -->
+    
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
-                <!-- Heading Start -->
+              
                 <div class="heading-one">
                     <span class="heading-one-subtitle">Design Matter</span>
                     <h2 class="heading-one-title">A Great Team for Quality Results</h2>
                     <p>Kimod tempoer incididunt onomes sundo ritoma amar Lorem ipsum dolor sit amet, consectetur adipisicing</p>
                 </div>
-                <!-- Heading End -->
+               
                 <div class="accordion about-accordion" id="faqone">
                     <div class="accordion-item faq-accordion-item">
                         <h2 class="accordion-header faq-accordion-header" id="headingOne">
@@ -928,7 +978,7 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
     <div class="shape shape-5">
         <img src="assets/images/shape/shape-13.png" alt="Shape">
     </div>
-</div>
+</div> -->
 <!-- Quality Section End -->
 
 <!-- Testimonial One Section Start -->
@@ -941,61 +991,61 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
                         <img src="assets/images/testimonial/testimonial-large.png" alt="TestimonialImage">
                     </div>
                     <div class="testimonial-one-content wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
-                        <!-- Heading Start -->
+                       
                         <div class="heading-one">
                             <span class="heading-one-subtitle">Testimoials</span>
                             <h2 class="heading-one-title">What People Say</h2>
                         </div>
-                        <!-- Heading End -->
+                       
                         <div class="testimonialone">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <!--== Start Testimonial Item ==-->
+                                   
                                     <div class="testimonialone-single">
-                                        <p class="testimonialone-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cup idatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum int occaecat cupid.</p>
+                                        <p class="testimonialone-text">Pix Plus has transformed our office environment. Their interactive technology has made meetings and presentations more efficient. The installation was seamless, and their support team is always ready to help.</p>
                                         <div class="testimonialone-content">
                                             <div class="testimonialone-thumb">
-                                                <img src="assets/images/testimonial/user.png" alt="Testimonial-Image">
+                                                <img src="assets/images/testimonial/Richa_pamnani.jpeg" alt="Testimonial-Image"  style="height:90px; width:90px; border-radius: 50px 50px">
                                             </div>
                                             <div class="testimonialone-info">
-                                                <span class="name">Jack Oramson</span>
-                                                <span class="designation">Web Developer</span>
+                                                <span class="name">Richa Pamnani</span>
+                                                <span class="designation">Director Space institute of design and innovation</span>
                                             </div>
                                         </div>
                                     </div>
-                                    <!--== End Testimonial Item ==-->
+                                  
                                 </div>
                                 <div class="swiper-slide">
-                                    <!--== Start Testimonial Item ==-->
+
                                     <div class="testimonialone-single">
                                         <p class="testimonialone-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cup idatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum int occaecat cupid.</p>
                                         <div class="testimonialone-content">
                                             <div class="testimonialone-thumb">
-                                                <img src="assets/images/testimonial/user.png" alt="Testimonial-Image">
+                                                <img src="assets/images/testimonial/Miss_paras_jain.jpeg" alt="Testimonial-Image"  style="height:90px; width:90px; border-radius: 50px 50px">
                                             </div>
-                                            <div class="testimonialone-info">
-                                                <span class="name">Jack Oramson</span>
-                                                <span class="designation">Web Developer</span>
+                                            <div class="testimonialone-info"> 
+                                                <span class="name">Miss Paras Jain</span>
+                                                <span class="designation">HR shree mahavir Jain H S school durg</span>
                                             </div>
                                         </div>
                                     </div>
-                                    <!--== End Testimonial Item ==-->
+                                   
                                 </div>
                                 <div class="swiper-slide">
-                                    <!--== Start Testimonial Item ==-->
+                                   
                                     <div class="testimonialone-single">
                                         <p class="testimonialone-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cup idatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum int occaecat cupid.</p>
                                         <div class="testimonialone-content">
                                             <div class="testimonialone-thumb">
-                                                <img src="assets/images/testimonial/user.png" alt="Testimonial-Image">
+                                                <img src="assets/images/testimonial/Deepak_Singh.jpeg" alt="Testimonial-Image" style="height:90px; width:90px; border-radius: 50px 50px">
                                             </div>
                                             <div class="testimonialone-info">
-                                                <span class="name">Jack Oramson</span>
-                                                <span class="designation">Web Developer</span>
+                                                <span class="name">Deepak Singh </span>
+                                                <span class="designation">Headmaster Murlidhar school</span>
                                             </div>
                                         </div>
                                     </div>
-                                    <!--== End Testimonial Item ==-->
+                                 
                                 </div>
                             </div>
                             <div class="pagination-style-one">
@@ -1003,9 +1053,9 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
                             </div>
                         </div>
                     </div>
-                    <div class="testimonial-one-thumb gradient-1 wow flipInY" data-wow-duration="1.5s" data-wow-delay=".1s">
+                    <!-- <div class="testimonial-one-thumb gradient-1 wow flipInY" data-wow-duration="1.5s" data-wow-delay=".1s">
                         <img src="assets/images/testimonial/testimonial-quote.png" alt="QuoteImage">
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

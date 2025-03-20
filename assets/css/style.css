@@ -827,7 +827,7 @@ hr {
 @media only screen and (min-width: 1400px) and (max-width: 1549px) {
   .rotate-title.rotate-left {
     font-size: 130px;
-    left: -177px;
+    left: -230px;
   }
 }
 .rotate-title.rotate-right {
@@ -844,7 +844,7 @@ hr {
 @media only screen and (min-width: 1400px) and (max-width: 1549px) {
   .rotate-title.rotate-right {
     font-size: 130px;
-    right: -240px;
+    right: -330px;
   }
 }
 
@@ -7652,7 +7652,7 @@ hr {
   }
 }
 .work-step {
-  background-image: url(../images/work/work-step-bg.png);
+  /* background-image: url(../images/work/work-step-bg.png); */
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom left;
@@ -10565,7 +10565,7 @@ hr {
   overflow: hidden;
 }
 .footer-left {
-  background-color: #322fb3;
+  background-color: #1d4372;
   padding: 120px 100px 175px 0;
   position: relative;
   border-radius: 0 3px 0 0;
@@ -10588,7 +10588,7 @@ hr {
     margin-top: 256px;
   }
   .footer-left::before {
-    background-color: #322fb3;
+    background-color: #1d4372;
     content: "";
     height: 100%;
     left: 98%;
@@ -10599,7 +10599,7 @@ hr {
   }
 }
 .footer-left::after {
-  background-color: #322fb3;
+  background-color: #1d4372;
   content: "";
   height: 100%;
   right: 98%;
@@ -10658,7 +10658,7 @@ hr {
   }
 }
 .footer-top {
-  background-color: #4fcbf1;
+  background-color: #80b9f2;
   position: relative;
   padding: 60px 0 60px 100px;
   display: flex;
@@ -10690,7 +10690,7 @@ hr {
     width: 100%;
   }
   .footer-top::before {
-    background-color: #4fcbf1;
+    background-color: #80b9f2;
     content: "";
     height: 100%;
     right: 98%;
@@ -10701,7 +10701,7 @@ hr {
   }
 }
 .footer-top::after {
-  background-color: #4fcbf1;
+  background-color: #80b9f2;
   content: "";
   height: 100%;
   left: 98%;

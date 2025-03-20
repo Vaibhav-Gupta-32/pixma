@@ -44,7 +44,7 @@
                             <h2 class="heading-one-title">Let's Start A Project</h2>
                             <p>Innovate with us for a better tomorrow.</p>
                         </div>
-                        <a href="contact_us.php" class="btn-style-three"><span>Contact Us</span></a>
+                        <a href="contact_us.php" class="btn-style-one"><span>Contact Us</span></a>
                     </div>
                     <div class="footer-bottom footer-bottom-about">
                         <div class="footer-widget">
