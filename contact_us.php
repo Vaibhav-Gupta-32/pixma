@@ -5,7 +5,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 $meta_description = "Reach out to our sales and service centre based in Raipur, New Delhi and Kolkata";
 $tblname = "contact_us";
 $tblkey = "id";
-?>
+?> 
 <?php include('includes/header.php'); ?>
 <?php include('includes/navbar.php'); ?>
 <?php include('includes/breadcrumb.php'); ?>
@@ -90,19 +90,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <form id="contact-form" class="contact-form" method="POST">
                     <div class="row">
                         <div class="col-lg-6 mb-3">
-                            <label for="name">Your name</label>
+                            <label class="form-label" for="name">Your name</label>
                             <input id="name" name="name">
                         </div>
                         <div class="col-lg-6 mb-3">
-                            <label for="email">Your email</label>
+                            <label class="form-label" for="email">Your email</label>
                             <input id="email" type="email" name="email">
                         </div>
                         <div class="col-lg-6 mb-3">
-                            <label for="phone">Your phone</label>
+                            <label class="form-label" for="phone">Your phone</label>
                             <input id="phone" name="phone">
                         </div>
                         <div class="col-lg-6 mb-3">
-                            <label for="enquiry">Enquiry</label>
+                            <label class="form-label" for="enquiry">Enquiry</label>
                             <select id="enquiry" name="enquiry" class="form-control">
                                 <option value="">Select</option>
                                 <option value="sales">Sales Enquiry</option>
@@ -110,7 +110,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             </select>
                         </div>
                         <div class="col-12 mb-3">
-                            <label for="message">Write your comment here</label>
+                            <label class="form-label" for="message">Write your comment here</label>
                             <textarea id="message" name="message"></textarea>
                         </div>
                         <div class="col-12 text-left">
