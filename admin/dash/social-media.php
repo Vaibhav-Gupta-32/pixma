@@ -9,7 +9,7 @@ $page_name = basename($_SERVER['PHP_SELF']);
 
 $username = $_SESSION['username'];
 
-$youtube   ="";
+$linkedin   ="";
 $facebook  ="";
 $twitter   ="";
 $instagram ="";
@@ -20,14 +20,14 @@ $instagram ="";
 // Update And Save Button 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['Update'])) {
     // print_r($_POST);die;
-    $youtube = $_POST['youtube'];
+    $linkedin = $_POST['linkedin'];
     $facebook = $_POST['facebook'];
     $twitter = $_POST['twitter'];
     $instagram = $_POST['instagram'];
 
     // Update query
     $update_query = "UPDATE $tblname SET 
-    youtube = '$youtube', 
+    linkedin = '$linkedin', 
     facebook = '$facebook', 
     twitter = '$twitter', 
     instagram = '$instagram'
@@ -78,7 +78,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['Update'])) {
     }
 }else{
     $fetch = mysqli_fetch_array(mysqli_query($conn,"select * from $tblname WHERE 1"));
-    $youtube   = $fetch['youtube'];
+    $linkedin   = $fetch['linkedin'];
     $facebook  = $fetch['facebook'];
     $twitter   = $fetch['twitter'];
     $instagram = $fetch['instagram'];  
@@ -107,9 +107,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['Update'])) {
             <div class="col-lg-6 col-md-12 col-sm-12">
                 <div class="form-group shadow position-relative">
                     <div class="form-floating mb-3">
-                        <input type="url" class="form-control " placeholder="YouTube URL" name="youtube" id="youtube" value="<?= $youtube ?>">
-                        <label for="youtube">YouTube URL<span class="text-danger">*</span></label>
-                        <i class="fab fa-youtube position-absolute" style="right: 10px; top: 50%; transform: translateY(-50%);"></i>
+                        <input type="url" class="form-control " placeholder="linkedin URL" name="linkedin" id="linkedin" value="<?= $linkedin ?>">
+                        <label for="linkedin">linkedin URL<span class="text-danger">*</span></label>
+                        <i class="fab fa-linkedin position-absolute" style="right: 10px; top: 50%; transform: translateY(-50%);"></i>
                     </div>
                 </div>
             </div>

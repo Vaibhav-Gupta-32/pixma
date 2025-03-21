@@ -19,7 +19,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $company_bill_address = $_POST['company_bill_address'];
     $company_phone = $_POST['company_phone'];
     $company_email = $_POST['company_email'];
-    $company_subject = $_POST['company_subject'];
     $type_of_company = $_POST['type_of_company'];
     $pan_no = $_POST['pan_no'];
     $gst_no = $_POST['gst_no'];
@@ -41,8 +40,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     move_uploaded_file($_FILES['bankfile']['tmp_name'], "admin/dash/uploads/bank_file/" . $bankfile);
 
     // Insert data into the database
-    $sql = "INSERT INTO $tblname (company_name, company_address, company_bill_address, company_phone, company_email, company_subject, type_of_company, pan_no, gst_no, registration_file, proprietor_name, residential_address, ownership_percentage, mobile_no, telephone, account_no, signatories_no, account_type, bank_limits, lc_limit, bankfile) 
-            VALUES ('$company_name', '$company_address', '$company_bill_address', '$company_phone', '$company_email', '$company_subject', '$type_of_company', '$pan_no', '$gst_no', '$registration_file', '$proprietor_name', '$residential_address', '$ownership_percentage', '$mobile_no', '$telephone', '$account_no', '$signatories_no', '$account_type', '$bank_limits', '$lc_limit', '$bankfile')";
+    $sql = "INSERT INTO $tblname (company_name, company_address, company_bill_address, company_phone, company_email, type_of_company, pan_no, gst_no, registration_file, proprietor_name, residential_address, ownership_percentage, mobile_no, telephone, account_no, signatories_no, account_type, bank_limits, lc_limit, bankfile) 
+            VALUES ('$company_name', '$company_address', '$company_bill_address', '$company_phone', '$company_email', '$type_of_company', '$pan_no', '$gst_no', '$registration_file', '$proprietor_name', '$residential_address', '$ownership_percentage', '$mobile_no', '$telephone', '$account_no', '$signatories_no', '$account_type', '$bank_limits', '$lc_limit', '$bankfile')";
 
     if (mysqli_query($conn, $sql)) {
         echo "<script>
@@ -83,32 +82,28 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     </div>
                     <div class="row">
                         <div class="col-lg-6 mb-3">
-                            <label for="company_name" class="form-label">Company Name :</label>
-                            <input type="text" id="company_name" name="company_name">
+                            <label for="company_name" class="form-label">Company Name :<span class="text-danger">*</span></label>
+                            <input type="text" id="company_name" name="company_name" required>
                         </div>
                         <div class="col-lg-6 mb-3">
-                            <label for="company_address" class="form-label">Office Address :</label>
-                            <input type="text" id="company_address" name="company_address">
+                            <label for="company_address" class="form-label">Office Address :<span class="text-danger">*</span></label>
+                            <input type="text" id="company_address" name="company_address" required>
                         </div>
                         <div class="col-lg-6 mb-3">
-                            <label for="company_bill_address" class="form-label">Billing Address :</label>
-                            <input type="text" id="company_bill_address" name="company_bill_address">
+                            <label for="company_bill_address" class="form-label">Billing Address :<span class="text-danger">*</span></label>
+                            <input type="text" id="company_bill_address" name="company_bill_address" required>
                         </div>
                         <div class="col-lg-6 mb-3">
-                            <label for="company_phone" class="form-label">Phone / Fax No. :</label>
-                            <input type="text" id="company_phone" name="company_phone">
+                            <label for="company_phone" class="form-label">Phone / Fax No. :<span class="text-danger">*</span></label>
+                            <input type="text" id="company_phone" name="company_phone" required>
                         </div>
                         <div class="col-lg-6 mb-3">
-                            <label for="company_email" class="form-label">Your email :</label>
-                            <input type="email" id="company_email" name="company_email">
+                            <label for="company_email" class="form-label">Your email :<span class="text-danger">*</span></label>
+                            <input type="email" id="company_email" name="company_email" required>
                         </div>
                         <div class="col-lg-6 mb-3">
-                            <label for="company_subject" class="form-label">Type of Company :</label>
-                            <input id="company_subject" name="company_subject">
-                        </div>
-                        <div class="col-12 mb-3">
-                            <label for="type_of_company" class="form-label">Type of Company :</label>
-                            <select class="form-select" name="type_of_company" id="type_of_company" style="color: #808087;">
+                            <label for="type_of_company" class="form-label">Type of Company :<span class="text-danger">*</span></label>
+                            <select class="form-select" name="type_of_company" id="type_of_company" style="color: #808087;" required>
                                 <option value="">Select</option>
                                 <option value="Partnership">Partnership</option>
                                 <option value="Proprietary">Proprietary</option>
@@ -126,21 +121,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     </div>
                     <div class="row">
                         <div class="col-lg-4 mb-3">
-                            <label for="pan_no" class="form-label">Pan No :</label>
-                            <input type="text" id="pan_no" name="pan_no">
+                            <label for="pan_no" class="form-label">Pan No :<span class="text-danger">*</span></label>
+                            <input type="text" id="pan_no" name="pan_no" required>
                         </div>
                         <div class="col-lg-4 mb-3">
-                            <label for="gst_no" class="form-label">GST No :</label>
-                            <input type="text" id="gst_no" name="gst_no">
+                            <label for="gst_no" class="form-label">GST No :<span class="text-danger">*</span></label>
+                            <input type="text" id="gst_no" name="gst_no" required>
                         </div>
-<<<<<<< HEAD
                         <div class="col-lg-4 mb-3">
-                            <label for="registration_file" class="form-label">Attach Appropriate File(s) :</label>
-=======
-                        <div class="col-lg-4 mb-3" style="display: flex; justify-content: center; align-items: center;">
-                            <label for="registration_file">Attach Appropriate File(s) :</label>
->>>>>>> 0526970bdf711bb27e255a3e41bc9118773a4400
-                            <input type="file" id="registration_file" name="registration_file">
+                            <label for="registration_file" class="form-label">Attach Appropriate File(s) :<span class="text-danger">*</span></label>
+                            <input type="file" id="registration_file" name="registration_file" required>
                             <!-- <input type="file" id="registration_file" name="registration_file"> -->
                         </div>
                     </div>
@@ -151,24 +141,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     </div>
                     <div class="row">
                         <div class="col-lg-4 mb-3">
-                            <label for="proprietor_name" class="form-label">Name :</label>
-                            <input type="text" id="proprietor_name" name="proprietor_name">
+                            <label for="proprietor_name" class="form-label">Name :<span class="text-danger">*</span></label>
+                            <input type="text" id="proprietor_name" name="proprietor_name" required>
                         </div>
                         <div class="col-lg-4 mb-3">
-                            <label for="residential_address" class="form-label">Residential Address :</label>
-                            <input type="text" id="residential_address" name="residential_address">
+                            <label for="residential_address" class="form-label">Residential Address :<span class="text-danger">*</span></label>
+                            <input type="text" id="residential_address" name="residential_address" required>
                         </div>
                         <div class="col-lg-4 mb-3">
-                            <label for="ownership_percentage" class="form-label">% of Ownership in Business :</label>
-                            <input type="text" id="ownership_percentage" name="ownership_percentage">
+                            <label for="ownership_percentage" class="form-label">% of Ownership in Business :<span class="text-danger">*</span></label>
+                            <input type="text" id="ownership_percentage" name="ownership_percentage" required>
                         </div>
                         <div class="col-lg-4 mb-3">
-                            <label for="mobile_no" class="form-label">Mobile No. :</label>
-                            <input type="text" id="mobile_no" name="mobile_no">
+                            <label for="mobile_no" class="form-label">Mobile No. :<span class="text-danger">*</span></label>
+                            <input type="text" id="mobile_no" name="mobile_no" required>
                         </div>
                         <div class="col-lg-4 mb-3">
-                            <label for="telephone" class="form-label">Telephone :</label>
-                            <input type="text" id="telephone" name="telephone">
+                            <label for="telephone" class="form-label">Telephone :<span class="text-danger">*</span></label>
+                            <input type="text" id="telephone" name="telephone" required>
                         </div>
                     </div>
 
@@ -178,16 +168,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     </div>
                     <div class="row">
                         <div class="col-lg-4 mb-3">
-                            <label for="account_no" class="form-label">Account No :</label>
-                            <input type="text" id="account_no" name="account_no">
+                            <label for="account_no" class="form-label">Account No :<span class="text-danger">*</span></label>
+                            <input type="text" id="account_no" name="account_no" required>
                         </div>
                         <div class="col-lg-4 mb-3">
-                            <label for="signatories_no" class="form-label">No. Of Signatories :</label>
-                            <input type="text" id="signatories_no" name="signatories_no">
+                            <label for="signatories_no" class="form-label">No. Of Signatories :<span class="text-danger">*</span></label>
+                            <input type="text" id="signatories_no" name="signatories_no" required>
                         </div>
                         <div class="col-lg-4 mb-3">
-                            <label for="account_type" class="form-label">Account Type :</label>
-                            <select class="form-select" name="account_type" id="account_type" style="color: #808087;">
+                            <label for="account_type" class="form-label">Account Type :<span class="text-danger">*</span></label>
+                            <select class="form-select" name="account_type" id="account_type" style="color: #808087;" required>
                                 <option value="">Select</option>
                                 <option value="Cash Credit">Cash Credit</option>
                                 <option value="Over Draft">Over Draft</option>
@@ -195,16 +185,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             </select>
                         </div>
                         <div class="col-lg-4 mb-3">
-                            <label for="bank_limits" class="form-label">Bank Limits: Cash (OD)/ Credit :</label>
-                            <input type="text" id="bank_limits" name="bank_limits">
+                            <label for="bank_limits" class="form-label">Bank Limits: Cash (OD)/ Credit :<span class="text-danger">*</span></label>
+                            <input type="text" id="bank_limits" name="bank_limits" required>
                         </div>
                         <div class="col-lg-4 mb-3">
-                            <label for="lc_limit" class="form-label">L/C Limit :</label>
-                            <input type="text" id="lc_limit" name="lc_limit">
+                            <label for="lc_limit" class="form-label">L/C Limit :<span class="text-danger">*</span></label>
+                            <input type="text" id="lc_limit" name="lc_limit" required>
                         </div>
                         <div class="col-lg-4 mb-3">
-                            <label for="bankfile" class="form-label">Attach Bank Proof : (* pdf file only)</label>
-                            <input type="file" id="bankfile" name="bankfile">
+                            <label for="bankfile" class="form-label">Attach Bank Proof : (* pdf file only)<span class="text-danger">*</span></label>
+                            <input type="file" id="bankfile" name="bankfile" required>
                         </div>
                     </div>
                     <div class="col-12 text-left m-auto d-flex align-item-center justify-content-center">
@@ -224,23 +214,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </div>
 <!-- Contact Us Section End -->
 
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        document.getElementById('contact-form').addEventListener('submit', function(event) {
-            let isValid = true;
-            const inputs = document.querySelectorAll('#contact-form input, #contact-form select');
-            inputs.forEach(input => {
-                if (input.value.trim() === '') {
-                    isValid = false;
-                    alert('Please fill out all fields.');
-                    input.focus();
-                    event.preventDefault();
-                    return false;
-                }
-            });
-            return isValid;
-        });
-    });
-</script>
 
 <?php include('includes/footer.php'); ?>

@@ -11,7 +11,7 @@ $page_name = basename($_SERVER['PHP_SELF']);
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     // print_r($_FILES);die;
     // Retrieve posted values
-    $tittle = mysqli_real_escape_string($conn, $_POST['tittle']);
+    $title = mysqli_real_escape_string($conn, $_POST['title']);
     $description = mysqli_real_escape_string($conn, $_POST['description']);
     // $location = mysqli_real_escape_string($conn, $_POST['location']);
 
@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
 
     // Check if $uploadOk is set to 0 by an error
     if ($uploadOk == 1) {
-        $sql = "insert INTO $tblname (tittle,location,description) VALUES ('$tittle','$file_path','$description')";
+        $sql = "insert INTO $tblname (title,location,description) VALUES ('$title','$file_path','$description')";
         // echo $sql;die;
         if (mysqli_query($conn, $sql)) {
             echo "<script>
@@ -167,8 +167,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                 <div class="col-lg-6 col-md-12 col-sm-12 align-content-center">
                     <div class="form-group shadow">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" name="tittle" id="tittle" placeholder=" " required>
-                            <label for="tittle">Title <span class="text-danger">*</span> </label>
+                            <input type="text" class="form-control" name="title" id="title" placeholder=" " required>
+                            <label for="title">Title <span class="text-danger">*</span> </label>
                         </div>
                     </div>
                 </div>
@@ -231,10 +231,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                             <tr class="text-center">
                                 <th scope="row"><?= $i++ ?></th>
                                 <td class="image-cell">
-                                    <a href="<?= $row['location']; ?>" target="_blank"><img src="<?= $row['location']; ?>" alt="<?= htmlspecialchars($row['tittle']); ?>"
+                                    <a href="<?= $row['location']; ?>" target="_blank"><img src="<?= $row['location']; ?>" alt="<?= htmlspecialchars($row['title']); ?>"
                                         class="img-thumbnail"></a>
                                 </td>
-                                <td><?= htmlspecialchars($row['tittle']) ?></td>
+                                <td><?= htmlspecialchars($row['title']) ?></td>
                                 <td><?= htmlspecialchars($row['description']) ?></td>
                                 <td class="action">
                                     <!-- <a href="<?= $row['location']; ?>" onclick="view(<?= $row['id'] ?>)"><i class="fas fa-eye me-2"

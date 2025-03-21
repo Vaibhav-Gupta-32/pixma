@@ -3,7 +3,7 @@
         <div class="bg-secondary text-white rounded-top p-4">
             <div class="row">
                 <div class="col-12 col-sm-6 text-center text-sm-start">
-                    <small> <span style="color:white;">&copy; Copyright 2024 </span> <a href="https://cbktechnologies.com/" target="_blank">CBK Technologies</a> <span style="color:white;">| All Rights Reserved</span></small>
+                    <small> <span style="color:white;">&copy; Copyright 2025 </span> <a href="https://tdhdigitalagency.com/" target="_blank">The Digital House</a> <span style="color:white;">| All Rights Reserved</span></small>
                 </div>
 
                 <!-- © Copyright 2024 CBK Technologies  | All Rights Reserved -->

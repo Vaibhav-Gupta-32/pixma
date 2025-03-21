@@ -1,3 +1,7 @@
+<?php 
+$logo1 = getvalfield($conn, "logo_icon", "header_location", "1");
+$logo2 = getvalfield($conn, "logo_icon", "footer_location", "1");
+?>
 <style>
     .activee {
         color: #0d6efd !important;
@@ -12,8 +16,8 @@
                         <!-- Header Logo Start -->
                         <div class="logo">
                             <a href="index.php">
-                                <img class="logo-1" src="assets/images/pixma-logo-2.png" style="height:80px" alt="logoImage">
-                                <img class="logo-2" src="assets/images/pixma-logo.png" style="height:80px" alt="logoImage">
+                                <img class="logo-1" src="admin/dash/<?= $logo2?>" style="height:80px" alt="logoImage">
+                                <img class="logo-2" src="admin/dash/<?= $logo1?>" style="height:80px" alt="logoImage">
                             </a>
                         </div>
                         <!-- Header Logo End -->

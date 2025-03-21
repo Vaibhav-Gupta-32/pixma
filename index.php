@@ -3,6 +3,8 @@ $page_title = "PIXMAINNOVATIONS || HOME";
 $pagename = "Home";
 $current_page = basename($_SERVER['PHP_SELF']);
 $meta_description = "At Pixma we provide wide range of smart board, flat interactive panel, digital panel, kiosk display and standee for your business at best price.";
+$tblname = "slider";
+$tblkey = "id";
 ?>
 <?php include('includes/header.php'); ?>
 <?php include('includes/navbar.php'); ?>
@@ -57,75 +59,34 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
     <div class="custom-container">
         <div class="swiper sliderone animation-style-01">
             <div class="swiper-wrapper">
-
+            <?php
+                $sql = "SELECT * FROM $tblname ORDER BY $tblkey";
+                $fetch = mysqli_query($conn, $sql);
+                while($row = mysqli_fetch_array($fetch)){
+            ?>
                 <div class="swiper-slide">
                     <div class="sliderone-slingle">
                         <div class="slider-content-wrapper">
                             <div class="sliderone-content">
                                 <div class="slider-content">
                                     <span class="subtitle">Welcome to Pix Plus</span>
-                                    <h2 class="title">Innovative Interactive Solutions</h2>
-                                    <a href="service-details.html" class="btn-style-two">Read More</a>
+                                    <h2 class="title"><?= $row['title'];?></h2>
+                                    <a href="javascript:void(0)" class="btn-style-two">Read More</a>
                                     <div class="call">
                                         <span>call us</span>
-                                        <a href="tel:+911234567890">+91 123 456 7890</a>
+                                        <a href="tel:+916291509470">+91 6291509470</a>
                                     </div>
                                 </div>
                                 <div class="slider-image">
                                     <div class="slider-image-one">
-                                        <img src="assets/images/slider/slider1-1.png" alt="Slider Image">
+                                        <img src="admin/dash/<?= $row['location'];?>" alt="Slider Image">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="swiper-slide">
-                    <div class="sliderone-slingle">
-                        <div class="slider-content-wrapper">
-                            <div class="sliderone-content">
-                                <div class="slider-content">
-                                    <span class="subtitle">Welcome to Pix Plus</span>
-                                    <h2 class="title">Enhancing Collaboration & Learning</h2>
-                                    <a href="service-details.html" class="btn-style-two">Read More</a>
-                                    <div class="call">
-                                        <span>call us</span>
-                                        <a href="#">+91 123 456 7890</a>
-                                    </div>
-                                </div>
-                                <div class="slider-image">
-                                    <div class="slider-image-one">
-                                        <img src="assets/images/slider/slider1-2.png" alt="Slider Image">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="sliderone-slingle">
-                        <div class="slider-content-wrapper">
-                            <div class="sliderone-content">
-                                <div class="slider-content">
-                                    <span class="subtitle">Welcome to Pix Plus</span>
-                                    <h2 class="title">Transforming Digital Experiences</h2>
-                                    <a href="service-details.html" class="btn-style-two">Read More</a>
-                                    <div class="call">
-                                        <span>call us</span>
-                                        <a href="#">+91 123 456 7890</a>
-                                    </div>
-                                </div>
-                                <div class="slider-image">
-                                    <div class="slider-image-one">
-                                        <img src="assets/images/slider/slider1-3.png" alt="Slider Image">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <?php } ?>
 
             </div>
 
@@ -595,7 +556,7 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
                         </div>
                     </div>
                     <div class="service-single-white">
-                        <a href="service-details.html" class="service-single-white-content">
+                        <a href="javascript:void()" class="service-single-white-content">
                             <div class="icon gradient-1">
                                 <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
                             </div>
@@ -621,7 +582,7 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
                         </div>
                     </div>
                     <div class="service-single-white">
-                        <a href="service-details.html" class="service-single-white-content">
+                        <a href="javascript:void()" class="service-single-white-content">
                             <div class="icon gradient-1">
                                 <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
                             </div>
@@ -647,7 +608,7 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
                         </div>
                     </div>
                     <div class="service-single-white">
-                        <a href="service-details.html" class="service-single-white-content">
+                        <a href="javascript:void()" class="service-single-white-content">
                             <div class="icon gradient-1">
                                 <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
                             </div>
@@ -673,7 +634,7 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
                         </div>
                     </div>
                     <div class="service-single-white">
-                        <a href="service-details.html" class="service-single-white-content">
+                        <a href="javascript:void()" class="service-single-white-content">
                             <div class="icon gradient-1">
                                 <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
                             </div>
@@ -699,7 +660,7 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
                         </div>
                     </div>
                     <div class="service-single-white">
-                        <a href="service-details.html" class="service-single-white-content">
+                        <a href="javascript:void()" class="service-single-white-content">
                             <div class="icon gradient-1">
                                 <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
                             </div>
@@ -725,7 +686,7 @@ $meta_description = "At Pixma we provide wide range of smart board, flat interac
                         </div>
                     </div>
                     <div class="service-single-white">
-                        <a href="service-details.html" class="service-single-white-content">
+                        <a href="javascript:void()" class="service-single-white-content">
                             <div class="icon gradient-1">
                                 <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
                             </div>

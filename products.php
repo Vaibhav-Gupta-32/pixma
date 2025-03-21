@@ -52,14 +52,14 @@ $meta_description = "One of the best digital podium, flat interactive panel, sta
             <div class="col-lg-3 mb-30 grid-item design wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".1s">
                 <!-- Single Project Start -->
                 <div class="single-project">
-                    <a class="thumbnail" href="products-details.html">
+                    <a class="thumbnail" href="products_details.php">
                     <!-- admin/dash/<?php // $row['location'] ?> -->
                         <img src="admin/dash/<?= $row['location'];?>" alt="ProjectImage">
                     </a>
                     <div class="content">
                         <span class="subtitle"><?= ucfirst($row['subtitle']); ?></span>
                         <h3 class="title">
-                            <a href="products-details.html"><?= ucfirst($row['title']); ?></a>
+                            <a href="products_details.php?p_id=<?= base64_encode($row['id']); ?>"><?= ucfirst($row['title']); ?></a>
                         </h3>
                     </div>
                     <div class="lightbox">
@@ -73,13 +73,13 @@ $meta_description = "One of the best digital podium, flat interactive panel, sta
             <div class="col-lg-3 mb-30 grid-item development wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".2s">
                 <!-- Single Project Start -->
                 <div class="single-project">
-                    <a class="thumbnail" href="products-details.html">
+                    <a class="thumbnail" href="products_details.php">
                         <img src="assets/images/product//ops.jpg" alt="ProjectImage">
                     </a>
                     <div class="content">
                         <span class="subtitle">OPS</span>
                         <h3 class="title">
-                            <a href="products-details.html">OPS</a>
+                            <a href="products_details.php">OPS</a>
                         </h3>
                     </div>
                     <div class="lightbox">
@@ -92,13 +92,13 @@ $meta_description = "One of the best digital podium, flat interactive panel, sta
             <div class="col-lg-3 mb-30 grid-item news wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".3s">
                 <!-- Single Project Start -->
                 <div class="single-project">
-                    <a class="thumbnail" href="products-details.html">
+                    <a class="thumbnail" href="products_details.php">
                         <img src="assets/images/product/wallmount-1.jpg" alt="ProjectImage">
                     </a>
                     <div class="content">
                         <span class="subtitle">Wall Mount Display Signag</span>
                         <h3 class="title">
-                            <a href="products-details.html">Wall Mount Display Signag</a>
+                            <a href="products_details.php">Wall Mount Display Signag</a>
                         </h3>
                     </div>
                     <div class="lightbox">
@@ -110,13 +110,13 @@ $meta_description = "One of the best digital podium, flat interactive panel, sta
             <div class="col-lg-3 mb-30 grid-item development wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".1s">
                 <!-- Single Project Start -->
                 <div class="single-project">
-                    <a class="thumbnail" href="products-details.html">
+                    <a class="thumbnail" href="products_details.php">
                         <img src="assets/images/product/ifp.png" alt="ProjectImage">
                     </a>
                     <div class="content">
                         <span class="subtitle">IFP Stand</span>
                         <h3 class="title">
-                            <a href="products-details.html">IFP Stand</a>
+                            <a href="products_details.php">IFP Stand</a>
                         </h3>
                     </div>
                     <div class="lightbox">
@@ -128,13 +128,13 @@ $meta_description = "One of the best digital podium, flat interactive panel, sta
             <div class="col-lg-3 mb-30 grid-item design wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".2s">
                 <!-- Single Project Start -->
                 <div class="single-project">
-                    <a class="thumbnail" href="products-details.html">
+                    <a class="thumbnail" href="products_details.php">
                         <img src="assets/images/product/I-frame-standee.jpg" alt="ProjectImage">
                     </a>
                     <div class="content">
                         <span class="subtitle">I Frame Standee</span>
                         <h3 class="title">
-                            <a href="products-details.html">I Frame Standee</a>
+                            <a href="products_details.php">I Frame Standee</a>
                         </h3>
                     </div>
                     <div class="lightbox">
@@ -146,13 +146,13 @@ $meta_description = "One of the best digital podium, flat interactive panel, sta
             <div class="col-lg-3 mb-30 grid-item tutorials wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".3s">
                 <!-- Single Project Start -->
                 <div class="single-project">
-                    <a class="thumbnail" href="products-details.html">
+                    <a class="thumbnail" href="products_details.php">
                         <img src="assets/images/product/aframe.png" alt="ProjectImage">
                     </a>
                     <div class="content">
                         <span class="subtitle">A Frame Standee</span>
                         <h3 class="title">
-                            <a href="products-details.html">A Frame Standee</a>
+                            <a href="products_details.php">A Frame Standee</a>
                         </h3>
                     </div>
                     <div class="lightbox">
@@ -164,13 +164,13 @@ $meta_description = "One of the best digital podium, flat interactive panel, sta
             <div class="col-lg-3 mb-30 grid-item news wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".1s">
                 <!-- Single Project Start -->
                 <div class="single-project">
-                    <a class="thumbnail" href="products-details.html">
+                    <a class="thumbnail" href="products_details.php">
                         <img src="assets/images/product/digital.png" alt="ProjectImage">
                     </a>
                     <div class="content">
                         <span class="subtitle">Digital Podium</span>
                         <h3 class="title">
-                            <a href="products-details.html">Digital Podium</a>
+                            <a href="products_details.php">Digital Podium</a>
                         </h3>
                     </div>
                     <div class="lightbox">
@@ -182,13 +182,13 @@ $meta_description = "One of the best digital podium, flat interactive panel, sta
             <div class="col-lg-3 mb-30 grid-item resource wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".2s">
                 <!-- Single Project Start -->
                 <div class="single-project">
-                    <a class="thumbnail" href="products-details.html">
+                    <a class="thumbnail" href="products_details.php">
                         <img src="assets/images/product/digitalkiosk-2.png" alt="ProjectImage">
                     </a>
                     <div class="content">
                         <span class="subtitle">Digital Kiosk Machine</span>
                         <h3 class="title">
-                            <a href="products-details.html">Digital Kiosk Machine</a>
+                            <a href="products_details.php">Digital Kiosk Machine</a>
                         </h3>
                     </div>
                     <div class="lightbox">

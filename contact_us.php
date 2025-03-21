@@ -90,20 +90,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <form id="contact-form" class="contact-form" method="POST">
                     <div class="row">
                         <div class="col-lg-6 mb-3">
-                            <label class="form-label" for="name">Your name</label>
-                            <input id="name" name="name">
+                            <label class="form-label" for="name">Your name<span class="text-danger">*</span></label>
+                            <input type="text" id="name" name="name" required>
                         </div>
                         <div class="col-lg-6 mb-3">
-                            <label class="form-label" for="email">Your email</label>
-                            <input id="email" type="email" name="email">
+                            <label class="form-label" for="email">Your email<span class="text-danger">*</span></label>
+                            <input id="email" type="email" name="email" required>
                         </div>
                         <div class="col-lg-6 mb-3">
-                            <label class="form-label" for="phone">Your phone</label>
-                            <input id="phone" name="phone">
+                            <label class="form-label" for="phone">Your phone<span class="text-danger">*</span></label>
+                            <input id="phone" name="phone" required>
                         </div>
                         <div class="col-lg-6 mb-3">
-                            <label class="form-label" for="enquiry">Enquiry</label>
-                            <select id="enquiry" name="enquiry" class="form-control">
+                            <label class="form-label" for="enquiry">Enquiry<span class="text-danger">*</span></label>
+                            <select id="enquiry" name="enquiry" class="form-control" required>
                                 <option value="">Select</option>
                                 <option value="sales">Sales Enquiry</option>
                                 <option value="service">Service Enquiry</option>

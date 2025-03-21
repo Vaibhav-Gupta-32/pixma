@@ -1,3 +1,9 @@
+<?php 
+$facebook = getvalfield($conn, "social_links", "facebook", "1");
+$twitter = getvalfield($conn, "social_links", "twitter", "1");
+$instagram = getvalfield($conn, "social_links", "instagram", "1");
+$linkedIn = getvalfield($conn, "social_links", "linkedIn", "1");
+?>
 <style>
     .white-icon {
         color: white;
@@ -28,10 +34,10 @@
 
                         </ul>
                         <ul class="social-icon d-flex flex-start">
-                            <li><a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="https://twitter.com/" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="https://www.linkedin.com/" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="https://www.instagram.com/" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="<?=$facebook?>" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="<?=$twitter?>" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="<?=$linkedIn?>" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="<?=$instagram?>" class="instagram"><i class="fab fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>

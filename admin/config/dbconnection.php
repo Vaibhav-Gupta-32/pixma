@@ -4,7 +4,7 @@ if ($_SERVER['SERVER_NAME'] == 'localhost') {
   // Local database configuration
   define('DB_HOST', 'localhost');
   define('DB_USER', 'root');
-  define('DB_PASS', 'systemd');
+  define('DB_PASS', '');  // systemd
   define('DB_NAME', 'new_pixma_db');
 } else {
   // Server database configuration

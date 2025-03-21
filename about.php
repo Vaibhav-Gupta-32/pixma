@@ -38,7 +38,7 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
                     <div class="about-two-text">
                         <p>We specialize in transforming spaces with advanced interactive technology. Our products include interactive flat screens, digital platforms, standees, and wall displays—perfect for classrooms, businesses, and events.</p>
                         <p>Pix Plus is a reputable supplier throughout India, dedicated to providing premium products at competitive prices. Our innovative range includes OPS and I-frame standees, designed to meet various needs while offering cutting-edge functionality.</p>
-                        <a href="#" class="btn-style-one"><span>Learn More</span></a>
+                        <a href="javascript:void(0)" class="btn-style-one"><span>Learn More</span></a>
                     </div>
                 </div>
                 <!-- Heading End -->
