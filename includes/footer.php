@@ -82,7 +82,7 @@ $linkedIn = getvalfield($conn, "social_links", "linkedIn", "1");
             <div class="row">
                 <div class="col-12 position-relative">
                     <div class="footer-copyright-inner">
-                        <p class="order-md-1 order-2" style="color: black;">© 2025 <a href="https://pixmainnovations.com/" style="color:#1d4372;font-family: Playfair Display, serif;">Pixma</a> All Rights Reserved.</p>
+                        <p class="order-md-1 order-2" style="color: white;">© 2025 <a href="https://pixmainnovations.com/" style="color:#d1e8fa;font-family: Playfair Display, serif;">Pixma</a> All Rights Reserved.</p>
                         <ul class="footer-bootm-list order-md-2 order-1">
                             <li><p class="order-md-1 order-2">Designed and Developed by <span><a href="https://tdhdigitalagency.com/" style="color:#d1e8fa;font-family: Playfair Display, serif;">the Digital House</a></span></p></li>
 

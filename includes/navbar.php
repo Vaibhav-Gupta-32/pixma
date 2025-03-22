@@ -50,13 +50,13 @@ $logo2 = getvalfield($conn, "logo_icon", "footer_location", "1");
                                             <a href="#">Center</a>
                                             <ul class="sub-menu">
                                                 <li>
-                                                    <a href="#">Raipur</a>
+                                                    <a href="raipur_center.php">Raipur</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Kolkata</a>
+                                                    <a href="kolkata_center.php">Kolkata</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">New Delhi</a>
+                                                    <a href="newdelhi_center.php">New Delhi</a>
                                                 </li>
                                             </ul>
                                         </li>

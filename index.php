@@ -59,33 +59,33 @@ $tblkey = "id";
     <div class="custom-container">
         <div class="swiper sliderone animation-style-01">
             <div class="swiper-wrapper">
-            <?php
+                <?php
                 $sql = "SELECT * FROM $tblname ORDER BY $tblkey";
                 $fetch = mysqli_query($conn, $sql);
-                while($row = mysqli_fetch_array($fetch)){
-            ?>
-                <div class="swiper-slide">
-                    <div class="sliderone-slingle">
-                        <div class="slider-content-wrapper">
-                            <div class="sliderone-content">
-                                <div class="slider-content">
-                                    <span class="subtitle">Welcome to Pix Plus</span>
-                                    <h2 class="title"><?= $row['title'];?></h2>
-                                    <a href="javascript:void(0)" class="btn-style-two">Read More</a>
-                                    <div class="call">
-                                        <span>call us</span>
-                                        <a href="tel:+916291509470">+91 6291509470</a>
+                while ($row = mysqli_fetch_array($fetch)) {
+                ?>
+                    <div class="swiper-slide">
+                        <div class="sliderone-slingle">
+                            <div class="slider-content-wrapper">
+                                <div class="sliderone-content">
+                                    <div class="slider-content">
+                                        <span class="subtitle">Welcome to Pix Plus</span>
+                                        <h2 class="title"><?= $row['title']; ?></h2>
+                                        <a href="javascript:void(0)" class="btn-style-two">Read More</a>
+                                        <div class="call">
+                                            <span>call us</span>
+                                            <a href="tel:+916291509470">+91 6291509470</a>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="slider-image">
-                                    <div class="slider-image-one">
-                                        <img src="admin/dash/<?= $row['location'];?>" alt="Slider Image">
+                                    <div class="slider-image">
+                                        <div class="slider-image-one">
+                                            <img src="admin/dash/<?= $row['location']; ?>" alt="Slider Image">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
                 <?php } ?>
 
             </div>
@@ -398,11 +398,11 @@ $tblkey = "id";
 
                         <!-- About Tab Content Start -->
                         <div class="heading-one">
-                            <span class="heading-one-subtitle">Design Matters</span>
-                            <h2 class="heading-one-title">Rapid Prototype and Development</h2>
-                            <p>Kimod tempoer incididunt onomes sundo ritoma amar Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
-                            <a href="about.html" class="btn-style-one"><span>Learn more</span></a>
+                            <span class="heading-one-subtitle">Welcome to Pix Plus</span>
+                            <h2 class="heading-one-title">Interactive Innovation</h2>
+                            <p>We specialize in transforming spaces with advanced interactive technology. Our products include interactive flat screens, digital platforms, standees, and wall displays—perfect for classrooms, businesses, and events.</p>
+                            <p>Pix Plus is a reputable supplier throughout India, dedicated to providing premium products at competitive prices. Our innovative range includes OPS and I-frame standees, designed to meet various needs while offering cutting-edge functionality.</p>
+                            <a href="about.php" class="btn-style-one"><span>Learn more</span></a>
                         </div>
                         <!-- About Tab Content End -->
                     </div>
@@ -575,11 +575,10 @@ $tblkey = "id";
     <div class="container">
         <div class="row">
             <div class="col-lg-12 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
-               
+
                 <div class="heading-one text-center">
                     <!-- <span class="heading-one-subtitle">Our Services</span> -->
-                    <h2 class="heading-one-title">Industries We are useful-
-                    </h2>
+                    <h2 class="heading-one-title">Industries We are useful</h2>
                     <!-- <p>Kimod tempoer incididunt onomes sundo ritoma amar Lorem ipsum dolor sit amet, consectetur adipisicing</p> -->
                 </div>
                 <!-- Heading End -->
@@ -632,7 +631,7 @@ $tblkey = "id";
                                 <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
                             </div>
                             <span class="title">Corporate <br> Offices</span>
-                            <p> Streamline meetings with video conferencing, digital podiums, and professional display solutions.  </p>
+                            <p> Streamline meetings with video conferencing, digital podiums, and professional display solutions. </p>
                         </a>
                     </div>
                 </div>
@@ -684,7 +683,7 @@ $tblkey = "id";
                                 <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
                             </div>
                             <span class="title">Event <br>Venues</span>
-                            <p>  Elevate conferences and exhibitions with interactive standees and live presentation tools.  
+                            <p> Elevate conferences and exhibitions with interactive standees and live presentation tools.
                             </p>
                         </a>
                     </div>
@@ -711,7 +710,7 @@ $tblkey = "id";
                                 <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
                             </div>
                             <span class="title">Hospitals <br> Healthcare Centers –</span>
-                            <p>  Improve patient communication with self-check-in kiosks and digital information boards.
+                            <p> Improve patient communication with self-check-in kiosks and digital information boards.
                             </p>
                         </a>
                     </div>
@@ -773,20 +772,18 @@ $tblkey = "id";
 
 <!-- Work Section Start -->
 <div class="work">
-    <!-- <div class="container-fluid position-relative">
+    <div class="container-fluid position-relative">
         <div class="row">
             <div class="col-lg-8 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
                 <div class="work-bg">
-                   
                     <div class="heading-one">
-                        <span class="heading-one-subtitle">Lets work Together</span>
+                        <span class="heading-one-subtitle">Let's Work Together</span>
                         <h2 class="heading-one-title">Want to Discuss About A New Project?</h2>
-                        <p>Kimod tempoer incididunt onomes sundo ritoma amar Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        <p>At Pix Plus, we specialize in transforming spaces with advanced interactive technology. Whether it's for educational institutions, corporate offices, retail showrooms, or event venues, our innovative solutions are designed to meet your unique needs.</p>
                     </div>
-                 
                     <div class="work-btn">
-                        <a href="contact.html" class="btn-style-two">Let's Start Talking</a>
-                        <a href="contact.html" class="view-btn">View Works</a>
+                        <a href="contact_us.php" class="btn-style-two">Let's Start Talking</a>
+                        <a href="projects.html" class="view-btn">View Works</a>
                     </div>
                 </div>
             </div>
@@ -796,19 +793,17 @@ $tblkey = "id";
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <div class="work-step">
         <div class="container">
             <div class="row">
-                <!-- <div class="col-lg-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
-                   
+                <div class="col-lg-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
                     <div class="heading-one">
                         <span class="heading-one-subtitle">How IT Works</span>
                         <h2 class="heading-one-title">Simple Easy Steps to Follow</h2>
                         <p>Kimod tempoer incididunt onomes sundo ritoma amar Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
                     </div>
-                   
-                </div> -->
+                </div>
             </div>
             <div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-2 row-cols-1 mb-n30">
                 <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
@@ -822,7 +817,7 @@ $tblkey = "id";
                     <div class="work-step-single">
                         <div class="number">2</div>
                         <a href="contact.html"><span class="title">Dynamic Signage Display Solutions
-                        </span></a>
+                            </span></a>
                         <p>Captivate your audience with stunning visuals.</p>
                     </div>
                 </div>
@@ -830,17 +825,17 @@ $tblkey = "id";
                     <div class="work-step-single">
                         <div class="number">3</div>
                         <a href="contact.html"><span class="title">Innovative Digital Signage Software
-                        </span></a>
+                            </span></a>
                         <p>Simplify content management like never before.</p>
                     </div>
                 </div>
-                <!-- <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
+                <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
                     <div class="work-step-single">
                         <div class="number">4</div>
                         <a href="contact.html"><span class="title">Get Final Report</span></a>
                         <p>Pore et dolore magna aliqua. strud exercit ctetur adipisicing elit, sed do eiusmod tempor incidid</p>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
         <div class="work-step-white-bg"></div>
@@ -952,21 +947,21 @@ $tblkey = "id";
                         <img src="assets/images/testimonial/testimonial-large.png" alt="TestimonialImage">
                     </div>
                     <div class="testimonial-one-content wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
-                       
+
                         <div class="heading-one">
                             <span class="heading-one-subtitle">Testimoials</span>
                             <h2 class="heading-one-title">What People Say</h2>
                         </div>
-                       
+
                         <div class="testimonialone">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                   
+
                                     <div class="testimonialone-single">
                                         <p class="testimonialone-text">Pix Plus has transformed our office environment. Their interactive technology has made meetings and presentations more efficient. The installation was seamless, and their support team is always ready to help.</p>
                                         <div class="testimonialone-content">
                                             <div class="testimonialone-thumb">
-                                                <img src="assets/images/testimonial/Richa_pamnani.jpeg" alt="Testimonial-Image"  style="height:90px; width:90px; border-radius: 50px 50px">
+                                                <img src="assets/images/testimonial/Richa_pamnani.jpeg" alt="Testimonial-Image" style="height:90px; width:90px; border-radius: 50px 50px">
                                             </div>
                                             <div class="testimonialone-info">
                                                 <span class="name">Richa Pamnani</span>
@@ -974,7 +969,7 @@ $tblkey = "id";
                                             </div>
                                         </div>
                                     </div>
-                                  
+
                                 </div>
                                 <div class="swiper-slide">
 
@@ -982,18 +977,18 @@ $tblkey = "id";
                                         <p class="testimonialone-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cup idatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum int occaecat cupid.</p>
                                         <div class="testimonialone-content">
                                             <div class="testimonialone-thumb">
-                                                <img src="assets/images/testimonial/Miss_paras_jain.jpeg" alt="Testimonial-Image"  style="height:90px; width:90px; border-radius: 50px 50px">
+                                                <img src="assets/images/testimonial/Miss_paras_jain.jpeg" alt="Testimonial-Image" style="height:90px; width:90px; border-radius: 50px 50px">
                                             </div>
-                                            <div class="testimonialone-info"> 
+                                            <div class="testimonialone-info">
                                                 <span class="name">Miss Paras Jain</span>
                                                 <span class="designation">HR shree mahavir Jain H S school durg</span>
                                             </div>
                                         </div>
                                     </div>
-                                   
+
                                 </div>
                                 <div class="swiper-slide">
-                                   
+
                                     <div class="testimonialone-single">
                                         <p class="testimonialone-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cup idatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum int occaecat cupid.</p>
                                         <div class="testimonialone-content">
@@ -1006,7 +1001,7 @@ $tblkey = "id";
                                             </div>
                                         </div>
                                     </div>
-                                 
+
                                 </div>
                             </div>
                             <div class="pagination-style-one">

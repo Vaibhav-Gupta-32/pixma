@@ -66,7 +66,7 @@ $admin_name = getvalfield($conn, 'adminlogin', "admin_name", "username='$usernam
                                     <a class="text-danger" href="#" onclick="confirmDelete(<?= $row['id']; ?>, 'inbox', 'id')">
                                         <i class="fas fa-trash-alt me-2" title="Delete"></i>
                                     </a>
-                                </td>
+                                </td> 
                             </tr>
                             <tr class="collapse-row">
                                 <td colspan="8" class="rounded alert-success m-0 p-0">
@@ -78,6 +78,9 @@ $admin_name = getvalfield($conn, 'adminlogin', "admin_name", "username='$usernam
                                             <div class="col-4 col-md-4 col-sm-6">
                                                 <p class="text-start text-secondary"><span class="fw-bold">Type of Company : </span> <?= nl2br(htmlspecialchars($row['type_of_company'])) ?></p>
                                             </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                                <p class="text-start text-secondary bg-light"><span class="fw-bold">Tax Registration Details </span></p>
+                                            </div>
                                             <div class="col-4 col-md-4 col-sm-6">
                                                 <p class="text-start text-secondary"><span class="fw-bold">Pan No : </span> <?= nl2br(htmlspecialchars($row['pan_no'])) ?></p>
                                             </div>
@@ -85,40 +88,46 @@ $admin_name = getvalfield($conn, 'adminlogin', "admin_name", "username='$usernam
                                                 <p class="text-start text-secondary"><span class="fw-bold">Gst No : </span> <?= nl2br(htmlspecialchars($row['gst_no'])) ?></p>
                                             </div>
                                             <div class="col-4 col-md-4 col-sm-6">
-                                                <p class="text-start text-secondary"><span class="fw-bold">registration_file : </span> <?= nl2br(htmlspecialchars($row['registration_file'])) ?></p>
+                                                <p class="text-start text-secondary"><span class="fw-bold">Registration File : </span> <?= nl2br(htmlspecialchars($row['registration_file'])) ?></p>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                                <p class="text-start text-secondary bg-light"><span class="fw-bold">Proprietor, Partners, and Directors Details </span></p>
                                             </div>
                                             <div class="col-4 col-md-4 col-sm-6">
-                                                <p class="text-start text-secondary"><span class="fw-bold">proprietor_name : </span> <?= nl2br(htmlspecialchars($row['proprietor_name'])) ?></p>
+                                                <p class="text-start text-secondary"><span class="fw-bold">Proprietor Name : </span> <?= nl2br(htmlspecialchars($row['proprietor_name'])) ?></p>
                                             </div>
                                             <div class="col-4 col-md-4 col-sm-6">
-                                                <p class="text-start text-secondary"><span class="fw-bold">residential_address : </span> <?= nl2br(htmlspecialchars($row['residential_address'])) ?></p>
+                                                <p class="text-start text-secondary"><span class="fw-bold">Residential Address : </span> <?= nl2br(htmlspecialchars($row['residential_address'])) ?></p>
                                             </div>
                                             <div class="col-4 col-md-4 col-sm-6">
-                                                <p class="text-start text-secondary"><span class="fw-bold">ownership_percentage : </span> <?= nl2br(htmlspecialchars($row['ownership_percentage'])) ?></p>
+                                                <p class="text-start text-secondary"><span class="fw-bold">Ownership Percentage : </span> <?= nl2br(htmlspecialchars($row['ownership_percentage'])) ?></p>
                                             </div>
                                             <div class="col-4 col-md-4 col-sm-6">
-                                                <p class="text-start text-secondary"><span class="fw-bold">mobile_no : </span> <?= nl2br(htmlspecialchars($row['mobile_no'])) ?></p>
+                                                <p class="text-start text-secondary"><span class="fw-bold">Mobile No : </span> <?= nl2br(htmlspecialchars($row['mobile_no'])) ?></p>
                                             </div>
                                             <div class="col-4 col-md-4 col-sm-6">
-                                                <p class="text-start text-secondary"><span class="fw-bold">telephone : </span> <?= nl2br(htmlspecialchars($row['telephone'])) ?></p>
+                                                <p class="text-start text-secondary"><span class="fw-bold">Telephone : </span> <?= nl2br(htmlspecialchars($row['telephone'])) ?></p>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                                <p class="text-start text-secondary bg-light"><span class="fw-bold">Bank Details </span></p>
                                             </div>
                                             <div class="col-4 col-md-4 col-sm-6">
-                                                <p class="text-start text-secondary"><span class="fw-bold">account_no : </span> <?= nl2br(htmlspecialchars($row['account_no'])) ?></p>
+                                                <p class="text-start text-secondary"><span class="fw-bold">Account No : </span> <?= nl2br(htmlspecialchars($row['account_no'])) ?></p>
                                             </div>
                                             <div class="col-4 col-md-4 col-sm-6">
-                                                <p class="text-start text-secondary"><span class="fw-bold">signatories_no : </span> <?= nl2br(htmlspecialchars($row['signatories_no'])) ?></p>
+                                                <p class="text-start text-secondary"><span class="fw-bold">Signatories No : </span> <?= nl2br(htmlspecialchars($row['signatories_no'])) ?></p>
                                             </div>
                                             <div class="col-4 col-md-4 col-sm-6">
-                                                <p class="text-start text-secondary"><span class="fw-bold">account_type : </span> <?= nl2br(htmlspecialchars($row['account_type'])) ?></p>
+                                                <p class="text-start text-secondary"><span class="fw-bold">Account Type : </span> <?= nl2br(htmlspecialchars($row['account_type'])) ?></p>
                                             </div>
                                             <div class="col-4 col-md-4 col-sm-6">
-                                                <p class="text-start text-secondary"><span class="fw-bold">bank_limits : </span> <?= nl2br(htmlspecialchars($row['bank_limits'])) ?></p>
+                                                <p class="text-start text-secondary"><span class="fw-bold">Bank Limits : </span> <?= nl2br(htmlspecialchars($row['bank_limits'])) ?></p>
                                             </div>
                                             <div class="col-4 col-md-4 col-sm-6">
-                                                <p class="text-start text-secondary"><span class="fw-bold">lc_limit : </span> <?= nl2br(htmlspecialchars($row['lc_limit'])) ?></p>
+                                                <p class="text-start text-secondary"><span class="fw-bold">LC Limit : </span> <?= nl2br(htmlspecialchars($row['lc_limit'])) ?></p>
                                             </div>
                                             <div class="col-4 col-md-4 col-sm-6">
-                                                <p class="text-start text-secondary"><span class="fw-bold">bankfile : </span> <?= nl2br(htmlspecialchars($row['bankfile'])) ?></p>
+                                                <p class="text-start text-secondary"><span class="fw-bold">Bank File : </span> <?= nl2br(htmlspecialchars($row['bankfile'])) ?></p>
                                             </div>
                                         </div>
                                     </div>

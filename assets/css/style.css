@@ -660,7 +660,8 @@ hr {
 }
 
 .btn-style-two {
-  background: linear-gradient(45deg, #d1e8fa 20%, #1d4372 50%, #417DD2 100%);
+  /* background: linear-gradient(45deg, #d1e8fa 20%, #1d4372 50%, #417DD2 100%); */
+  background: linear-gradient(-50deg, #5BCFF2 15%, #417DD2 47%, #322fb3 80%);
   border: 0px;
   border-radius: 7px;
   text-transform: uppercase;
@@ -827,7 +828,7 @@ hr {
 @media only screen and (min-width: 1400px) and (max-width: 1549px) {
   .rotate-title.rotate-left {
     font-size: 130px;
-    left: -230px;
+    left: -231px;
   }
 }
 .rotate-title.rotate-right {
@@ -844,7 +845,7 @@ hr {
 @media only screen and (min-width: 1400px) and (max-width: 1549px) {
   .rotate-title.rotate-right {
     font-size: 130px;
-    right: -330px;
+    right: -327px;
   }
 }
 
