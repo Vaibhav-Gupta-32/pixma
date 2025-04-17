@@ -10,8 +10,12 @@ if ($_SERVER['SERVER_NAME'] == 'localhost') {
   // Server database configuration
   define('DB_HOST', 'localhost');
   define('DB_USER', 'root');
-  define('DB_PASS', '');
+  define('DB_PASS', '');  // systemd
   define('DB_NAME', 'new_pixma_db');
+  // define('DB_HOST', 'localhost');
+  // define('DB_USER', 'u490924001_pixmainnorvati');
+  // define('DB_PASS', 'Thedigitalhouse@07');
+  // define('DB_NAME', 'u490924001_pixmainnorvati');
 }
 // Create connection
 $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);

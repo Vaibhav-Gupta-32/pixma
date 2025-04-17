@@ -1,9 +1,10 @@
 <?php 
-$page_title = "PIXMAINNOVATIONS || GALERY";
-$pagename = "Gallery";
+$page_title = "Our Photo Gallery - Pix Plus";
+$pagename = "Pix Plus Gallery";
 $current_page = basename($_SERVER['PHP_SELF']);
 $tblname = "gallery";
 $tblkey = "id";
+$meta_description = "Watch the latest and updated photos of our offices, sales and services centre in Raipur, New Delhi and Kolkata";
 ?>
 <?php include('includes/header.php'); ?>
 <?php include('includes/navbar.php'); ?>

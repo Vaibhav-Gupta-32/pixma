@@ -641,8 +641,10 @@ hr {
   bottom: 0;
   background: rgb(113, 83, 217);
   background: linear-gradient(-45deg, #322fb3 20%, #417DD2 50%, #4fcbf1 100%);
+      /*background: linear-gradient(-45deg, #5BCFF2 20%, #417DD2 50%, #322fb3 100%);*/
   opacity: 0;
-  transition: 0.5s;
+  /*transition: 0.5s;*/
+  transition: all 0.4s ease-in-out;
   border-radius: 7px;
   z-index: 1;
 }
@@ -651,7 +653,8 @@ hr {
 }
 .btn-style-one:hover::before {
   opacity: 1;
-  transition: 0.5s;
+  /*transition: 0.5s;*/
+  transition: all 0.4s ease-in-out;
 }
 .btn-style-one span {
   position: relative;
@@ -661,7 +664,8 @@ hr {
 
 .btn-style-two {
   /* background: linear-gradient(45deg, #d1e8fa 20%, #1d4372 50%, #417DD2 100%); */
-  background: linear-gradient(-50deg, #5BCFF2 15%, #417DD2 47%, #322fb3 80%);
+      background: linear-gradient(-45deg, #5BCFF2 20%, #417DD2 50%, #322fb3 100%);
+  /*background: linear-gradient(-50deg, #5BCFF2 15%, #417DD2 47%, #322fb3 80%);*/
   border: 0px;
   border-radius: 7px;
   text-transform: uppercase;
@@ -6470,7 +6474,7 @@ hr {
   position: relative;
 }
 .service .heading-one {
-  max-width: 570px;
+  max-width: 650px;
   width: 100%;
   margin: 0 auto 0;
   margin-bottom: 90px;
@@ -7499,7 +7503,8 @@ hr {
 /*----------------------------------------*/
 .work-bg {
   /* background-image: url(../images/work/work-bg.png); */
-  background-color: #1d4372;
+  /*background-color: #1d4372;*/
+  background-color: rgb(50, 47, 179);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7924,7 +7929,7 @@ hr {
 }
 @media only screen and (min-width: 1400px) and (max-width: 1549px), only screen and (min-width: 992px) and (max-width: 1199px) {
   .work-two .work-carousel .work-swiper-arrow {
-    right: 20%;
+    right: 18%;
   }
 }
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
@@ -10566,8 +10571,9 @@ hr {
   overflow: hidden;
 }
 .footer-left {
-  background-color: #1d4372;
-  padding: 120px 100px 175px 0;
+  /*background-color: #1d4372;*/
+  background-color: rgb(50, 47, 179);
+  padding: 20px 100px 175px 0;
   position: relative;
   border-radius: 0 3px 0 0;
 }
@@ -10586,10 +10592,12 @@ hr {
 @media only screen and (max-width: 767px) {
   .footer-left {
     padding: 60px 0;
-    margin-top: 256px;
+    /* margin-top: 256px; */
+    margin-top: 20px;
   }
   .footer-left::before {
-    background-color: #1d4372;
+    /*background-color: #1d4372;*/
+    background-color: rgb(50, 47, 179);
     content: "";
     height: 100%;
     left: 98%;
@@ -10600,7 +10608,8 @@ hr {
   }
 }
 .footer-left::after {
-  background-color: #1d4372;
+  /*background-color: #1d4372;*/
+  background-color: rgb(50, 47, 179);
   content: "";
   height: 100%;
   right: 98%;
@@ -10651,7 +10660,7 @@ hr {
   color: #4fcbf1;
 }
 .footer-right {
-  margin-top: 73px;
+  margin-top: 0px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
   .footer-right {
@@ -10659,7 +10668,8 @@ hr {
   }
 }
 .footer-top {
-  background-color: #80b9f2;
+  /*background-color: #80b9f2;*/
+  background-color: #4fcbf1;
   position: relative;
   padding: 60px 0 60px 100px;
   display: flex;
@@ -10692,6 +10702,7 @@ hr {
   }
   .footer-top::before {
     background-color: #80b9f2;
+    /*background-color: #4fcbf1;*/
     content: "";
     height: 100%;
     right: 98%;
@@ -10702,7 +10713,8 @@ hr {
   }
 }
 .footer-top::after {
-  background-color: #80b9f2;
+  /*background-color: #80b9f2;*/
+  background-color: #4fcbf1;
   content: "";
   height: 100%;
   left: 98%;
@@ -10749,7 +10761,7 @@ hr {
 .footer-bottom {
   background-color: #343c55;
   position: relative;
-  padding: 245px 0 173px 100px;
+  padding: 68px 0 309px 100px;
   display: flex;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -15100,8 +15112,61 @@ hr {
 
 /* index page  */
 .custom-bg {
-  background-color:#1d4372;
+  background-color: rgb(50, 47, 179);
 }
 #registration_file {
   margin: auto;
 }
+
+
+/* ===============================Brand section 2 start=============================== */
+@keyframes slides {
+  from {
+      transform: translateX(0);
+  }
+
+  to {
+      transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 30px 0px;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  content: '';
+  width: 250px;
+  height: 100%;
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+}
+
+.logo_items {
+  display: inline-block;
+  animation: 35s slides infinite linear;
+}
+
+.logos:hover .logo_items {
+  animation-play-state: paused;
+}
+
+.logo_items img {
+  height: 100px;
+}
+/* ===============================Brand section 2 end=============================== */

@@ -6,7 +6,7 @@ $tblname = "social_links";
 $tblkey = "id";
 $pagename = "Admin Profile";
 $page_name = basename($_SERVER['PHP_SELF']);
-
+$title = "Social Media Links | Admin Panel";
 $username = $_SESSION['username'];
 
 $linkedin   ="";

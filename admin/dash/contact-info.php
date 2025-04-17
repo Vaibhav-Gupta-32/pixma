@@ -5,6 +5,7 @@ include('../config/session_check.php'); // Adjust path as needed
 $tblname = "contact_us";
 $tblkey = "id";
 $pagename = "Contact Info";
+$title = "Contact Info | Admin Panel";
 $page_name = basename($_SERVER['PHP_SELF']);
 
 ?>

@@ -17,6 +17,7 @@ include("admin/config/dbconnection.php");
     <meta name="description" content="<?= isset($meta_description) ? $meta_description : 'At Pixma we provide wide range of smart board, flat interactive panel, digital panel, kiosk display and standee for your business at best price.'; ?>">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
     <!-- CSS (Font, Plugins & Style CSS files) -->

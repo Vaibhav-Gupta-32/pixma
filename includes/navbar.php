@@ -26,7 +26,7 @@ $logo2 = getvalfield($conn, "logo_icon", "footer_location", "1");
                             <!-- Header Menu Start -->
                             <div class="d-none d-lg-flex header-right_menu">
                                 <nav class="main-menu">
-                                    <ul>
+                                    <ul style="margin: -26px;">
                                         <li class="has-children">
                                             <a class="<?= ($current_page == 'index.php') ? 'activee' : ''; ?>" href="index.php">Home</a>
                                         </li>
@@ -35,92 +35,31 @@ $logo2 = getvalfield($conn, "logo_icon", "footer_location", "1");
                                             <a class="<?= ($current_page == 'about.php') ? 'activee' : ''; ?>" href="about.php">About</a>
                                         </li>
                                         <li>
-                                            <a class="<?= ($current_page == 'service.php') ? 'activee' : ''; ?>" href="service.php">Services</a>
+                                            <a class="<?= ($current_page == 'products.php') ? 'activee' : ''; ?>" href="products.php">Product</a>
                                         </li>
                                         <li>
                                             <a class="<?= ($current_page == 'gallery.php') ? 'activee' : ''; ?>" href="gallery.php">Gallery</a>
                                         </li>
                                         <li>
-                                            <a class="<?= ($current_page == 'products.php') ? 'activee' : ''; ?>" href="products.php">Product</a>
-                                        </li>
-                                        <li>
-                                            <a class="<?= ($current_page == 'partner_registration.php') ? 'activee' : ''; ?>" href="partner_registration.php">Partners</a>
+                                            <a class="<?= ($current_page == 'service.php') ? 'activee' : ''; ?>" href="service.php">Services</a>
                                         </li>
                                         <li class="has-children">
                                             <a href="#">Center</a>
                                             <ul class="sub-menu">
                                                 <li>
-                                                    <a href="raipur_center.php">Raipur</a>
+                                                    <a href="raipurcenter.php">Raipur</a>
                                                 </li>
                                                 <li>
-                                                    <a href="kolkata_center.php">Kolkata</a>
+                                                    <a href="kolkatacenter.php">Kolkata</a>
                                                 </li>
                                                 <li>
-                                                    <a href="newdelhi_center.php">New Delhi</a>
+                                                    <a href="newdelhicenter.php">New Delhi</a>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <!-- <li class="has-children">
-                                            <a href="#">Other</a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <a href="products.php">Products</a>
-                                                </li>
-                                                <li>
-                                                    <a href="partner_registration.php">Partners</a>
-                                                </li>
-                                            </ul>
-                                        </li> -->
-
-                                        <!-- <li class="has-children">
-                                            <a href="#">Pages</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="team.html">Team</a></li>
-                                                <li class="has-submenu"><a href="#/">Services</a>
-                                                    <ul class="submenu-nav">
-                                                        <li>
-                                                            <a href="service.html">Service</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="service-details.html">Service Details</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="has-submenu"><a href="#/">Projects</a>
-                                                    <ul class="submenu-nav">
-                                                        <li>
-                                                            <a href="project.html">Projects</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="project-details.html">Project Details</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li> -->
-                                        <!-- <li class="has-children">
-                                            <a href="#">Blog</a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <a href="blog-standard.html">Blog Standard</a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog-classic.html">Blog Classic</a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog.html">Blog Grid</a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog-masonry.html">Blog Masonry</a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog-details.html">Blog Details</a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog-details-two.html">Blog Details Two</a>
-                                                </li>
-                                            </ul>
-                                        </li> -->
+                                        <li>
+                                            <a class="<?= ($current_page == 'partner_registration.php') ? 'activee' : ''; ?>" href="partner_registration.php">Partners</a>
+                                        </li>
                                         <li><a class="<?= ($current_page == 'contact_us.php') ? 'activee' : ''; ?>" href="contact_us.php">Contact</a></li>
                                     </ul>
                                 </nav>
@@ -177,30 +116,30 @@ $logo2 = getvalfield($conn, "logo_icon", "footer_location", "1");
                     <a class="<?= ($current_page == 'about.php') ? 'activee' : ''; ?>" href="about.php">About</a>
                 </li>
                 <li>
-                    <a class="<?= ($current_page == 'service.php') ? 'activee' : ''; ?>" href="service.php">Services</a>
+                    <a class="<?= ($current_page == 'products.php') ? 'activee' : ''; ?>" href="products.php">Product</a>
                 </li>
                 <li>
                     <a class="<?= ($current_page == 'gallery.php') ? 'activee' : ''; ?>" href="gallery.php">Gallery</a>
                 </li>
                 <li>
-                    <a class="<?= ($current_page == 'products.php') ? 'activee' : ''; ?>" href="products.php">Product</a>
-                </li>
-                <li>
-                    <a class="<?= ($current_page == 'partner_registration.php') ? 'activee' : ''; ?>" href="partner_registration.php">Partners</a>
+                    <a class="<?= ($current_page == 'service.php') ? 'activee' : ''; ?>" href="service.php">Services</a>
                 </li>
                 <li class="menu-item-has-children">
                     <a href="#">Center</a>
                     <ul class="dropdown">
                         <li>
-                            <a href="#">Raipur</a>
+                            <a href="raipurcenter.php">Raipur</a>
                         </li>
                         <li>
-                            <a href="#">Kolkata</a>
+                            <a href="kolkatacenter.php">Kolkata</a>
                         </li>
                         <li>
-                            <a href="#">New Delhi</a>
+                            <a href="newdelhicenter.php">New Delhi</a>
                         </li>
                     </ul>
+                </li>
+                <li>
+                    <a class="<?= ($current_page == 'partner_registration.php') ? 'activee' : ''; ?>" href="partner_registration.php">Partners</a>
                 </li>
                 <li><a class="<?= ($current_page == 'contact_us.php') ? 'activee' : ''; ?>" href="contact_us.php">Contact</a></li>
 

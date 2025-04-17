@@ -1,230 +1,14 @@
-<!DOCTYPE html>
-<html class="no-js" lang="zxx">
-
-
-<!-- Mirrored from ethemestudio.com/demo/avers/blog-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Mar 2025 08:43:37 GMT -->
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Avers | Corporate & Business HTML Template</title>
-    <meta name="robots" content="noindex, follow">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
-
-
-    <!-- CSS (Font, Plugins & Style CSS files) -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap" rel="stylesheet">
-
-    <!-- Vendor CSS (Bootstrap & Icon Font) -->
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
-
-    <!-- Plugins CSS (All Plugins Files) -->
-    <link rel="stylesheet" href="assets/css/plugins/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/animate.min.css">
-
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-
-<body>
-
-    <header class="header-wrapper-two header-two sticky-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="flex-center justify-content-between">
-                        <!-- Header Logo Start -->
-                        <div class="logo">
-                            <a href="index-2.html">
-                                <img class="logo-2" src="assets/images/logo-2.png" alt="logoImage">
-                            </a>
-                        </div>
-                        <!-- Header Logo End -->
-
-                        <div class="flex-center header-right">
-                            <!-- Header Menu Start -->
-                            <div class="d-none d-lg-flex header-right_menu">
-                                <nav class="main-menu">
-                                    <ul>
-                                        <li class="has-children">
-                                            <a href="#">Home</a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <a href="index-2.html">Home One</a>
-                                                </li>
-                                                <li>
-                                                    <a href="index-3.html">Home Two</a>
-                                                </li>
-                                                <li>
-                                                    <a href="index-4.html">Home Three</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="about.html">About</a>
-                                        </li>
-                                        <li class="has-children">
-                                            <a href="#">Pages</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="team.html">Team</a></li>
-                                                <li class="has-submenu"><a href="#/">Services</a>
-                                                    <ul class="submenu-nav">
-                                                        <li>
-                                                            <a href="service.html">Service</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="service-details.html">Service Details</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="has-submenu"><a href="#/">Projects</a>
-                                                    <ul class="submenu-nav">
-                                                        <li>
-                                                            <a href="project.html">Projects</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="project-details.html">Project Details</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="has-children">
-                                            <a href="#">Blog</a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <a href="blog-standard.html">Blog Standard</a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog-classic.html">Blog Classic</a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog.html">Blog Grid</a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog-masonry.html">Blog Masonry</a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog-details.html">Blog Details</a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog-details-two.html">Blog Details Two</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                            <!-- Header Menu End -->
-
-                            <!-- Header Actions Start -->
-                            <div class="header-right_actions flex-center">
-                                <div class="header-right_button header-button">
-                                    <a href="contact.html" class="btn-style-one"><span>Get Started</span></a>
-                                </div>
-
-                                <div class="hamburger d-block d-lg-none">
-                                    <!-- Mobile Menu Hambarger Action Button Start -->
-                                    <a class="header-action-btn header-action-btn-menu hamburger_button d-flex" href="#/" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-header">
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                    </a>
-                                    <!-- Mobile Menu Hambarger Action Button End -->
-                                </div>
-
-                            </div>
-                            <!-- Header Social Actions End -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <div class="offcanvas offcanvas-end" id="offcanvas-header">
-
-        <div class="offcanvas-header">
-            <!-- Header Logo Start -->
-            <div class="logo">
-                <a href="index-2.html">
-                    <img src="assets/images/logo-2.png" alt="">
-                </a>
-            </div>
-            <!-- Header Logo End -->
-            <button type="button" class="btn-close text-reset mobilemenu-close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fas fa-times"></i></button>
-        </div>
-        <div class="offcanvas-body">
-            <!-- mobile menu navigation start -->
-            <nav>
-                <ul class="mobile-menu">
-                    <li class="menu-item-has-children">
-                        <a href="#">HOME</a>
-                        <ul class="dropdown">
-                            <li><a href="index-2.html">Home One </a></li>
-                            <li><a href="index-3.html">Home Two</a></li>
-                            <li><a href="index-4.html">Home Three</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li class="menu-item-has-children">
-                        <a href="#">SERVICE</a>
-                        <ul class="dropdown">
-                            <li><a href="service.html">Service</a></li>
-                            <li><a href="service-details.html">Service Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">PROJECT</a>
-                        <ul class="dropdown">
-                            <li><a href="project.html">Project</a></li>
-                            <li><a href="project-details.html">Project Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children ">
-                        <a href="#">BLOG</a>
-                        <ul class="dropdown">
-                            <li><a href="blog-standard.html">Blog Standard</a></li>
-                            <li><a href="blog-classic.html">Blog Classic</a></li>
-                            <li><a href="blog.html">Blog Grid</a></li>
-                            <li><a href="blog-masonry.html">Blog Masonry</a></li>
-                            <li><a href="blog-details.html">Blog Details</a></li>
-                            <li><a href="blog-details-two.html">Blog Details Two</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="team.html">TEAM</a>
-                    </li>
-                    <li><a href="contact.html">CONTACT US </a></li>
-                </ul>
-            </nav>
-            <!-- mobile menu navigation end -->
-        </div>
-
-    </div>
-
-    <!-- Breadcrumb Section Start -->
-    <div class="section-padding breadcrumb" data-bg-image="assets/images/breadcrumb/breadcrumb-6.png">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 align-items-center text-center">
-                    <!-- Breadcrumb Wrapper Start -->
-                    <div class="breadcrumb-wrapper">
-                        <h1 class="title-two">How to Improve Your <br> Marketing</h1>
-                        <ul class="breadcrumb-list">
-                            <li><a href="index-2.html">Home</a></li>
-                            <li><span>News</span></li>
-                        </ul>
-                    </div>
-                    <!-- Breadcrumb Wrapper End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Breadcrumb Section End -->
+<?php
+$page_title = "PIXMAINNOVATIONS || BLOG DETAILS";
+$pagename = "Blog Details";
+$current_page = basename($_SERVER['PHP_SELF']);
+$meta_description = "";
+$tblname = "slider";
+$tblkey = "id";
+?>
+<?php include('includes/header.php'); ?>
+<?php include('includes/navbar.php'); ?>
+<?php include('includes/breadcrumb.php'); ?>
 
     <!-- Blog Standard Section Start -->
     <div class="section-padding standard-blog">
@@ -234,14 +18,14 @@
                     <!-- Single Standard Blog Start -->
                     <div class="standard-blog-single blog-details">
                         <!-- Standard Blog Image Start -->
-                        <a href="blog-details.html" class="standard-blog-image">
+                        <a href="blog-details.php" class="standard-blog-image">
                             <img src="assets/images/blog/large-1.png" alt="BlogImage">
                         </a>
                         <!-- Standard Blog Image End -->
                         <!-- Standard Blog Content Start -->
                         <div class="standard-blog-content">
                             <ul class="standard-blog-meta">
-                                <li><a href="blog-details.html">Web Design</a></li>
+                                <li><a href="blog-details.php">Web Design</a></li>
                                 <li>
                                     <p>April 20, 2022</p>
                                 </li>
@@ -250,7 +34,7 @@
                                 </li>
                             </ul>
                             <h3 class="standard-blog-title">
-                                <a href="blog-details.html">How to improve your marketing</a>
+                                <a href="blog-details.php">How to improve your marketing</a>
                             </h3>
                             <p class="text">Kimod tempoer incididunt onomes sundo ritoma amar Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqu magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
                             <p class="text">Minisi ut aliquip ex ea commodo conseq Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
@@ -271,10 +55,10 @@
                         <div class="tags">
                             <span class="label">Tags</span>
                             <ul>
-                                <li><a href="blog-details.html">Web Design,</a></li>
-                                <li><a href="blog-details.html">Aps,</a></li>
-                                <li><a href="blog-details.html">Google,</a></li>
-                                <li><a href="blog-details.html">Facebook</a></li>
+                                <li><a href="blog-details.php">Web Design,</a></li>
+                                <li><a href="blog-details.php">Aps,</a></li>
+                                <li><a href="blog-details.php">Google,</a></li>
+                                <li><a href="blog-details.php">Facebook</a></li>
                             </ul>
                         </div>
                         <div class="share">
@@ -293,14 +77,14 @@
                     <div class="post-nav-link wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
                         <div class="post-prev">
                             <div class="content">
-                                <a href="blog-details.html" class="prev-arrow"> <img src="assets/images/blog/details/left-arrow.png" alt=""> Prev Post</a>
-                                <h4 class="title"><a href="blog-details.html">Jokod tempor incididunt ut labore et dolore magna aliqua.</a></h4>
+                                <a href="blog-details.php" class="prev-arrow"> <img src="assets/images/blog/details/left-arrow.png" alt=""> Prev Post</a>
+                                <h4 class="title"><a href="blog-details.php">Jokod tempor incididunt ut labore et dolore magna aliqua.</a></h4>
                             </div>
                         </div>
                         <div class="post-next">
                             <div class="content">
-                                <a href="blog-details.html" class="next-arrow">Next Post<img src="assets/images/blog/details/right-arrow.png" alt=""></a>
-                                <h4 class="title"><a href="blog-details.html">Jokod tempor incididunt ut labore et dolore magna aliqua.</a></h4>
+                                <a href="blog-details.php" class="next-arrow">Next Post<img src="assets/images/blog/details/right-arrow.png" alt=""></a>
+                                <h4 class="title"><a href="blog-details.php">Jokod tempor incididunt ut labore et dolore magna aliqua.</a></h4>
                             </div>
                         </div>
                     </div>
@@ -322,7 +106,7 @@
                             </div>
                             <p class="text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciu nt. Neque porro quisquam est, qui dolorem </p>
                             <div class="content-bottom">
-                                <a href="blog-details.html" class="read-more">View All Posts</a>
+                                <a href="blog-details.php" class="read-more">View All Posts</a>
                             </div>
                         </div>
                     </div>
@@ -346,7 +130,7 @@
                                                 </div>
                                             </div>
                                             <div class="button">
-                                                <a href="blog-details.html" class="replay">Reply</a>
+                                                <a href="blog-details.php" class="replay">Reply</a>
                                             </div>
                                         </div>
                                         <p class="text">Lnseq uuntur magni dolores eos qui ratione voluptatem sequi nesciu nt. Neque porro quisquam est, qui dolorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -367,7 +151,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="button">
-                                                        <a href="blog-details.html" class="replay">Reply</a>
+                                                        <a href="blog-details.php" class="replay">Reply</a>
                                                     </div>
                                                 </div>
                                                 <p class="text">Lnseq uuntur magni dolores eos qui ratione voluptatem sequi nesciu nt. Neque porro quisquam est, qui dolorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -390,7 +174,7 @@
                                                 </div>
                                             </div>
                                             <div class="button">
-                                                <a href="blog-details.html" class="replay">Reply</a>
+                                                <a href="blog-details.php" class="replay">Reply</a>
                                             </div>
                                         </div>
                                         <p class="text">Lnseq uuntur magni dolores eos qui ratione voluptatem sequi nesciu nt. Neque porro quisquam est, qui dolorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -411,7 +195,7 @@
                                                 </div>
                                             </div>
                                             <div class="button">
-                                                <a href="blog-details.html" class="replay">Reply</a>
+                                                <a href="blog-details.php" class="replay">Reply</a>
                                             </div>
                                         </div>
                                         <p class="text">Lnseq uuntur magni dolores eos qui ratione voluptatem sequi nesciu nt. Neque porro quisquam est, qui dolorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -465,7 +249,7 @@
                             <span class="sidebar-banner-subtitle">Avers WP Theme</span>
                             <h4 class="sidebar-banner-title">Solid Start of Business</h4>
                             <p>Kimod tempoer incididunt onomes sundo ritoma amar consectetur adipi sicing elit</p>
-                            <a href="blog-details.html" class="btn-style-two">Get Started</a>
+                            <a href="blog-details.php" class="btn-style-two">Get Started</a>
                         </div>
                         <!--Sidebar Banner End-->
 
@@ -474,24 +258,24 @@
                             <h4 class="sidebar-title">Recent post <i class="fas fa-angle-double-right"></i></h4>
                             <ul class="sidebar-blog">
                                 <li>
-                                    <a href="blog-details.html" class="image"><img src="assets/images/blog/small/1.png" alt="Blog Post"></a>
+                                    <a href="blog-details.php" class="image"><img src="assets/images/blog/small/1.png" alt="Blog Post"></a>
                                     <div class="content">
                                         <span class="date">25 Feb 2022</span>
-                                        <a class="title" href="blog-details.html">Dalia enim ad minim olok veniam quis</a>
+                                        <a class="title" href="blog-details.php">Dalia enim ad minim olok veniam quis</a>
                                     </div>
                                 </li>
                                 <li>
-                                    <a href="blog-details.html" class="image"><img src="assets/images/blog/small/2.png" alt="Blog Post"></a>
+                                    <a href="blog-details.php" class="image"><img src="assets/images/blog/small/2.png" alt="Blog Post"></a>
                                     <div class="content">
                                         <span class="date">24 Jun 2022</span>
-                                        <a class="title" href="blog-details.html">Dalia enim ad minim olok veniam quis</a>
+                                        <a class="title" href="blog-details.php">Dalia enim ad minim olok veniam quis</a>
                                     </div>
                                 </li>
                                 <li>
-                                    <a href="blog-details.html" class="image"><img src="assets/images/blog/small/3.png" alt="Blog Post"></a>
+                                    <a href="blog-details.php" class="image"><img src="assets/images/blog/small/3.png" alt="Blog Post"></a>
                                     <div class="content">
                                         <span class="date">26 Apr 2022</span>
-                                        <a class="title" href="blog-details.html">Dalia enim ad minim olok veniam quis</a>
+                                        <a class="title" href="blog-details.php">Dalia enim ad minim olok veniam quis</a>
                                     </div>
                                 </li>
                             </ul>
@@ -502,15 +286,15 @@
                         <div class="sidebar wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
                             <h4 class="sidebar-title">categories <i class="fas fa-angle-double-right"></i></h4>
                             <ul class="sidebar-category">
-                                <li><a href="blog-details.html"><i class="fas fa-caret-right"></i>Business Management</a></li>
-                                <li><a href="blog-details.html"><i class="fas fa-caret-right"></i>System Administration</a></li>
-                                <li><a href="blog-details.html"><i class="fas fa-caret-right"></i>Social Media Marketing</a></li>
-                                <li><a href="blog-details.html"><i class="fas fa-caret-right"></i>Critical Analysis</a></li>
-                                <li><a href="blog-details.html"><i class="fas fa-caret-right"></i>Human Resources</a></li>
-                                <li><a href="blog-details.html"><i class="fas fa-caret-right"></i>Virtual Management</a></li>
-                                <li><a href="blog-details.html"><i class="fas fa-caret-right"></i>Marketing Research</a></li>
-                                <li><a href="blog-details.html"><i class="fas fa-caret-right"></i>Search Engine Optimization</a></li>
-                                <li><a href="blog-details.html"><i class="fas fa-caret-right"></i>Business Tips n Tricks</a></li>
+                                <li><a href="blog-details.php"><i class="fas fa-caret-right"></i>Business Management</a></li>
+                                <li><a href="blog-details.php"><i class="fas fa-caret-right"></i>System Administration</a></li>
+                                <li><a href="blog-details.php"><i class="fas fa-caret-right"></i>Social Media Marketing</a></li>
+                                <li><a href="blog-details.php"><i class="fas fa-caret-right"></i>Critical Analysis</a></li>
+                                <li><a href="blog-details.php"><i class="fas fa-caret-right"></i>Human Resources</a></li>
+                                <li><a href="blog-details.php"><i class="fas fa-caret-right"></i>Virtual Management</a></li>
+                                <li><a href="blog-details.php"><i class="fas fa-caret-right"></i>Marketing Research</a></li>
+                                <li><a href="blog-details.php"><i class="fas fa-caret-right"></i>Search Engine Optimization</a></li>
+                                <li><a href="blog-details.php"><i class="fas fa-caret-right"></i>Business Tips n Tricks</a></li>
                             </ul>
                         </div>
                         <!--Sidebar Category End-->
@@ -519,14 +303,14 @@
                         <div class="sidebar wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
                             <h4 class="sidebar-title">tags <i class="fas fa-angle-double-right"></i></h4>
                             <div class="sidebar-tags">
-                                <a href="blog-details.html" class="active">Mirgbai</a>
-                                <a href="blog-details.html">Bangla</a>
-                                <a href="blog-details.html">Algorithm</a>
-                                <a href="blog-details.html">Facebook</a>
-                                <a href="blog-details.html">Social Network</a>
-                                <a href="blog-details.html">IOS</a>
-                                <a href="blog-details.html">Bootstraping</a>
-                                <a href="blog-details.html">Network</a>
+                                <a href="blog-details.php" class="active">Mirgbai</a>
+                                <a href="blog-details.php">Bangla</a>
+                                <a href="blog-details.php">Algorithm</a>
+                                <a href="blog-details.php">Facebook</a>
+                                <a href="blog-details.php">Social Network</a>
+                                <a href="blog-details.php">IOS</a>
+                                <a href="blog-details.php">Bootstraping</a>
+                                <a href="blog-details.php">Network</a>
                             </div>
                         </div>
                         <!--Sidebar Tags End-->
@@ -593,13 +377,13 @@
                             <!-- Single Featured Post Start -->
                             <div class="sidebar-feature">
                                 <div class="sidebar-feature-image">
-                                    <a href="blog-details.html">
+                                    <a href="blog-details.php">
                                         <img src="assets/images/blog/feature-sidebar.png" alt="Image">
                                     </a>
                                 </div>
                                 <div class="sidebar-feature-content">
                                     <p class="date">25 Feb 2022</p>
-                                    <a class="title" href="blog-details.html">Dalia enim ad minim olok veniam quis</a>
+                                    <a class="title" href="blog-details.php">Dalia enim ad minim olok veniam quis</a>
                                 </div>
                             </div>
                             <!-- Single Featured Post End -->
@@ -713,33 +497,5 @@
     </div>
     <!-- Footer Section End -->
 
-    <!-- Scroll Top Start -->
-    <a href="#" class="scroll-top show" id="scroll-top">
-        <i class="arrow-top fas fa-angle-double-up"></i>
-        <i class="arrow-bottom fas fa-angle-double-up"></i>
-    </a>
-    <!-- Scroll Top End -->
 
-    <!-- JS Vendor, Plugins & Activation Script Files -->
-
-    <!-- Vendors JS -->
-    <script src="assets/js/vendor/modernizr-3.11.7.min.js"></script>
-    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
-    <script src="assets/js/vendor/bootstrap.min.js"></script>
-
-    <!-- Plugins JS -->
-    <script src="assets/js/plugins/magnificpopup.min.js"></script>
-    <script src="assets/js/plugins/waypoint.min.js"></script>
-    <script src="assets/js/plugins/wow.min.js"></script>
-    <script src="assets/js/plugins/jquery.ajaxchimp.min.js"></script>
-
-    <!-- Activation JS -->
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/pages/blank.js"></script>
-
-</body>
-
-
-<!-- Mirrored from ethemestudio.com/demo/avers/blog-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Mar 2025 08:43:39 GMT -->
-</html>
+<?php include('includes/footer.php'); ?>

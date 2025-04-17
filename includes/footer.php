@@ -1,14 +1,16 @@
-<?php 
+<?php
 $facebook = getvalfield($conn, "social_links", "facebook", "1");
 $twitter = getvalfield($conn, "social_links", "twitter", "1");
 $instagram = getvalfield($conn, "social_links", "instagram", "1");
 $linkedIn = getvalfield($conn, "social_links", "linkedIn", "1");
+
 ?>
 <style>
     .white-icon {
         color: white;
     }
 </style>
+
 <!-- Footer Section Start -->
 <div class="footer footer-about">
     <div class="container">
@@ -19,48 +21,59 @@ $linkedIn = getvalfield($conn, "social_links", "linkedIn", "1");
                         <div class="footer-logo d-flex align-items-center justify-content-left">
                             <div class="footer-left-logo">
                                 <a href="index-2.html">
-                                    <img class="" src="assets/images/pixma-logo-2.png" alt="LogoImage">
+                                    <img class="" src="assets/images/pixma-logo-2.png" alt="LogoImage" style="height:100px">
                                 </a>
                             </div>
                             <div class="">
-                                <h2 style="color:#e5cce2;font-family: Playfair Display, serif;">PIXMA + INNORVATION </h2>
+                                <h2 style="color:#e5cce2;font-family: Playfair Display, serif;">PIX PLUS</h2>
                             </div>
                         </div>
                         <p class="footer-left-text">Innovating for a smarter future with cutting-edge technology and solutions.</p>
                         <ul class="footer-left-list-icon">
-                            <li><i class="fas fa-map-marker-alt"></i> <span>Sales Office: 303, 3rd Floor, Besst Arcade Building, Sector-12, Dwarka, New Delhi-110075</span></li>
-                            <li><i class="fas fa-map-marker-alt"></i> <span>East Zone: Office No. 17, 18th Floor, Infinity Benchmark, Salt Lake, Sector-V, Kolkata</span></li>
-                            <li><i class="fas fa-map-marker-alt"></i> <span>Registered Office: A-140, A-1, Sector-7B, Kamal Vihar, Raipur, Chhattisgarh, 492004</span></li>
+                            <?php if ($current_page == "kolkatacenter.php") { ?>
+                                <li><i class="fas fa-map-marker-alt"></i> <span>East Zone: Office No. 17, 18th Floor, Infinity Benchmark, Salt Lake, Sector-V, Kolkata</span></li>
+                            <?php } else if ($current_page == "newdelhicenter.php") { ?>
+                                <li><i class="fas fa-map-marker-alt"></i> <span>Sales Office: 303, 3rd Floor, Besst Arcade Building, Sector-12, Dwarka, New Delhi-110075</span></li>
+                            <?php } else { ?>
+                                <li><i class="fas fa-map-marker-alt"></i> <span>Registered Office: A-140, A-1, Sector-7B, Kamal Vihar, Raipur, Chhattisgarh, 492004</span></li>
+                            <?php } ?>
+
 
                         </ul>
                         <ul class="social-icon d-flex flex-start">
-                            <li><a href="<?=$facebook?>" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="<?=$twitter?>" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="<?=$linkedIn?>" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="<?=$instagram?>" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="<?= $facebook ?>" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="<?= $twitter ?>" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="<?= $linkedIn ?>" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="<?= $instagram ?>" class="instagram"><i class="fab fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="col-lg-8 col-md-7">
                 <div class="footer-right">
-                    <div class="footer-top">
+                    <!-- <div class="footer-top">
                         <div class="heading-one">
                             <span class="heading-one-subtitle">Design matters</span>
                             <h2 class="heading-one-title">Let's Start A Project</h2>
-                            <p>Innovate with us for a better tomorrow.</p>
+                            <p class="" style="text-align: justify; color:black;font-family: Playfair Display, serif">At Pix Plus, we specialize in transforming spaces with advanced interactive technology. Whether it's for educational institutions, corporate offices, retail showrooms, or event venues, our innovative solutions are designed to meet your unique needs.</p>
                         </div>
                         <a href="contact_us.php" class="btn-style-one"><span>Contact Us</span></a>
-                    </div>
+                    </div> -->
                     <div class="footer-bottom footer-bottom-about">
                         <div class="footer-widget">
                             <h5 class="footer-widget-title">Contact</h5>
                             <ul class="footer-widget-list">
                                 <li><i class="fas fa-phone white-icon"></i>&nbsp; <a href="tel:+916291509470">+91-6291509470</a></li>
-                                <li><i class="fas fa-envelope white-icon"></i>&nbsp; <a href="mailto:east.sales@pixmainnovation.com">east.sales@pixmainnovation.com</a> </li>
-                                <li><i class="fas fa-envelope white-icon"></i>&nbsp; <a href="mailto:accounts@pixmainnovation.com">accounts@pixmainnovation.com</a> </li>
-                                <li><i class="fas fa-envelope white-icon"></i>&nbsp; <a href="mailto:innovationswhitefeather@gmail.com">innovationswhitefeather@gmail.com</a> </li>
-                                <li><i class="fas fa-envelope white-icon"></i>&nbsp; <a href="mailto:md@pixmainnovation.com">md@pixmainnovation.com</a> </li>
+                                <?php if ($current_page == "kolkatacenter.php") { ?>
+                                    <li><i class="fas fa-envelope white-icon"></i>&nbsp; <a href="mailto:east.sales@pixmainnovation.com">east.sales@pixmainnovation.com</a> </li>
+                                    <li><i class="fas fa-envelope white-icon"></i>&nbsp; <a href="mailto:innovationswhitefeather@gmail.com">innovationswhitefeather@gmail.com</a> </li>
+                                <?php } else if ($current_page == "newdelhicenter.php") { ?>
+                                    <li><i class="fas fa-envelope white-icon"></i>&nbsp; <a href="mailto:md@pixmainnovation.com">md@pixmainnovation.com</a> </li>
+                                    <li><i class="fas fa-envelope white-icon"></i>&nbsp; <a href="mailto:innovationswhitefeather@gmail.com">innovationswhitefeather@gmail.com</a> </li>
+                                <?php } else { ?>
+                                    <li><i class="fas fa-envelope white-icon"></i>&nbsp; <a href="mailto:accounts@pixmainnovation.com">accounts@pixmainnovation.com</a> </li>
+                                    <li><i class="fas fa-envelope white-icon"></i>&nbsp; <a href="mailto:innovationswhitefeather@gmail.com">innovationswhitefeather@gmail.com</a> </li>
+                                <?php } ?>
                             </ul>
                         </div>
                         <div class="footer-widget-subscription">
@@ -82,9 +95,11 @@ $linkedIn = getvalfield($conn, "social_links", "linkedIn", "1");
             <div class="row">
                 <div class="col-12 position-relative">
                     <div class="footer-copyright-inner">
-                        <p class="order-md-1 order-2" style="color: white;">© 2025 <a href="https://pixmainnovations.com/" style="color:#d1e8fa;font-family: Playfair Display, serif;">Pixma</a> All Rights Reserved.</p>
+                        <p class="order-md-1 order-2" style="color: dark;">© 2025 <a href="https://pixmainnovations.com/" style="color:#ffffff;font-family: Playfair Display, serif;">Pix Plus</a> All Rights Reserved.</p>
                         <ul class="footer-bootm-list order-md-2 order-1">
-                            <li><p class="order-md-1 order-2">Designed and Developed by <span><a href="https://tdhdigitalagency.com/" style="color:#d1e8fa;font-family: Playfair Display, serif;">the Digital House</a></span></p></li>
+                            <li>
+                                <p class="order-md-1 order-2">Designed and Developed by <span><a href="https://tdhdigitalagency.com/" style="color:#d1e8fa;font-family: Playfair Display, serif;">the Digital House</a></span></p>
+                            </li>
 
                             <!-- <li><a href="contact.html">Terms &amp; Condition</a></li>
                             <li><a href="contact.html">Privacy Policy</a></li>

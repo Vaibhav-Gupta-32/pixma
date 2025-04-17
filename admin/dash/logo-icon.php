@@ -6,7 +6,7 @@ $tblname = "logo_icon";
 $tblkey = "id";
 $pagename = "Logos & Icons";
 $page_name = basename($_SERVER['PHP_SELF']);
-
+$title = "Logos & Icons | Admin Panel";
 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {

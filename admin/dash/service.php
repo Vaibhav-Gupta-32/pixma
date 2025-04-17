@@ -5,6 +5,7 @@ $currentDate = date('Y-m-d');
 $tblname = "service";
 $tblkey = "id";
 $pagename = "Service";
+$title = "Service | Admin Panel";
 $page_name = basename($_SERVER['PHP_SELF']);
 
 // Check if form is submitted
@@ -185,9 +186,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                     <div class="form-group shadow">
                         <div class="form-floating mb-3">
                             <!-- <input type="text" class="form-control"  name="date" id="date" placeholder="आवेदन दिनांक" required> -->
-                            <textarea name="description" class="form-control"  maxlength="106" id="description" placeholder=" " required></textarea>
+                            <textarea name="description" class="form-control" id="description" placeholder=" " required></textarea>
                             <label for="description"> Description<span class="text-danger">*</span></label>
-                            <div class="aa text-danger"><small>Max-Length is 19 words then content will showing properly..</small></div>
+                            <div class="aa text-danger">
+                                <!-- <small>Max-Length is 19 words then content will showing properly..</small> -->
+                            </div>
                         </div>
                     </div>
                 </div>

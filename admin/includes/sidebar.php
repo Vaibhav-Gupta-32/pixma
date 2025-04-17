@@ -21,10 +21,10 @@ $profile_picture = getvalfield($conn, "adminlogin", "profile_picture", "username
             <a href="../dash/" class="nav-item nav-link <?= ($page_name == 'index.php') ? 'active' : ''; ?>"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
             <a href="../dash/gallery.php" class="nav-item nav-link mt-2 <?= ($page_name == 'gallery.php') ? 'active' : ''; ?>"><i class="fas fa-image me-2"></i>Gallery</a>
             <!-- <a href="../dash/about.php" class="nav-item nav-link mt-2 <?= ($page_name == 'about.php') ? 'active' : ''; ?>"><i class="fa-regular fa-address-card me-2"></i>About-Page</a> -->
-            <a href="../dash/products.php" class="nav-item nav-link mt-2 <?= ($page_name == 'products.php') ? 'active' : ''; ?>"><i class="fa-regular fa-address-card me-2"></i>Products</a>
-            <a href="../dash/product_details.php" class="nav-item nav-link mt-2 <?= ($page_name == 'product_details.php') ? 'active' : ''; ?>"><i class="fa-regular fa-address-card me-2"></i>Product Details</a>
+            <!-- <a href="../dash/products.php" class="nav-item nav-link mt-2 <?= ($page_name == 'products.php') ? 'active' : ''; ?>"><i class="fa-regular fa-address-card me-2"></i>Products</a> -->
+            <!-- <a href="../dash/product_details.php" class="nav-item nav-link mt-2 <?= ($page_name == 'product_details.php') ? 'active' : ''; ?>"><i class="fa-regular fa-address-card me-2"></i>Product Details</a> -->
             <a href="../dash/service.php" class="nav-item nav-link mt-2 <?= ($page_name == 'service.php') ? 'active' : ''; ?>"><i class="fas fa-tools me-2"></i>Service</a>
-            <a href="../dash/slider.php" class="nav-item nav-link mt-2 <?= ($page_name == 'slider.php') ? 'active' : ''; ?>"><i class="fas fa-sliders-h me-2"></i>Slider</a>
+            <!-- <a href="../dash/slider.php" class="nav-item nav-link mt-2 <?= ($page_name == 'slider.php') ? 'active' : ''; ?>"><i class="fas fa-sliders-h me-2"></i>Slider</a> -->
             <a href="../dash/contact-info.php" class="nav-item nav-link mt-2 <?= ($page_name == 'contact-info.php') ? 'active' : ''; ?>"><i class="fa-regular fa-address-book me-2"></i>Contact</a>
             <a href="../dash/logo-icon.php" class="nav-item nav-link mt-2 <?= ($page_name == 'logo-icon.php') ? 'active' : ''; ?>"><i class="fa-solid fa-draw-polygon me-2"></i>Logos</a>
 

@@ -7,6 +7,7 @@ $tblkey = 'id';
 $pagename = "Inbox Messages Page";
 $username = $_SESSION['username'];
 $page_name = basename($_SERVER['PHP_SELF']);
+$title = "Partnership Request | Admin Panel";
 // Get images From db  Profile image 
 // $profile_img = getvalfield($conn, $tblname, "profile_picture", "username='$username'");
 $admin_name = getvalfield($conn, 'adminlogin', "admin_name", "username='$username'");

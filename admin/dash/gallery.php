@@ -5,6 +5,7 @@ $currentDate = date('Y-m-d');
 $tblname = "gallery";
 $tblkey = "id";
 $pagename = "Gallery";
+$title = "Gallery | Admin Panel";
 $page_name = basename($_SERVER['PHP_SELF']);
 
 // Check if form is submitted
@@ -12,14 +13,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
     // print_r($_POST);die;
     // Retrieve posted values
     $tittle = mysqli_real_escape_string($conn, $_POST['tittle']);
-    // $service = mysqli_real_escape_string($conn, $_POST['service']);
+    $center = mysqli_real_escape_string($conn, $_POST['center']);
     // $location = mysqli_real_escape_string($conn, $_POST['location']);
 
 
     $uploadOk = "";
     $target_dir = "images/gallery/";
-    $maxSize = 5000000; // 5 MB
-    $allowedTypes = ["jpg", "png", "jpeg"];
+    $maxSize = 10000000; // 10 MB
+    $allowedTypes = ["jpg", "png", "jpeg", "mp4"];
     $customFileName = $target_dir;
     // Initialize variables
     $file_upload = ['success' => false, 'filePath' => ''];
@@ -39,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
 
     // Check if $uploadOk is set to 0 by an error
     if ($uploadOk == 1) {
-        $sql = "insert INTO $tblname (tittle,location) VALUES ('$tittle','$file_path')";
+        $sql = "insert INTO $tblname (tittle,location,center) VALUES ('$tittle','$file_path','$center')";
         // echo $sql;die;
         if (mysqli_query($conn, $sql)) {
             echo "<script>
@@ -197,20 +198,34 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                         </div>
                     </div>
                 </div> -->
+                <div class="col-lg-6 col-md-12 col-sm-12 align-content-center">
+                    <div class="form-group shadow">
+                        <div class="form-floating mb-3">
+                            <!-- <input type="text" class="form-control" name="center" id="center" placeholder=" " required> -->
+                            <select class="form-select" name="center" id="center" placeholder=" ">
+                                <option value="">Select</option>
+                                <option value="New Delhi">New Delhi</option>
+                                <option value="Raipur">Raipur</option>
+                                <option value="Kolkata">Kolkata</option>
+                            </select>
+                            <label for="tittle">Center <span class="text-danger">*</span> </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 align-content-center">
+                    <div class="form-group shadow">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" name="tittle" id="tittle" placeholder=" " required>
+                            <label for="tittle">Title <span class="text-danger">*</span> </label>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-lg-12">
                     <div class="form-group shadow ">
                         <div class="form-floating mb-3 ">
                             <input type="file" class="form-control bg-white" id="file_upload" name="file_upload"
                                 placeholder=" " required>
                             <label for="">Picture<span class="text-danger">*</span></label>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 align-content-center">
-                    <div class="form-group shadow">
-                        <div class="form-floating mb-3">
-                            <input type="text" class="form-control" name="tittle" id="tittle" placeholder=" " required>
-                            <label for="tittle">Title <span class="text-danger">*</span> </label>
                         </div>
                     </div>
                 </div>
@@ -241,6 +256,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                             <th scope="col">S.NO</th>
                             <th scope="col">Picture</th>
                             <th scope="col">Title</th>
+                            <th scope="col">Center</th>
                             <!-- <th scope="col">Service</th> -->
                             <th scope="col">Action</th>
 
@@ -255,11 +271,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                             <tr class="text-center">
                                 <th scope="row"><?= $i++ ?></th>
                                 <td class="image-cell">
-                                    <a href="<?= $row['location']; ?>" target="_blank"><img src="<?= $row['location']; ?>" alt="<?= htmlspecialchars($row['tittle']); ?>"
-                                            class="img-thumbnail"></a>
+                                    <?php
+                                    $filePath = $row['location'];
+                                    $fileExtension = pathinfo($filePath, PATHINFO_EXTENSION);
+                                    if (in_array(strtolower($fileExtension), ['mp4'])) {
+                                        // Display video tag for video files
+                                        echo '<video controls class="img-thumbnail" style="max-width: 100%; max-height: 100%;">
+                                                <source src="' . htmlspecialchars($filePath) . '" type="video/mp4">
+                                              </video>';
+                                    } else {
+                                        // Display image tag for image files
+                                        echo '<a href="' . htmlspecialchars($filePath) . '" target="_blank">
+                                                <img src="' . htmlspecialchars($filePath) . '" alt="' . htmlspecialchars($row['tittle']) . '" class="img-thumbnail">
+                                              </a>';
+                                    }
+                                    ?>
                                 </td>
                                 <td><?= htmlspecialchars($row['tittle']) ?></td>
-                                <!-- <td><?= htmlspecialchars($row['service']) ?></td> -->
+                                <td><?= htmlspecialchars($row['center']) ?></td>
                                 <td class="action">
                                     <!-- <a href="#" onclick="view(<?= $row['id'] ?>)"><i class="fas fa-eye me-2"
                                             title="View"></i></a>

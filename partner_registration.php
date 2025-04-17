@@ -1,5 +1,5 @@
 <?php
-$page_title = "PIXMAINNOVATIONS || PATNERS REGISTRATION";
+$page_title = "Partner Registration - Pix Plus";
 $pagename = "Partner Registration";
 $current_page = basename($_SERVER['PHP_SELF']);
 $meta_description = "Visit our new partner registeration panel";

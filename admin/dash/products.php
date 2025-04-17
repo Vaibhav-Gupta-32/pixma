@@ -5,6 +5,7 @@ $currentDate = date('Y-m-d');
 $tblname = "product_master";
 $tblkey = "id";
 $pagename = "Product";
+$title = "Product | Admin Panel";
 $page_name = basename($_SERVER['PHP_SELF']);
 
 // Check if form is submitted

@@ -1,5 +1,5 @@
 <?php
-$page_title = "PIXMAINNOVATIONS || CONTACT US";
+$page_title = "Contact Information of Our Sales & Service Centre - Pix Plus";
 $pagename = "Contact us";
 $current_page = basename($_SERVER['PHP_SELF']);
 $meta_description = "Reach out to our sales and service centre based in Raipur, New Delhi and Kolkata";
@@ -140,7 +140,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             <img src="assets/images/contact/map-icon.png" alt="Map-Icon">
                         </div>
                         <div class="map-inner" style="width: 100%">
-                            <iframe src="https://maps.google.com/maps?width=100%25&amp;height=420&amp;hl=en&amp;q=london+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d929.9699037536175!2d81.66981526952836!3d21.19694074915106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28dd7ea5da4a6f%3A0x2831b3f8c24d1df2!2sWhite%20Feather%20Innovations%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1744093918174!5m2!1sen!2sin"></iframe>
                         </div>
                     </div>
                     <!-- Google Map Area Start -->

@@ -6,10 +6,10 @@
                     <!-- Breadcrumb Wrapper Start -->
                     <div class="breadcrumb-wrapper">
                         <h1 class="title"><?= $pagename; ?></h1>
-                        <ul class="breadcrumb-list">
+                        <!-- <ul class="breadcrumb-list">
                             <li><a href="index.php">Home</a></li>
                             <li><span><?= $pagename; ?></span></li>
-                        </ul>
+                        </ul> -->
                     </div>
                     <!-- Breadcrumb Wrapper End -->
                 </div>
