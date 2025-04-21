@@ -5,13 +5,13 @@ $current_page = basename($_SERVER['PHP_SELF']);
 $meta_description = "One of the best digital podium, flat interactive panel, standee sales and service centre in raipur at best price for all business types.";
 $tblname = "product_details";
 $tblkey = "id";
+$product_name = base64_decode($_REQUEST['p_n']);
 ?>
 
 <?php include('includes/header.php'); ?>
 <?php include('includes/navbar.php'); ?>
 <?php include('includes/breadcrumb.php'); ?>
 <?php
-$product_name = base64_decode($_REQUEST['p_n']);
 $facebook = getvalfield($conn, "social_links", "facebook", "1");
 $twitter = getvalfield($conn, "social_links", "twitter", "1");
 $instagram = getvalfield($conn, "social_links", "instagram", "1");
@@ -79,7 +79,7 @@ $linkedIn = getvalfield($conn, "social_links", "linkedIn", "1");
             <!-- Product Image -->
             <div class="col-md-6" data-aos="fade-right">
                 <div class="product-image">
-                    <img src="assets/images/product/interactive.png" class="js-tilt" alt="Product Image">
+                    <img src="assets/images/product/p1.jpeg" class="js-tilt" alt="Product Image">
                 </div>
             </div>
             <!-- Product Details -->
@@ -157,7 +157,7 @@ $linkedIn = getvalfield($conn, "social_links", "linkedIn", "1");
             <!-- Product Image -->
             <div class="col-md-6" data-aos="fade-right">
                 <div class="product-image">
-                    <img src="assets/images/product/I-frame-standee.jpg" alt="Product Image" class="js-tilt">
+                    <img src="assets/images/product/p3.jpeg" alt="Product Image" class="js-tilt">
                 </div>
             </div>
             <!-- Product Details -->
@@ -185,7 +185,7 @@ $linkedIn = getvalfield($conn, "social_links", "linkedIn", "1");
             <!-- Product Image -->
             <div class="col-md-6" data-aos="fade-right">
                 <div class="product-image">
-                    <img src="assets/images/product/aframe.png" alt="Product Image" class="js-tilt">
+                    <img src="assets/images/product/p2.jpeg" alt="Product Image" class="js-tilt">
                 </div>
             </div>
             <!-- Product Details -->
@@ -283,10 +283,10 @@ $linkedIn = getvalfield($conn, "social_links", "linkedIn", "1");
                     <img src="assets/images/product/interactive.png" class="mb-2 js-tilt" alt="ProjectImage">
                 </div>
                 <div class="col-lg-4 wow fadeIn product-image" data-wow-duration="1.2s" data-wow-delay=".1s">
-                    <img src="assets/images/product/interactive.png" class="mb-2 js-tilt" alt="ProjectImage">
+                    <img src="assets/images/product/p1.jpeg" class="mb-2 js-tilt" alt="ProjectImage">
                 </div>
                 <div class="col-lg-4 wow fadeIn product-image" data-wow-duration="1.2s" data-wow-delay=".1s">
-                    <img src="assets/images/product/interactive.png" class="mb-2 js-tilt" alt="ProjectImage">
+                    <img src="assets/images/product/p1.jpeg" class="mb-2 js-tilt" alt="ProjectImage">
                 </div>
             </div>
         <?php } else if ($product_name == "IFP Stand") { ?>
@@ -319,10 +319,10 @@ $linkedIn = getvalfield($conn, "social_links", "linkedIn", "1");
                     <img src="assets/images/product/I-frame-standee.jpg" class="mb-2 js-tilt" alt="ProjectImage">
                 </div>
                 <div class="col-lg-4 wow fadeIn product-image" data-wow-duration="1.2s" data-wow-delay=".1s">
-                    <img src="assets/images/product/I-frame-standee.jpg" class="mb-2 js-tilt" alt="ProjectImage">
+                    <img src="assets/images/product/p3.jpeg" class="mb-2 js-tilt" alt="ProjectImage">
                 </div>
                 <div class="col-lg-4 wow fadeIn product-image" data-wow-duration="1.2s" data-wow-delay=".1s">
-                    <img src="assets/images/product/I-frame-standee.jpg" class="mb-2 js-tilt" alt="ProjectImage">
+                    <img src="assets/images/product/p3.jpeg" class="mb-2 js-tilt" alt="ProjectImage">
                 </div>
             </div>
         <?php } else if ($product_name == "A Frame Standee") { ?>
@@ -331,10 +331,10 @@ $linkedIn = getvalfield($conn, "social_links", "linkedIn", "1");
                     <img src="assets/images/product/aframe.png" class="mb-2 js-tilt" alt="ProjectImage">
                 </div>
                 <div class="col-lg-4 wow fadeIn product-image" data-wow-duration="1.2s" data-wow-delay=".1s">
-                    <img src="assets/images/product/aframe.png" class="mb-2 js-tilt" alt="ProjectImage">
+                    <img src="assets/images/product/p2.jpeg" class="mb-2 js-tilt" alt="ProjectImage">
                 </div>
                 <div class="col-lg-4 wow fadeIn product-image" data-wow-duration="1.2s" data-wow-delay=".1s">
-                    <img src="assets/images/product/aframe.png" class="mb-2 js-tilt" alt="ProjectImage">
+                    <img src="assets/images/product/p2.jpeg" class="mb-2 js-tilt" alt="ProjectImage">
                 </div>
             </div>
         <?php } else if ($product_name == "Digital Podium") { ?>

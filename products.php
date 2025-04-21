@@ -96,7 +96,7 @@ $meta_description = "One of the best and affordable Interactive Flat Panel sales
         <!-- Product Card 1 -->
         <div class="col-md-4" data-aos="fade-up">
             <div class="card product-card h-100">
-                <img src="assets/images/product/interactive.png" class="card-img-top product-img" alt="Product 1">
+                <img src="assets/images/product/p1.jpeg" class="card-img-top product-img" alt="Product 1">
                 <div class="card-body product-body">
                     <h5 class="card-title">Interactive Flat Panel</h5>
                     <p class="card-text">These advanced displays enhance learning, productivity, and engagement.</p>
@@ -132,7 +132,7 @@ $meta_description = "One of the best and affordable Interactive Flat Panel sales
         <!-- Product Card 4 -->
         <div class="col-md-4" data-aos="fade-up">
             <div class="card product-card h-100">
-                <img src="assets/images/product/I-frame-standee.jpg" class="card-img-top product-img" alt="Product 1">
+                <img src="assets/images/product/p3.jpeg" class="card-img-top product-img" alt="Product 1">
                 <div class="card-body product-body">
                     <h5 class="card-title">I Frame Standee</h5>
                     <p class="card-text">This digital standee is ideal for dynamic standee displays, allowing you to showcase multimedia content, advertisements, or promotions with ease.</p>
@@ -144,7 +144,7 @@ $meta_description = "One of the best and affordable Interactive Flat Panel sales
         <!-- Product Card 5 -->
         <div class="col-md-4" data-aos="fade-up">
             <div class="card product-card h-100">
-                <img src="assets/images/product/aframe.png" class="card-img-top product-img" alt="Product 1">
+                <img src="assets/images/product/p2.jpeg" class="card-img-top product-img" alt="Product 1">
                 <div class="card-body product-body">
                     <h5 class="card-title">A Frame Standee</h5>
                     <p class="card-text">This portable standee is perfect for both indoor and outdoor environments and provides easy setup and transport.</p>
@@ -182,9 +182,9 @@ $meta_description = "One of the best and affordable Interactive Flat Panel sales
 
 
 <!-- Project Masonry Section Start -->
-<div class="section-padding blog-grid">
+<!-- <div class="section-padding blog-grid">
     <div class="container">
-        <!-- <div class="row">
+        <div class="row">
                 <div class="col-12">
                     <div class="blog-menu-style blog-menu-active isotope-btn-add-active mt-0 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
                         <button class="active btn-blog" data-filter="*">All</button>
@@ -195,7 +195,7 @@ $meta_description = "One of the best and affordable Interactive Flat Panel sales
                         <button class="btn-blog" data-filter=".resource">Resource</button>
                     </div>
                 </div>
-            </div> -->
+            </div>
 
 
         <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 grid parent-gallery">
@@ -204,14 +204,13 @@ $meta_description = "One of the best and affordable Interactive Flat Panel sales
             $query = mysqli_query($conn, "SELECT * FROM $tblname ORDER BY $tblkey");
             $i = 1;
             while ($row = mysqli_fetch_array($query)) {
-                // echo $row['subtitle'];
+                echo $row['subtitle'];
             ?>
                 <div class="col-lg-3 mb-30 grid-item design wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".1s">
-                    <!-- Single Project Start -->
+                    
                     <div class="single-project">
                         <a class="thumbnail" href="products_details.php">
-                            <!-- admin/dash/<?php // $row['location'] 
-                                            ?> -->
+                            
                             <img src="admin/dash/<?= $row['location']; ?>" alt="ProjectImage">
                         </a>
                         <div class="content">
@@ -224,13 +223,13 @@ $meta_description = "One of the best and affordable Interactive Flat Panel sales
                             <a class="item" href="admin/dash/<?= $row['location']; ?>"><i class="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
-                    <!-- Single Project End -->
+                    
                 </div>
             <?php $i++;
             } ?>
 
             <div class="col-lg-3 mb-30 grid-item development wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".2s">
-                <!-- Single Project Start -->
+                
                 <div class="single-project">
                     <a class="thumbnail" href="products_details.php">
                         <img src="assets/images/product//ops.jpg" alt="ProjectImage">
@@ -245,10 +244,10 @@ $meta_description = "One of the best and affordable Interactive Flat Panel sales
                         <a class="item" href="assets/images/product//ops.jpg"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
-                <!-- Single Project End -->
+                
             </div>
             <div class="col-lg-3 mb-30 grid-item news wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".3s">
-                <!-- Single Project Start -->
+                
                 <div class="single-project">
                     <a class="thumbnail" href="products_details.php">
                         <img src="assets/images/product/wallmount-1.jpg" alt="ProjectImage">
@@ -263,10 +262,10 @@ $meta_description = "One of the best and affordable Interactive Flat Panel sales
                         <a class="item" href="assets/images/product/wallmount-1.jpg"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
-                <!-- Single Project End -->
+                
             </div>
             <div class="col-lg-3 mb-30 grid-item development wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".1s">
-                <!-- Single Project Start -->
+               
                 <div class="single-project">
                     <a class="thumbnail" href="products_details.php">
                         <img src="assets/images/product/ifp.png" alt="ProjectImage">
@@ -281,10 +280,10 @@ $meta_description = "One of the best and affordable Interactive Flat Panel sales
                         <a class="item" href="assets/images/product/ifp.png"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
-                <!-- Single Project End -->
+               
             </div>
             <div class="col-lg-3 mb-30 grid-item design wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".2s">
-                <!-- Single Project Start -->
+                
                 <div class="single-project">
                     <a class="thumbnail" href="products_details.php">
                         <img src="assets/images/product/I-frame-standee.jpg" alt="ProjectImage">
@@ -299,10 +298,10 @@ $meta_description = "One of the best and affordable Interactive Flat Panel sales
                         <a class="item" href="assets/images/product/I-frame-standee.jpg"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
-                <!-- Single Project End -->
+                
             </div>
             <div class="col-lg-3 mb-30 grid-item tutorials wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".3s">
-                <!-- Single Project Start -->
+                
                 <div class="single-project">
                     <a class="thumbnail" href="products_details.php">
                         <img src="assets/images/product/aframe.png" alt="ProjectImage">
@@ -317,10 +316,10 @@ $meta_description = "One of the best and affordable Interactive Flat Panel sales
                         <a class="item" href="assets/images/product/aframe.png"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
-                <!-- Single Project End -->
+        
             </div>
             <div class="col-lg-3 mb-30 grid-item news wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".1s">
-                <!-- Single Project Start -->
+                
                 <div class="single-project">
                     <a class="thumbnail" href="products_details.php">
                         <img src="assets/images/product/digital.png" alt="ProjectImage">
@@ -335,10 +334,10 @@ $meta_description = "One of the best and affordable Interactive Flat Panel sales
                         <a class="item" href="assets/images/product/digital.png"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
-                <!-- Single Project End -->
+                
             </div>
             <div class="col-lg-3 mb-30 grid-item resource wow fadeIn" data-wow-duration="1.2s" data-wow-delay=".2s">
-                <!-- Single Project Start -->
+                
                 <div class="single-project">
                     <a class="thumbnail" href="products_details.php">
                         <img src="assets/images/product/digitalkiosk-2.png" alt="ProjectImage">
@@ -353,11 +352,11 @@ $meta_description = "One of the best and affordable Interactive Flat Panel sales
                         <a class="item" href="assets/images/product/digitalkiosk-2.png"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
-                <!-- Single Project End -->
+                
             </div>
 
         </div>
-        <!-- <div class="row">
+        <div class="row">
                 <div class="col-12">
                     <div class="d-flex justify-content-center pt-lg-2">
                         <nav class="pagination-wrapper">
@@ -374,9 +373,9 @@ $meta_description = "One of the best and affordable Interactive Flat Panel sales
                         </nav>
                     </div>
                 </div>
-            </div> -->
+            </div>
     </div>
-</div>
+</div> -->
 <!-- Project Masonry Section End -->
 
 <!-- AOS Script -->

@@ -117,7 +117,7 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
                             <!-- <h2 class="text-center mb-5">Why Choose Us</h2> -->
                             <div class="row g-4">
                                 <div class="col-md-4">
-                                    <div class="card h-100 shadow-sm">
+                                    <div class="card h-100 shadow-sm js-tilt">
                                         <div class="card-body">
                                             <h5 class="card-title">Decades of Display Expertise</h5>
                                             <p class="card-text">Trusted innovation built on years of industry experience.</p>
@@ -125,7 +125,7 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="card h-100 shadow-sm">
+                                    <div class="card h-100 shadow-sm js-tilt">
                                         <div class="card-body">
                                             <h5 class="card-title">Thousands of Delighted Clients</h5>
                                             <p class="card-text">Spreading smiles with every successful project.</p>
@@ -133,7 +133,7 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="card h-100 shadow-sm">
+                                    <div class="card h-100 shadow-sm js-tilt">
                                         <div class="card-body">
                                             <h5 class="card-title">Reliable Onsite Support</h5>
                                             <p class="card-text">Quick, hassle-free service wherever you are.</p>
@@ -141,7 +141,7 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="card h-100 shadow-sm">
+                                    <div class="card h-100 shadow-sm js-tilt">
                                         <div class="card-body">
                                             <h5 class="card-title">Diverse Product Range</h5>
                                             <p class="card-text">Tailored solutions to meet all your display needs.</p>
@@ -149,7 +149,7 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="card h-100 shadow-sm">
+                                    <div class="card h-100 shadow-sm js-tilt">
                                         <div class="card-body">
                                             <h5 class="card-title">In-House Manufacturing</h5>
                                             <p class="card-text">Quality you can trust, crafted by us.</p>
@@ -157,7 +157,7 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="card h-100 shadow-sm">
+                                    <div class="card h-100 shadow-sm js-tilt">
                                         <div class="card-body">
                                             <h5 class="card-title">Nationwide Reach</h5>
                                             <p class="card-text">Delivering excellence across India.</p>
@@ -188,12 +188,15 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
 <!-- Document Section Start -->
 <section class="py-5 bg-light" id="documents">
     <div class="container">
-        <h2 class="mb-4 text-center fw-bold">📄 Documents & Certificate </h2>
+        <!-- <h2 class="mb-4 text-center fw-bold">📄 Documents & Certificate </h2> -->
+        <!-- <img src="assets/images/about/doc-icon.png" alt="Document Icon" style="width: 40px; height: 40px;"> -->
+        <h2 class="mb-4 text-start fw-bold" style="color: #4fcbf1; font-size: 40px; letter-spacing: 4px;font-weight: 700;">DOCUMENTS & CERTIFICATE</h2>
         <div class="row g-4">
+
 
             <!-- Document Card -->
             <div class="col-md-6 col-lg-4">
-                <div class="card shadow-sm h-100 border-0">
+                <div class="card shadow-sm h-100 js-tilt">
                     <div class="card-body">
                         <h5 class="card-title">Certificate of Compliance</h5>
                         <p class="card-text text-muted">WHITE FEATHER INNOVATIONS FCC</p>
@@ -206,7 +209,7 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
 
             <!-- Another Document -->
             <div class="col-md-6 col-lg-4">
-                <div class="card shadow-sm h-100 border-0">
+                <div class="card shadow-sm h-100 js-tilt">
                     <div class="card-body">
                         <h5 class="card-title">Certificate of Compliance</h5>
                         <p class="card-text text-muted">WHITE FEATHER INNOVATIONS CE</p>
@@ -219,7 +222,7 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
 
             <!-- Another Document -->
             <div class="col-md-6 col-lg-4">
-                <div class="card shadow-sm h-100 border-0">
+                <div class="card shadow-sm h-100 js-tilt">
                     <div class="card-body">
                         <h5 class="card-title">Certificate of Compliance</h5>
                         <p class="card-text text-muted">UL WHITE FEATHER INNOVATIONS PRIVATE LIMITED</p>
@@ -232,7 +235,7 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
 
             <!-- Another Document -->
             <div class="col-md-6 col-lg-4">
-                <div class="card shadow-sm h-100 border-0">
+                <div class="card shadow-sm h-100 js-tilt">
                     <div class="card-body">
                         <h5 class="card-title">Certificate of Compliance</h5>
                         <p class="card-text text-muted">WHITE FEATHER INNOVATIONS PRIVATE LIMITED DRAFT 45001</p>
@@ -245,7 +248,7 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
 
             <!-- Another Document -->
             <div class="col-md-6 col-lg-4">
-                <div class="card shadow-sm h-100 border-0">
+                <div class="card shadow-sm h-100 js-tilt">
                     <div class="card-body">
                         <h5 class="card-title">Certificate of Compliance</h5>
                         <p class="card-text text-muted">WHITE FEATHER INNOVATIONS ROHS</p>
@@ -384,16 +387,14 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
 
 
 <!-- Team Section Start -->
-<div class="section-padding team-bg gradient-1">
+<!-- <div class="section-padding team-bg gradient-1">
     <div class="container">
         <div class="row">
             <div class="col-12 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
-                <!-- Heading Start -->
                 <div class="heading-one">
                     <span class="heading-one-subtitle">Design matters</span>
                     <h2 class="heading-one-title">Amazing Team Members </h2>
                 </div>
-                <!-- Heading End -->
             </div>
         </div>
         <div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-2 row-cols-xs-2 row-cols-1 mb-n30">
@@ -495,7 +496,7 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- Team Section End -->
 
 <!-- Testimonial Section Start -->
@@ -516,25 +517,6 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
             <div class="col-12 position-relative wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
                 <div class="testimonialtwo">
                     <div class="swiper-wrapper">
-                        <!-- <div class="swiper-slide">
-                       
-                            <div class="testimonial-two-single">
-                                <div class="quote gradient-1">
-                                    <img src="assets/images/testimonial/quote.png" alt="QuoteIcon">
-                                </div>
-                                <p class="text">"A fantastic experience! Their expertise and dedication helped us launch our project smoothly. Truly a game-changer in the industry."</p>
-                                <div class="user">
-                                    <div class="user-image">
-                                        <img src="assets/images/testimonial/user-4.png" alt="UserImage">
-                                    </div>
-                                    <div class="user-meta">
-                                        <span class="name">Amit Kumar</span>
-                                        <p class="desig">Entrepreneur</p>
-                                    </div>
-                                </div>
-                            </div>
-                           
-                        </div> -->
                         <div class="swiper-slide">
                             <div class="testimonial-two-single">
                                 <div class="quote gradient-1">
@@ -599,6 +581,23 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
                                     <div class="user-meta">
                                         <span class="name">Nilesh Parekh</span>
                                         <p class="desig">Avish Educom, Raipur</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-two-single">
+                                <div class="quote gradient-1">
+                                    <img src="assets/images/testimonial/quote.png" alt="QuoteIcon">
+                                </div>
+                                <p class="text">"Pixplus is transforming fitness branding with Wall Mount Display Signage, A Frame Standees, and Digital Solutions. Their creative approach boosts visibility and leaves a lasting impact."</p>
+                                <div class="user">
+                                    <div class="user-image">
+                                        <img src="assets/images/testimonial/laliteshchoudhary.jpg" alt="UserImage">
+                                    </div>
+                                    <div class="user-meta">
+                                        <span class="name">Lalitesh Choudhary</span>
+                                        <p class="desig">Saicus Fitness</p>
                                     </div>
                                 </div>
                             </div>

@@ -207,7 +207,7 @@ $tblkey = "id";
                     <!-- Strategy Icon Start -->
                     <div class="strategy-icon">
                         <span></span>
-                        <img src="assets/images/icon/icon-3.png" alt="Icon">
+                        <img src="assets/images/icon/icon-10.png" alt="Icon">
                     </div>
                     <!-- Strategy Icon End -->
 
@@ -230,7 +230,7 @@ $tblkey = "id";
                     <!-- Strategy Icon Start -->
                     <div class="strategy-icon">
                         <span></span>
-                        <img src="assets/images/icon/icon-3.png" alt="Icon">
+                        <img src="assets/images/icon/icon-12.png" alt="Icon" style="height: 60px;">
                     </div>
                     <!-- Strategy Icon End -->
 
@@ -252,7 +252,7 @@ $tblkey = "id";
                     <!-- Strategy Icon Start -->
                     <div class="strategy-icon">
                         <span></span>
-                        <img src="assets/images/icon/icon-3.png" alt="Icon">
+                        <img src="assets/images/icon/icon-9.png" alt="Icon" style="height: 60px;">
                     </div>
                     <!-- Strategy Icon End -->
 
@@ -274,7 +274,7 @@ $tblkey = "id";
                     <!-- Strategy Icon Start -->
                     <div class="strategy-icon">
                         <span></span>
-                        <img src="assets/images/icon/icon-3.png" alt="Icon">
+                        <img src="assets/images/icon/icon-11.png" alt="Icon" style="height: 60px;">
                     </div>
                     <!-- Strategy Icon End -->
 
