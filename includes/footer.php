@@ -20,7 +20,7 @@ $linkedIn = getvalfield($conn, "social_links", "linkedIn", "1");
                     <div class="footer-left-inner">
                         <div class="footer-logo d-flex align-items-center justify-content-left">
                             <div class="footer-left-logo">
-                                <a href="index-2.html">
+                                <a href="index.php">
                                     <img class="" src="assets/images/pixma-logo-2.png" alt="LogoImage" style="height:100px">
                                 </a>
                             </div>
