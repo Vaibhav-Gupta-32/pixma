@@ -1,14 +1,69 @@
 <?php
-$page_title = "Interactive Flat Panel | Digital Podium & Standee - Pix Plus";
+$page_title = "Interactive Flat Panel | Digital Podium & Standee - PixPlus";
 $pagename = "Home";
 $current_page = basename($_SERVER['PHP_SELF']);
-$meta_description = "At Pix Plus we provide wide range of smart board, flat interactive panel, digital panel, kiosk display and standee for your business at best price.";
+$meta_description = "At PixPlus we provide wide range of smart board, flat interactive panel, digital panel, kiosk display and standee for your business at best price.";
 $tblname = "slider";
 $tblkey = "id";
 ?>
 <?php include('includes/header.php'); ?>
 <?php include('includes/navbar.php'); ?>
+<style>
+    /* Custom styles for service cards */
+    .service-card {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
 
+    .service-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .service-card-image {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .service-card-image img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease;
+    }
+
+    .service-card:hover .service-card-image img {
+        transform: scale(1.1);
+    }
+
+    .service-card-icon {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        border-radius: 50%;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .service-card-content {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .service-card-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .service-card-description {
+        font-size: 14px;
+        color: #666;
+    }
+</style>F
 
 <!-- Slider Section start -->
 <div class="slider-one">
@@ -58,7 +113,7 @@ $tblkey = "id";
 
     <div class="custom-container">
         <div class="swiper sliderone animation-style-01">
-            <!-- <div class="swiper-wrapper">
+            <div class="swiper-wrapper">
                 <?php
                 $sql = "SELECT * FROM $tblname ORDER BY $tblkey";
                 $fetch = mysqli_query($conn, $sql);
@@ -69,13 +124,13 @@ $tblkey = "id";
                             <div class="slider-content-wrapper">
                                 <div class="sliderone-content">
                                     <div class="slider-content">
-                                        <span class="subtitle">Welcome to Pix Plus</span>
+                                        <span class="subtitle">Welcome to PIXPLUS</span>
                                         <h2 class="title"><?= $row['title']; ?></h2>
-                                        <a href="javascript:void(0)" class="btn-style-two">Read More</a>
-                                        <div class="call">
+                                        <!-- <a href="javascript:void(0)" class="btn-style-two">Read More</a> -->
+                                        <!-- <div class="call">
                                             <span>call us</span>
                                             <a href="tel:+916291509470">+91 6291509470</a>
-                                        </div>
+                                        </div> -->
                                     </div>
                                     <div class="slider-image">
                                         <div class="slider-image-one">
@@ -87,9 +142,9 @@ $tblkey = "id";
                         </div>
                     </div>
                 <?php } ?>
-            </div> -->
+            </div>
 
-            <div class="swiper-wrapper">
+            <!-- <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="sliderone-slingle">
                         <div class="slider-content-wrapper">
@@ -97,11 +152,11 @@ $tblkey = "id";
                                 <div class="slider-content">
                                     <span class="subtitle">Welcome to Pix Plus</span>
                                     <h1 class="title" style="letter-spacing: 1px;">Interactive Flat Panel</h1>
-                                    <!-- <a href="javascript:void(0)" class="btn-style-two">Read More</a> -->
-                                    <!-- <div class="call">
+                                    <a href="javascript:void(0)" class="btn-style-two">Read More</a>
+                                    <div class="call">
                                             <span>call us</span>
                                             <a href="tel:+916291509470">+91 6291509470</a>
-                                        </div> -->
+                                        </div>
                                 </div>
                                 <div class="slider-image">
                                     <div class="slider-image-one">
@@ -112,7 +167,7 @@ $tblkey = "id";
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="swiper-pagination sliderone-pagination"></div>
 
@@ -141,7 +196,7 @@ $tblkey = "id";
 </div>
 <!-- Slider Section End -->
 
-<!-- Strategy Section start -->
+<!-- Who We Are Section start -->
 <div class="section-padding strategy">
     <div class="container">
         <div class="row">
@@ -170,7 +225,7 @@ $tblkey = "id";
                     <!-- Strategy content Start -->
                     <div class="strategy-content">
                         <!-- <h5 class="title">Growth Strategy</h5> -->
-                        <p>A trusted partner in interactive technology, transforming spaces with advanced solutions.</p>
+                        <p>A trusted partner in <strong>Interactive Technology</strong>, transforming spaces with advanced solutions.</p>
                     </div>
                     <!-- Strategy content End -->
 
@@ -192,7 +247,7 @@ $tblkey = "id";
                     <!-- Strategy content Start -->
                     <div class="strategy-content">
                         <!-- <h5 class="title">Brand Marketing</h5> -->
-                        <p>Specialists in interactive flat panels, digital platforms, wall displays, and standees for classrooms, businesses, and events.</p>
+                        <p>Specialists in <strong>Interactive Flat Panels, Digital Platforms, Wall Displays,</strong> and <strong>Standees</strong> for classrooms, businesses, and events.</p>
                     </div>
                     <!-- Strategy content End -->
 
@@ -214,7 +269,7 @@ $tblkey = "id";
                     <!-- Strategy content Start -->
                     <div class="strategy-content">
                         <!-- <h5 class="title">Data Analytics</h5> -->
-                        <p>We offer high-quality products such as OPS and I-frame standees at competitive prices.
+                        <p>We offer high-quality products such as <strong>OPS</strong> and <strong>I-Frame Standees</strong> at competitive prices.
                         </p>
                     </div>
                     <!-- Strategy content End -->
@@ -307,9 +362,9 @@ $tblkey = "id";
         <img src="assets/images/shape/shape-5.png" alt="Shape">
     </div>
 
-    <h2 class="rotate-title rotate-left d-none d-xxl-block">PIX PLUS</h2>
+    <h2 class="rotate-title rotate-left d-none d-xxl-block">PIXPLUS</h2>
 </div>
-<!-- Strategy Section end -->
+<!-- Who We Are Section end -->
 
 
 <!-- About Section Start -->
@@ -447,7 +502,7 @@ $tblkey = "id";
                             <!-- <span class="heading-one-subtitle">Welcome to Pix Plus</span> -->
                             <h2 class="heading-one-title">Digital Podium and Standee</h2>
                             <p>We specialize in transforming spaces with advanced interactive technology. Our products include interactive flat screens, digital platforms, standees, and wall displays—perfect for classrooms, businesses, and events.</p>
-                            <p>Pix Plus is a reputable supplier throughout India, dedicated to providing premium products at competitive prices. Our innovative range includes OPS and I-frame standees, designed to meet various needs while offering cutting-edge functionality.</p>
+                            <p>PIXPLUS is a reputable supplier throughout India, dedicated to providing premium products at competitive prices. Our innovative range includes OPS and I-frame standees, designed to meet various needs while offering cutting-edge functionality.</p>
                             <a href="about.php" class="btn-style-one"><span>Learn more</span></a>
                         </div>
                         <!-- About Tab Content End -->
@@ -621,202 +676,149 @@ $tblkey = "id";
     <div class="container">
         <div class="row">
             <div class="col-lg-12 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
-
                 <div class="heading-one text-center">
-                    <!-- <span class="heading-one-subtitle">Our Services</span> -->
                     <h2 class="heading-one-title">Industries We Serve</h2>
-                    <!-- <p>Kimod tempoer incididunt onomes sundo ritoma amar Lorem ipsum dolor sit amet, consectetur adipisicing</p> -->
                 </div>
-                <!-- Heading End -->
             </div>
-        </div>
-        <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mb-n30">
-            <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
-                <!-- Single Service Start -->
-                <div class="service-single">
-                    <div class="service-single-image">
-                        <div class="service-single-image-thumb">
-                            <img class="rounded-2" src="assets/images/service/industries/7.jpg" alt="ServiceImage">
-                        </div>
-                        <div class="service-single-image-content">
-                            <div class="icon">
-                                <img src="assets/images/icon/service/education.png" alt="Icon">
+            <?php
+            $industries = [
+                [
+                    "image" => "assets/images/service/industries/7.jpg",
+                    "icon" => "assets/images/icon/service/education.png",
+                    "title" => "Educational Institutions",
+                    "description" => "Enhance interactive learning with digital flat panels and real-time collaboration tools."
+                ],
+                [
+                    "image" => "assets/images/service/industries/4.jpg",
+                    "icon" => "assets/images/icon/service/corporate-office.png",
+                    "title" => "Corporate Offices",
+                    "description" => "Streamline meetings with video conferencing, digital podiums, and professional display solutions."
+                ],
+                [
+                    "image" => "assets/images/service/industries/8.jpg",
+                    "icon" => "assets/images/icon/service/retail & showroom.png",
+                    "title" => "Retail & Showrooms",
+                    "description" => "Attract customers with dynamic digital signage and engaging promotional displays."
+                ],
+                [
+                    "image" => "assets/images/service/industries/9.jpg",
+                    "icon" => "assets/images/icon/service/event-venue.png",
+                    "title" => "Event Venues",
+                    "description" => "Elevate conferences and exhibitions with interactive standees and live presentation tools."
+                ],
+                [
+                    "image" => "assets/images/service/industries/3.jpg",
+                    "icon" => "assets/images/icon/service/health-care.png",
+                    "title" => "Hospitals & Healthcare Centers",
+                    "description" => "Improve patient communication with self-check-in kiosks and digital information boards."
+                ],
+                [
+                    "image" => "assets/images/service/industries/2.jpg",
+                    "icon" => "assets/images/icon/service/hotel.png",
+                    "title" => "Hotels & Hospitality",
+                    "description" => "Enhance guest experience with interactive kiosks, digital signages, and smart display solutions."
+                ]
+            ];
+
+            foreach ($industries as $industry) {
+            ?>
+                <div class="col-lg-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s" style="margin-bottom: 20px;">
+                    <a class="col-md-4 media-content-block" href="#">
+                        <div class="hidden-more">
+                            <div class="media-content-bg lazyloaded" style="background: url(<?= $industry['image']; ?>) 50% 50% / cover no-repeat; height: 300px;">
+                                <img src="" class="img-fluid lazyloaded" alt="spacebg">
                             </div>
-                            <h4 class="title">Educational <br> Institutions</h4>
                         </div>
-                    </div>
-                    <div class="service-single-white">
-                        <a href="javascript:void()" class="service-single-white-content">
-                            <div class="icon gradient-1">
-                                <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
-                            </div>
-                            <span class="title">Educational <br> Institutions</span>
-                            <p>Educational Institutions Enhance interactive learning with digital flat panels and real-time collaboration tools.</p>
-                        </a>
-                    </div>
+                        <div class="py-3">
+                            <h4 vs-edit="<?= $industry['title']; ?>"><?= $industry['title']; ?></h4>
+                            <p vs-edit="<?= $industry['description']; ?>"><?= $industry['description']; ?></p>
+                        </div>
+                        <div class="vs-read-more"> <span vs-edit="">Learn More &nbsp; <i class="fa fa-angle-right" aria-hidden="true"></i></span> </div>
+                    </a>
                 </div>
-                <!-- Single Service End -->
-            </div>
-            <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
-                <!-- Single Service Start -->
-                <div class="service-single">
-                    <div class="service-single-image">
-                        <div class="service-single-image-thumb">
-                            <img src="assets/images/service/industries/4.jpg" alt="ServiceImage">
-                        </div>
-                        <div class="service-single-image-content">
-                            <div class="icon">
-                                <img src="assets/images/icon/service/corporate-office.png" alt="Icon">
-                            </div>
-                            <h4 class="title">Corporate <br> Offices </h4>
-                        </div>
-                    </div>
-                    <div class="service-single-white">
-                        <a href="javascript:void()" class="service-single-white-content">
-                            <div class="icon gradient-1">
-                                <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
-                            </div>
-                            <span class="title">Corporate <br> Offices</span>
-                            <p> Streamline meetings with video conferencing, digital podiums, and professional display solutions. </p>
-                        </a>
-                    </div>
-                </div>
-                <!-- Single Service End -->
-            </div>
-            <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".6s">
-                <!-- Single Service Start -->
-                <div class="service-single">
-                    <div class="service-single-image">
-                        <div class="service-single-image-thumb">
-                            <img src="assets/images/service/industries/8.jpg" alt="ServiceImage">
-                        </div>
-                        <div class="service-single-image-content mt-4">
-                            <div class="icon">
-                                <img src="assets/images/icon/service/retail & showroom.png" alt="Icon">
-                            </div>
-                            <h4 class="title"> Retail <br> & <br> Showrooms</h4>
-                        </div>
-                    </div>
-                    <div class="service-single-white">
-                        <a href="javascript:void()" class="service-single-white-content">
-                            <div class="icon gradient-1">
-                                <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
-                            </div>
-                            <span class="title"> Retail <br> & <br> Showrooms</span>
-                            <p> Attract customers with dynamic digital signage and engaging promotional displays. </p>
-                        </a>
-                    </div>
-                </div>
-                <!-- Single Service End -->
-            </div>
-            <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
-                <!-- Single Service Start -->
-                <div class="service-single">
-                    <div class="service-single-image">
-                        <div class="service-single-image-thumb">
-                            <img src="assets/images/service/industries/9.jpg" alt="ServiceImage">
-                        </div>
-                        <div class="service-single-image-content">
-                            <div class="icon">
-                                <img src="assets/images/icon/service/event-venue.png" alt="Icon">
-                            </div>
-                            <h4 class="title">Event <br> Venues</h4>
-                        </div>
-                    </div>
-                    <div class="service-single-white">
-                        <a href="javascript:void()" class="service-single-white-content">
-                            <div class="icon gradient-1">
-                                <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
-                            </div>
-                            <span class="title">Event <br>Venues</span>
-                            <p> Elevate conferences and exhibitions with interactive standees and live presentation tools.
-                            </p>
-                        </a>
-                    </div>
-                </div>
-                <!-- Single Service End -->
-            </div>
-            <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
-                <!-- Single Service Start -->
-                <div class="service-single">
-                    <div class="service-single-image">
-                        <div class="service-single-image-thumb">
-                            <img src="assets/images/service/industries/3.jpg" alt="ServiceImage">
-                        </div>
-                        <div class="service-single-image-content mt-4">
-                            <div class="icon">
-                                <img src="assets/images/icon/service/health-care.png" alt="Icon" style="margin-top: 13px;">
-                            </div>
-                            <h4 class="title">Hospitals <br> Healthcare <br> Centers</h4>
-                        </div>
-                    </div>
-                    <div class="service-single-white">
-                        <a href="javascript:void()" class="service-single-white-content">
-                            <div class="icon gradient-1">
-                                <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
-                            </div>
-                            <span class="title">Hospitals <br> Healthcare <br> Centers</span>
-                            <p> Improve patient communication with self-check-in kiosks and digital information boards.
-                            </p>
-                        </a>
-                    </div>
-                </div>
-                <!-- Single Service End -->
-            </div>
-            <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".6s">
-                <!-- Single Service Start -->
-                <div class="service-single">
-                    <div class="service-single-image">
-                        <div class="service-single-image-thumb">
-                            <img src="assets/images/service/industries/2.jpg" alt="ServiceImage">
-                        </div>
-                        <div class="service-single-image-content">
-                            <div class="icon">
-                                <img src="assets/images/icon/service/hotel.png" alt="Icon">
-                            </div>
-                            <h4 class="title">Hotels <br> Hospitality </h4>
-                        </div>
-                    </div>
-                    <div class="service-single-white">
-                        <a href="javascript:void()" class="service-single-white-content">
-                            <div class="icon gradient-1">
-                                <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
-                            </div>
-                            <span class="title">Hotels <br> Hospitality </span>
-                            <p>Enhance guest experience with interactive kiosks, digital signages, and smart display solutions.
-                            </p>
-                        </a>
-                    </div>
-                </div>
-                <!-- Single Service End -->
-            </div>
+            <?php } ?>
         </div>
     </div>
+</div>
+<!-- <div class="service section-padding position-relative">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
+                <div class="heading-one text-center">
+                    <h2 class="heading-one-title">Industries We Serve</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 mb-n30">
+            <?php
+            $industries = [
+                [
+                    "image" => "assets/images/service/industries/7.jpg",
+                    "icon" => "assets/images/icon/service/education.png",
+                    "title" => "Educational Institutions",
+                    "description" => "Enhance interactive learning with digital flat panels and real-time collaboration tools."
+                ],
+                [
+                    "image" => "assets/images/service/industries/4.jpg",
+                    "icon" => "assets/images/icon/service/corporate-office.png",
+                    "title" => "Corporate Offices",
+                    "description" => "Streamline meetings with video conferencing, digital podiums, and professional display solutions."
+                ],
+                [
+                    "image" => "assets/images/service/industries/8.jpg",
+                    "icon" => "assets/images/icon/service/retail & showroom.png",
+                    "title" => "Retail & Showrooms",
+                    "description" => "Attract customers with dynamic digital signage and engaging promotional displays."
+                ],
+                [
+                    "image" => "assets/images/service/industries/9.jpg",
+                    "icon" => "assets/images/icon/service/event-venue.png",
+                    "title" => "Event Venues",
+                    "description" => "Elevate conferences and exhibitions with interactive standees and live presentation tools."
+                ],
+                [
+                    "image" => "assets/images/service/industries/3.jpg",
+                    "icon" => "assets/images/icon/service/health-care.png",
+                    "title" => "Hospitals & Healthcare Centers",
+                    "description" => "Improve patient communication with self-check-in kiosks and digital information boards."
+                ],
+                [
+                    "image" => "assets/images/service/industries/2.jpg",
+                    "icon" => "assets/images/icon/service/hotel.png",
+                    "title" => "Hotels & Hospitality",
+                    "description" => "Enhance guest experience with interactive kiosks, digital signages, and smart display solutions."
+                ]
+            ];
 
-    <h2 class="rotate-title rotate-right d-none d-xxl-block">INDUSTRIES</h2>
-
+            foreach ($industries as $industry) {
+            ?>
+                <div class="col col-lg-6 col-md-6 mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
+                    <div class="service-card">
+                        <div class="service-card-image">
+                            <img src="<?= $industry['image']; ?>" alt="<?= $industry['title']; ?>">
+                            <div class="service-card-icon">
+                                <img src="<?= $industry['icon']; ?>" alt="Icon">
+                            </div>
+                        </div>
+                        <div class="service-card-content">
+                            <h4 class="service-card-title"><?= $industry['title']; ?></h4>
+                            <p class="service-card-description"><?= $industry['description']; ?></p>
+                        </div>
+                    </div>
+                </div>
+            <?php } ?>
+        </div>
+    </div>
     <div class="shape shape-1">
         <img src="assets/images/shape/dot-2.png" alt="Shape">
     </div>
     <div class="shape shape-2">
         <img src="assets/images/shape/shape-7.png" alt="Shape">
     </div>
-    <div class="shape shape-3">
-        <img src="assets/images/shape/shape-2.png" alt="Shape">
-    </div>
-    <div class="shape shape-4">
-        <img src="assets/images/shape/shape-9.png" alt="Shape">
-    </div>
-    <div class="shape shape-5">
-        <img src="assets/images/shape/dot-1.png" alt="Shape">
-    </div>
-    <div class="shape shape-6">
-        <img src="assets/images/shape/shape-10.png" alt="Shape">
-    </div>
-</div>
+</div> -->
 <!-- Service Section End -->
 
-<!-- Work Two Section Start -->
+<!-- Product Section Start -->
 <div class="work-two">
     <div class="shape">
         <div class="shape1 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
@@ -974,7 +976,7 @@ $tblkey = "id";
         </div>
     </div>
 </div>
-<!-- Work Two Section End -->
+<!-- Product Section End -->
 
 
 
@@ -1165,7 +1167,7 @@ $tblkey = "id";
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="testimonialone-single">
-                                        <p class="testimonialone-text">Pix Plus has transformed our office environment. Their interactive technology has made meetings and presentations more efficient. The installation was seamless, and their support team is always ready to help.</p>
+                                        <p class="testimonialone-text">PIXPLUS has transformed our office environment. Their interactive technology has made meetings and presentations more efficient. The installation was seamless, and their support team is always ready to help.</p>
                                         <div class="testimonialone-content">
                                             <div class="testimonialone-thumb">
                                                 <img src="assets/images/testimonial/Richa_pamnani.jpeg" alt="Testimonial-Image" style="height:90px; width:90px; border-radius: 50px 50px">
@@ -1215,6 +1217,20 @@ $tblkey = "id";
                                             <div class="testimonialone-info">
                                                 <span class="name">Nilesh Parekh</span>
                                                 <span class="designation">Avish Educom, Raipur</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonialone-single">
+                                        <p class="testimonialone-text">Pixplus is transforming fitness branding with Wall Mount Display Signage, A Frame Standees, and Digital Solutions. Their creative approach boosts visibility and leaves a lasting impact.</p>
+                                        <div class="testimonialone-content">
+                                            <div class="testimonialone-thumb">
+                                                <img src="assets/images/testimonial/laliteshchoudhary.jpg" alt="Testimonial-Image" style="height:90px; width:90px; border-radius: 50px 50px">
+                                            </div>
+                                            <div class="testimonialone-info">
+                                                <span class="name">Lalitesh Choudhary</span>
+                                                <span class="designation">Saicus Fitness</span>
                                             </div>
                                         </div>
                                     </div>
@@ -1427,27 +1443,23 @@ $tblkey = "id";
 <div class="logos">
     <div class="logo_items">
         <img src="assets\images\brand\b1.png">
-        <img src="assets\images\brand\b2.png">
-        <!-- <img src="assets\images\brand\b3.png"> -->
         <img src="assets\images\brand\b4.png">
+        <img src="assets\images\brand\sticker1.png">
     </div>
     <div class="logo_items">
-        <img src="assets\images\brand\b1.png">
-        <img src="assets\images\brand\b2.png">
-        <!-- <img src="assets\images\brand\b3.png"> -->
-        <img src="assets\images\brand\b4.png">
+        <img src="assets\images\brand\sticker2.png">
+        <img src="assets\images\brand\sticker3.png">
+        <img src="assets\images\brand\sticker4.png">
     </div>
     <div class="logo_items">
-        <img src="assets\images\brand\b1.png">
-        <img src="assets\images\brand\b2.png">
-        <!-- <img src="assets\images\brand\b3.png"> -->
-        <img src="assets\images\brand\b4.png">
+        <img src="assets\images\brand\sticker5.png">
+        <img src="assets\images\brand\sticker6.png">
+        <img src="assets\images\brand\sticker7.png">
     </div>
     <div class="logo_items">
-        <img src="assets\images\brand\b1.png">
-        <img src="assets\images\brand\b2.png">
-        <!-- <img src="assets\images\brand\b3.png"> -->
-        <img src="assets\images\brand\b4.png">
+        <img src="assets\images\brand\sticker8.png">
+        <img src="assets\images\brand\sticker9.png">
+        <img src="assets\images\brand\sticker10.png">
     </div>
 </div>
 <!-- Brand Section 2 End -->

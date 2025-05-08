@@ -1,29 +1,12 @@
 <?php
-$page_title = "Interactive Video | Digital & Broucher Wall Display - Pix Plus";
-$pagename = "Interactive Wall Display Pix Plus";
+$page_title = "Interactive Video | Digital & Broucher Wall Display - PixPlus";
+$pagename = "Interactive Wall Display PixPlus";
 $current_page = basename($_SERVER['PHP_SELF']);
 $meta_description = "We have whole range of video, digital, broucher and flat screen wall display at best cost to revolutionizing your ideas for any business types.";
 ?>
 <?php include('includes/header.php'); ?>
 <?php include('includes/navbar.php'); ?>
 <?php include('includes/breadcrumb.php'); ?>
-
-<style>
-  #documents .card-title {
-    font-size: 1.2rem;
-    font-weight: 600;
-  }
-
-  #documents .card-text {
-    font-size: 0.95rem;
-  }
-
-  #documents .btn {
-    font-size: 0.9rem;
-    padding: 6px 16px;
-    border-radius: 20px;
-  }
-</style>
 
 <!-- About Section Start -->
 <div class="section-padding about-two">
@@ -53,7 +36,7 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
 
                     <div class="about-two-text">
                         <p>We are transforming how people interact with technology, creating spaces that inspire creativity, collaboration, and growth. Technology should not just meet our needs but elevate the way we learn, work, and connect. Technology should do more than just adapt. It should elevate learning, working, and connecting. We bring smart, interactive solutions to classrooms, boardrooms, and event spaces. Our goal is to make innovation accessible, engaging, and impactful.</p>
-                        <p>We create possibilities more than products. At Pix Plus, we build trust, quality, and success. Let's shape the future, one space at a time. Every product, service, and customer experience we deliver brings us one step closer to a future where technology empowers people to achieve more.</p>
+                        <p>We create possibilities more than products. At PixPlus, we build trust, quality, and success. Let's shape the future, one space at a time. Every product, service, and customer experience we deliver brings us one step closer to a future where technology empowers people to achieve more.</p>
                         <!-- <a href="javascript:void(0)" class="btn-style-one"><span>Learn More</span></a> -->
                     </div>
                     <h5 class="heading-one-title" style="margin: 50px 0 3px; font-size: 40px; font-weight:200;">PARTHA GHOSH MOULICK</h5>
@@ -72,13 +55,13 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
         <div class="row">
             <div class="col-lg-6 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".3s">
                 <div class="heading-one">
-                    <span class="heading-one-subtitle" style="font-size: 40px;">Welcome to Pix Plus</span>
+                    <span class="heading-one-subtitle" style="font-size: 40px;">Welcome to PixPlus</span>
                     <!-- <h2 class="heading-one-title">Interactive Innovation</h2> -->
                     <div class="about-two-text mt-5">
                         <p>We specialize in transforming spaces with advanced interactive technology. Our products include interactive flat screens, digital platforms, standees, and wall displays—perfect for classrooms, businesses, and events.</p>
                         <p>Our interactive flat panels revolutionize learning by promoting active participation and enhancing educational outcomes. For businesses, we provide digital podiums, IFP stands, and other solutions to elevate presentations and create professional, engaging environments.
                         </p>
-                        <p>Pix Plus is a reputable supplier throughout India, dedicated to providing premium products at competitive prices. Our innovative range includes OPS and I-frame standees, designed to meet various needs while offering cutting-edge functionality.</p>
+                        <p>PixPlus is a reputable supplier throughout India, dedicated to providing premium products at competitive prices. Our innovative range includes OPS and I-frame standees, designed to meet various needs while offering cutting-edge functionality.</p>
                         <p>Customer satisfaction is our top priority. From seamless installation to dependable after-sales support, our team ensures that your products perform optimally. We take pride in building long-term relationships through exceptional service and tailored solutions.</p>
                         <!-- <a href="javascript:void(0)" class="btn-style-one"><span>Learn More</span></a> -->
                     </div>
@@ -112,7 +95,7 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
                 <div class="heading-one">
                     <span class="heading-one-subtitle" style="font-size: 40px;">Why Choose Us</span>
                     <div class="about-two-text mt-5">
-                        <p>Thank you for choosing Pix Plus, Interactive Innovation. Let’s collaborate to create dynamic, innovative environments that inspire learning and elevate professional spaces.</p>
+                        <p>Thank you for choosing PixPlus, Interactive Innovation. Let’s collaborate to create dynamic, innovative environments that inspire learning and elevate professional spaces.</p>
                         <div class="container py-2">
                             <!-- <h2 class="text-center mb-5">Why Choose Us</h2> -->
                             <div class="row g-4">
@@ -185,89 +168,6 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
 </div>
 <!-- About Section End -->
 
-<!-- Document Section Start -->
-<section class="py-5 bg-light" id="documents">
-    <div class="container">
-        <!-- <h2 class="mb-4 text-center fw-bold">📄 Documents & Certificate </h2> -->
-        <!-- <img src="assets/images/about/doc-icon.png" alt="Document Icon" style="width: 40px; height: 40px;"> -->
-        <h2 class="mb-4 text-start fw-bold" style="color: #4fcbf1; font-size: 40px; letter-spacing: 4px;font-weight: 700;">DOCUMENTS & CERTIFICATE</h2>
-        <div class="row g-4">
-
-
-            <!-- Document Card -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card shadow-sm h-100 js-tilt">
-                    <div class="card-body">
-                        <h5 class="card-title">Certificate of Compliance</h5>
-                        <p class="card-text text-muted">WHITE FEATHER INNOVATIONS FCC</p>
-                        <a href="assets\upload\WHITE FEATHER INNOVATIONS FCC.pdf" download class="btn btn-primary">
-                            <i class="bi bi-download"></i> Download
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Another Document -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card shadow-sm h-100 js-tilt">
-                    <div class="card-body">
-                        <h5 class="card-title">Certificate of Compliance</h5>
-                        <p class="card-text text-muted">WHITE FEATHER INNOVATIONS CE</p>
-                        <a href="assets\upload\WHITE FEATHER INNOVATIONS CE.pdf" download class="btn btn-primary">
-                            <i class="bi bi-download"></i> Download
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Another Document -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card shadow-sm h-100 js-tilt">
-                    <div class="card-body">
-                        <h5 class="card-title">Certificate of Compliance</h5>
-                        <p class="card-text text-muted">UL WHITE FEATHER INNOVATIONS PRIVATE LIMITED</p>
-                        <a href="assets\upload\UL WHITE FEATHER INNOVATIONS PRIVATE LIMITED.pdf" download class="btn btn-primary">
-                            <i class="bi bi-download"></i> Download
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Another Document -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card shadow-sm h-100 js-tilt">
-                    <div class="card-body">
-                        <h5 class="card-title">Certificate of Compliance</h5>
-                        <p class="card-text text-muted">WHITE FEATHER INNOVATIONS PRIVATE LIMITED DRAFT 45001</p>
-                        <a href="assets\upload\WHITE FEATHER INNOVATIONS PRIVATE LIMITED DRAFT 45001.pdf" download class="btn btn-primary">
-                            <i class="bi bi-download"></i> Download
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Another Document -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card shadow-sm h-100 js-tilt">
-                    <div class="card-body">
-                        <h5 class="card-title">Certificate of Compliance</h5>
-                        <p class="card-text text-muted">WHITE FEATHER INNOVATIONS ROHS</p>
-                        <a href="assets\upload\WHITE FEATHER INNOVATIONS ROHS.pdf" download class="btn btn-primary">
-                            <i class="bi bi-download"></i> Download
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Add more document cards below as needed -->
-
-        </div>
-    </div>
-</section>
-
-<!-- Document Section End -->
-
-
 <!-- Funfact Section Start -->
 <div class="section-padding funfact" data-bg-image="assets/images/funfact/funfact-bg.png" style="padding: 64px 0;">
     <div class="container">
@@ -275,10 +175,10 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
             <div class="col-lg-6 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
                 <!-- Heading Start -->
                 <div class="heading-one">
-                    <!-- <span class="heading-one-subtitle">We are Pix Plus</span> -->
+                    <!-- <span class="heading-one-subtitle">We are PixPlus</span> -->
                     <h2 class="heading-one-title">We Are Leading The Industry</h2>
                     <p>We deliver high-quality interactive displays and digital solutions, enhancing learning and business presentations with innovation and reliability.</p>
-                    <p>At Pix Plus, we believe that every presentation should be a memorable experience, which is why we blend cutting-edge technology with user-friendly designs. Our team of experts is committed to understanding your unique needs, delivering solutions that not only meet your expectations but elevate your entire presentation experience.</p>
+                    <p>At PixPlus, we believe that every presentation should be a memorable experience, which is why we blend cutting-edge technology with user-friendly designs. Our team of experts is committed to understanding your unique needs, delivering solutions that not only meet your expectations but elevate your entire presentation experience.</p>
                     <p>With a passion for innovation and a relentless focus on quality, White Feather Innovations Pvt. Ltd. is here to help you present your ideas with clarity, creativity, and confidence. Whether you're in the boardroom, at an event, or presenting to clients, we provide the tools that make your message stand out.</p>
                 </div>
                 <!-- Heading End -->
@@ -522,7 +422,7 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
                                 <div class="quote gradient-1">
                                     <img src="assets/images/testimonial/quote.png" alt="QuoteIcon">
                                 </div>
-                                <p class="text">"Pix Plus has transformed our office environment. Their interactive technology has made meetings and presentations more efficient. The installation was seamless, and their support team is always ready to help."</p>
+                                <p class="text">"PixPlus has transformed our office environment. Their interactive technology has made meetings and presentations more efficient. The installation was seamless, and their support team is always ready to help."</p>
                                 <div class="user">
                                     <div class="user-image">
                                         <img src="assets/images/testimonial/Richa_pamnani-2.jpg" alt="UserImage">
