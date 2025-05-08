@@ -1,0 +1,106 @@
+[33mcommit c77d319aaa45d097bdb775a551cc24b5f89be0c0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: vaibhav-gupta-32 <vaibhavgupta0320@gmail.com>
+Date:   Thu May 8 11:32:03 2025 +0530
+
+    5/8/25
+
+[1mdiff --git a/about.php b/about.php[m
+[1mindex 66b55e0..70dad49 100644[m
+[1m--- a/about.php[m
+[1m+++ b/about.php[m
+[36m@@ -1,6 +1,6 @@[m
+ <?php[m
+[31m-$page_title = "Interactive Video | Digital & Broucher Wall Display - Pix Plus";[m
+[31m-$pagename = "Interactive Wall Display Pix Plus";[m
+[32m+[m[32m$page_title = "Interactive Video | Digital & Broucher Wall Display - PixPlus";[m
+[32m+[m[32m$pagename = "Interactive Wall Display PixPlus";[m
+ $current_page = basename($_SERVER['PHP_SELF']);[m
+ $meta_description = "We have whole range of video, digital, broucher and flat screen wall display at best cost to revolutionizing your ideas for any business types.";[m
+ ?>[m
+[36m@@ -8,23 +8,6 @@[m [m$meta_description = "We have whole range of video, digital, broucher and flat sc[m
+ <?php include('includes/navbar.php'); ?>[m
+ <?php include('includes/breadcrumb.php'); ?>[m
+ [m
+[31m-<style>[m
+[31m-  #documents .card-title {[m
+[31m-    font-size: 1.2rem;[m
+[31m-    font-weight: 600;[m
+[31m-  }[m
+[31m-[m
+[31m-  #documents .card-text {[m
+[31m-    font-size: 0.95rem;[m
+[31m-  }[m
+[31m-[m
+[31m-  #documents .btn {[m
+[31m-    font-size: 0.9rem;[m
+[31m-    padding: 6px 16px;[m
+[31m-    border-radius: 20px;[m
+[31m-  }[m
+[31m-</style>[m
+[31m-[m
+ <!-- About Section Start -->[m
+ <div class="section-padding about-two">[m
+     <div class="container">[m
+[36m@@ -53,7 +36,7 @@[m [m$meta_description = "We have whole range of video, digital, broucher and flat sc[m
+ [m
+                     <div class="about-two-text">[m
+                         <p>We are transforming how people interact with technology, creating spaces that inspire creativity, collaboration, and growth. Technology should not just meet our needs but elevate the way we learn, work, and connect. Technology should do more than just adapt. It should elevate learning, working, and connecting. We bring smart, interactive solutions to classrooms, boardrooms, and event spaces. Our goal is to make innovation accessible, engaging, and impactful.</p>[m
+[31m-                        <p>We create possibilities more than products. At Pix Plus, we build trust, quality, and success. Let's shape the future, one space at a time. Every product, service, and customer experience we deliver brings us one step closer to a future where technology empowers people to achieve more.</p>[m
+[32m+[m[32m                        <p>We create possibilities more than products. At PixPlus, we build trust, quality, and success. Let's shape the future, one space at a time. Every product, service, and customer experience we deliver brings us one step closer to a future where technology empowers people to achieve more.</p>[m
+                         <!-- <a href="javascript:void(0)" class="btn-style-one"><span>Learn More</span></a> -->[m
+                     </div>[m
+                     <h5 class="heading-one-title" style="margin: 50px 0 3px; font-size: 40px; font-weight:200;">PARTHA GHOSH MOULICK</h5>[m
+[36m@@ -72,13 +55,13 @@[m [m$meta_description = "We have whole range of video, digital, broucher and flat sc[m
+         <div class="row">[m
+             <div class="col-lg-6 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".3s">[m
+                 <div class="heading-one">[m
+[31m-                    <span class="heading-one-subtitle" style="font-size: 40px;">Welcome to Pix Plus</span>[m
+[32m+[m[32m                    <span class="heading-one-subtitle" style="font-size: 40px;">Welcome to PixPlus</span>[m
+                     <!-- <h2 class="heading-one-title">Interactive Innovation</h2> -->[m
+                     <div class="about-two-text mt-5">[m
+                         <p>We specialize in transforming spaces with advanced interactive technology. Our products include interactive flat screens, digital platforms, standees, and wall displays—perfect for classrooms, businesses, and events.</p>[m
+                         <p>Our interactive flat panels revolutionize learning by promoting active participation and enhancing educational outcomes. For businesses, we provide digital podiums, IFP stands, and other solutions to elevate presentations and create professional, engaging environments.[m
+                         </p>[m
+[31m-                        <p>Pix Plus is a reputable supplier throughout India, dedicated to providing premium products at competitive prices. Our innovative range includes OPS and I-frame standees, designed to meet various needs while offering cutting-edge functionality.</p>[m
+[32m+[m[32m                        <p>PixPlus is a reputable supplier throughout India, dedicated to providing premium products at competitive prices. Our innovative range includes OPS and I-frame standees, designed to meet various needs while offering cutting-edge functionality.</p>[m
+                         <p>Customer satisfaction is our top priority. From seamless installation to dependable after-sales support, our team ensures that your products perform optimally. We take pride in building long-term relationships through exceptional service and tailored solutions.</p>[m
+                         <!-- <a href="javascript:void(0)" class="btn-style-one"><span>Learn More</span></a> -->[m
+                     </div>[m
+[36m@@ -112,7 +95,7 @@[m [m$meta_description = "We have whole range of video, digital, broucher and flat sc[m
+                 <div class="heading-one">[m
+                     <span class="heading-one-subtitle" style="font-size: 40px;">Why Choose Us</span>[m
+                     <div class="about-two-text mt-5">[m
+[31m-                        <p>Thank you for choosing Pix Plus, Interactive Innovation. Let’s collaborate to create dynamic, innovative environments that inspire learning and elevate professional spaces.</p>[m
+[32m+[m[32m                        <p>Thank you for choosing PixPlus, Interactive Innovation. Let’s collaborate to create dynamic, innovative environments that inspire learning and elevate professional spaces.</p>[m
+                         <div class="container py-2">[m
+                             <!-- <h2 class="text-center mb-5">Why Choose Us</h2> -->[m
+                             <div class="row g-4">[m
+[36m@@ -185,89 +168,6 @@[m [m$meta_description = "We have whole range of video, digital, broucher and flat sc[m
+ </div>[m
+ <!-- About Section End -->[m
+ [m
+[31m-<!-- Document Section Start -->[m
+[31m-<section class="py-5 bg-light" id="documents">[m
+[31m-    <div class="container">[m
+[31m-        <!-- <h2 class="mb-4 text-center fw-bold">📄 Documents & Certificate </h2> -->[m
+[31m-        <!-- <img src="assets/images/about/doc-icon.png" alt="Document Icon" style="width: 40px; height: 40px;"> -->[m
+[31m-        <h2 class="mb-4 text-start fw-bold" style="color: #4fcbf1; font-size: 40px; letter-spacing: 4px;font-weight: 700;">DOCUMENTS & CERTIFICATE</h2>[m
+[31m-        <div class="row g-4">[m
+[31m-[m
+[31m-[m
+[31m-            <!-- Document Card -->[m
+[31m-            <div class="col-md-6 col-lg-4">[m
+[31m-                <div class="card shadow-sm h-100 js-tilt">[m
+[31m-                    <div class="card-body">[m
+[31m-                        <h5 class="card-title">Certificate of Compliance</h5>[m
+[31m-                        <p class="card-text text-muted">WHITE FEATHER INNOVATIONS FCC</p>[m
+[31m-                        <a href="assets\upload\WHITE FEATHER INNOVATIONS FCC.pdf" download class="btn btn-primary">[m
+[31m-                            <i class="bi bi-download"></i> Download[m
+[31m-                        </a>[m
+[31m-                    </div>[m
+[31m-                </div>[m
+[31m-            </div>[m
+[31m-[m
+[31m-            <!-- Another Document -->[m
+[31m-            <div class="col-md-6 col-lg-4">[m
+[31m-                <div class="card shad

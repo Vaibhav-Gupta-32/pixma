@@ -4,13 +4,13 @@ if ($_SERVER['SERVER_NAME'] == 'localhost') {
   // Local database configuration
   define('DB_HOST', 'localhost');
   define('DB_USER', 'root');
-  define('DB_PASS', '');  // systemd
+  define('DB_PASS', 'systemd');  // systemd
   define('DB_NAME', 'new_pixma_db');
 } else {
   // Server database configuration
   define('DB_HOST', 'localhost');
   define('DB_USER', 'root');
-  define('DB_PASS', '');  // systemd
+  define('DB_PASS', 'systemd');  // systemd
   define('DB_NAME', 'new_pixma_db');
   // define('DB_HOST', 'localhost');
   // define('DB_USER', 'u490924001_pixmainnorvati');

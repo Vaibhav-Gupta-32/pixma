@@ -5,6 +5,9 @@ $current_page = basename($_SERVER['PHP_SELF']);
 $meta_description = "At PixPlus we provide wide range of smart board, flat interactive panel, digital panel, kiosk display and standee for your business at best price.";
 $tblname = "slider";
 $tblkey = "id";
+$meta_description = "At Pixma we provide wide range of smart board, flat interactive panel, digital panel, kiosk display and standee for your business at best price.";
+$tblname = "slider";
+$tblkey = "id";
 ?>
 <?php include('includes/header.php'); ?>
 <?php include('includes/navbar.php'); ?>
@@ -168,6 +171,36 @@ $tblkey = "id";
                     </div>
                 </div>
             </div> -->
+                <?php
+                $sql = "SELECT * FROM $tblname ORDER BY $tblkey";
+                $fetch = mysqli_query($conn, $sql);
+                while ($row = mysqli_fetch_array($fetch)) {
+                ?>
+                    <div class="swiper-slide">
+                        <div class="sliderone-slingle">
+                            <div class="slider-content-wrapper">
+                                <div class="sliderone-content">
+                                    <div class="slider-content">
+                                        <span class="subtitle">Welcome to Pix Plus</span>
+                                        <h2 class="title"><?= $row['title']; ?></h2>
+                                        <a href="javascript:void(0)" class="btn-style-two">Read More</a>
+                                        <!--<div class="call">-->
+                                        <!--    <span>call us</span>-->
+                                        <!--    <a href="tel:+916291509470">+91 6291509470</a>-->
+                                        <!--</div>-->
+                                    </div>
+                                    <div class="slider-image">
+                                        <div class="slider-image-one">
+                                            <img src="admin/dash/<?= $row['location']; ?>" alt="Slider Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <?php } ?>
+
+            </div>
 
             <div class="swiper-pagination sliderone-pagination"></div>
 
@@ -504,6 +537,11 @@ $tblkey = "id";
                             <p>We specialize in transforming spaces with advanced interactive technology. Our products include interactive flat screens, digital platforms, standees, and wall displays—perfect for classrooms, businesses, and events.</p>
                             <p>PIXPLUS is a reputable supplier throughout India, dedicated to providing premium products at competitive prices. Our innovative range includes OPS and I-frame standees, designed to meet various needs while offering cutting-edge functionality.</p>
                             <a href="about.php" class="btn-style-one"><span>Learn more</span></a>
+                            <span class="heading-one-subtitle">Welcome to Pix Plus</span>
+                            <h2 class="heading-one-title">Interactive Innovation</h2>
+                            <p>We specialize in transforming spaces with advanced interactive technology. Our products include interactive flat screens, digital platforms, standees, and wall displays—perfect for classrooms, businesses, and events.</p>
+                            <p>Pix Plus is a reputable supplier throughout India, dedicated to providing premium products at competitive prices. Our innovative range includes OPS and I-frame standees, designed to meet various needs while offering cutting-edge functionality.</p>
+                            <a href="about.php" class="btn-style-one"><span>Learn more</span></a>
                         </div>
                         <!-- About Tab Content End -->
                     </div>
@@ -676,8 +714,12 @@ $tblkey = "id";
     <div class="container">
         <div class="row">
             <div class="col-lg-12 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
+
                 <div class="heading-one text-center">
                     <h2 class="heading-one-title">Industries We Serve</h2>
+                    <!-- <span class="heading-one-subtitle">Our Services</span> -->
+                    <h2 class="heading-one-title">Industries We are useful</h2>
+                    <!-- <p>Kimod tempoer incididunt onomes sundo ritoma amar Lorem ipsum dolor sit amet, consectetur adipisicing</p> -->
                 </div>
             </div>
             <?php
@@ -746,6 +788,22 @@ $tblkey = "id";
             <div class="col-lg-12 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
                 <div class="heading-one text-center">
                     <h2 class="heading-one-title">Industries We Serve</h2>
+                        <div class="service-single-image-content">
+                            <div class="icon">
+                                <img src="assets/images/icon/service/icon-2.png" alt="Icon">
+                            </div>
+                            <h4 class="title">Educational <br>Institutions</h4>
+                        </div>
+                    </div>
+                    <div class="service-single-white">
+                        <a href="javascript:void()" class="service-single-white-content">
+                            <div class="icon gradient-1">
+                                <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
+                            </div>
+                            <span class="title">Educational <br>Institutions</span>
+                            <p>Educational Institutions– Enhance interactive learning with digital flat panels and real-time collaboration tools.</p>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -877,6 +935,63 @@ $tblkey = "id";
                                         <a class="item" href="assets/images/product/index/ifp.jpg"><i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
+                    </div>
+                    <div class="service-single-white">
+                        <a href="javascript:void()" class="service-single-white-content">
+                            <div class="icon gradient-1">
+                                <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
+                            </div>
+                            <span class="title">Corporate <br> Offices</span>
+                            <p> Streamline meetings with video conferencing, digital podiums, and professional display solutions. </p>
+                        </a>
+                    </div>
+                </div>
+                <!-- Single Service End -->
+            </div>
+            <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".6s">
+                <!-- Single Service Start -->
+                <div class="service-single">
+                    <div class="service-single-image">
+                        <div class="service-single-image-thumb">
+                            <img src="assets/images/service/service2.png" alt="ServiceImage">
+                        </div>
+                        <div class="service-single-image-content">
+                            <div class="icon">
+                                <img src="assets/images/icon/service/icon-3.png" alt="Icon">
+                            </div>
+                            <h4 class="title"> Retail & <br> Showrooms–</h4>
+                        </div>
+                    </div>
+                    <div class="service-single-white">
+                        <a href="javascript:void()" class="service-single-white-content">
+                            <div class="icon gradient-1">
+                                <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
+                            </div>
+                            <span class="title"> Retail & <br> Showrooms–</span>
+                            <p> Attract customers with dynamic digital signage and engaging promotional displays. </p>
+                        </a>
+                    </div>
+                </div>
+                <!-- Single Service End -->
+            </div>
+            <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
+                <!-- Single Service Start -->
+                <div class="service-single">
+                    <div class="service-single-image">
+                        <div class="service-single-image-thumb">
+                            <img src="assets/images/service/service3.png" alt="ServiceImage">
+                        </div>
+                        <div class="service-single-image-content">
+                            <div class="icon">
+                                <img src="assets/images/icon/service/icon-4.png" alt="Icon">
+                            </div>
+                            <h4 class="title">Event <br> Venues</h4>
+                        </div>
+                    </div>
+                    <div class="service-single-white">
+                        <a href="javascript:void()" class="service-single-white-content">
+                            <div class="icon gradient-1">
+                                <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
                             </div>
                             <div class="swiper-slide">
                                 <div class="single-work-carousel">
@@ -909,6 +1024,32 @@ $tblkey = "id";
                                         <a class="item" href="assets/images/product/index/I-frame-standee.jpg"><i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
+                            <span class="title">Event <br>Venues</span>
+                            <p> Elevate conferences and exhibitions with interactive standees and live presentation tools.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <!-- Single Service End -->
+            </div>
+            <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
+                <!-- Single Service Start -->
+                <div class="service-single">
+                    <div class="service-single-image">
+                        <div class="service-single-image-thumb">
+                            <img src="assets/images/service/service4.png" alt="ServiceImage">
+                        </div>
+                        <div class="service-single-image-content">
+                            <div class="icon">
+                                <img src="assets/images/icon/service/icon-5.png" alt="Icon">
+                            </div>
+                            <h4 class="title">Hospitals <br>Healthcare Centers –</h4>
+                        </div>
+                    </div>
+                    <div class="service-single-white">
+                        <a href="javascript:void()" class="service-single-white-content">
+                            <div class="icon gradient-1">
+                                <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
                             </div>
                             <div class="swiper-slide">
                                 <div class="single-work-carousel">
@@ -941,6 +1082,32 @@ $tblkey = "id";
                                         <a class="item" href="assets/images/product/index/digitalpodium.webp"><i class="fas fa-external-link-alt"></i></a>
                                     </div>
                                 </div>
+                            <span class="title">Hospitals <br> Healthcare Centers –</span>
+                            <p> Improve patient communication with self-check-in kiosks and digital information boards.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <!-- Single Service End -->
+            </div>
+            <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".6s">
+                <!-- Single Service Start -->
+                <div class="service-single">
+                    <div class="service-single-image">
+                        <div class="service-single-image-thumb">
+                            <img src="assets/images/service/service5.png" alt="ServiceImage">
+                        </div>
+                        <div class="service-single-image-content">
+                            <div class="icon">
+                                <img src="assets/images/icon/service/icon-6.png" alt="Icon">
+                            </div>
+                            <h4 class="title">Hotels <br> Hospitality </h4>
+                        </div>
+                    </div>
+                    <div class="service-single-white">
+                        <a href="javascript:void()" class="service-single-white-content">
+                            <div class="icon gradient-1">
+                                <img src="assets/images/icon/service/icon-1-white.png" alt="Icon">
                             </div>
                             <div class="swiper-slide">
                                 <div class="single-work-carousel">
@@ -983,15 +1150,21 @@ $tblkey = "id";
 <!-- Work Section Start -->
 <!-- <div class="work">
     <div class="container-fluid position-relative">
+<div class="work">
+    <div class="container-fluid position-relative">
         <div class="row">
             <div class="col-lg-8 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
                 <div class="work-bg">
                     <div class="heading-one">
                         <span class="heading-one-subtitle">Let's Work Together</span>
+                        <span class="heading-one-subtitle">Let's Work Together</span>
                         <h2 class="heading-one-title">Want to Discuss About A New Project?</h2>
+                        <p>At Pix Plus, we specialize in transforming spaces with advanced interactive technology. Whether it's for educational institutions, corporate offices, retail showrooms, or event venues, our innovative solutions are designed to meet your unique needs.</p>
                         <p>At Pix Plus, we specialize in transforming spaces with advanced interactive technology. Whether it's for educational institutions, corporate offices, retail showrooms, or event venues, our innovative solutions are designed to meet your unique needs.</p>
                     </div>
                     <div class="work-btn">
+                        <a href="contact_us.php" class="btn-style-two">Let's Start Talking</a>
+                        <a href="projects.html" class="view-btn">View Works</a>
                         <a href="contact_us.php" class="btn-style-two">Let's Start Talking</a>
                         <a href="projects.html" class="view-btn">View Works</a>
                     </div>
@@ -1004,15 +1177,18 @@ $tblkey = "id";
             </div>
         </div>
     </div>
+    </div>
     <div class="work-step">
         <div class="container">
             <div class="row">
+                <div class="col-lg-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
                 <div class="col-lg-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
                     <div class="heading-one">
                         <span class="heading-one-subtitle">How It Works</span>
                         <h2 class="heading-one-title">Effortless Steps to Transform Your Space</h2>
                         <p>At Pix Plus, we simplify the process of integrating advanced interactive technology into your environment. From consultation to installation, we ensure a seamless experience tailored to your needs.</p>
                     </div>
+                </div>
                 </div>
             </div>
             <div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-2 row-cols-1 mb-n30">
@@ -1028,6 +1204,7 @@ $tblkey = "id";
                         <div class="number">2</div>
                         <a href="contact.html"><span class="title">Dynamic Signage Display Solutions
                             </span></a>
+                            </span></a>
                         <p>Captivate your audience with stunning visuals.</p>
                     </div>
                 </div>
@@ -1036,15 +1213,18 @@ $tblkey = "id";
                         <div class="number">3</div>
                         <a href="contact.html"><span class="title">Innovative Digital Signage Software
                             </span></a>
+                            </span></a>
                         <p>Simplify content management like never before.</p>
                     </div>
                 </div>
+                <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
                 <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
                     <div class="work-step-single">
                         <div class="number">4</div>
                         <a href="contact.html"><span class="title">Get Final Report</span></a>
                         <p>Pore et dolore magna aliqua. strud exercit ctetur adipisicing elit, sed do eiusmod tempor incidid</p>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -1158,18 +1338,22 @@ $tblkey = "id";
                     </div>
                     <div class="testimonial-one-content wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
 
+
                         <div class="heading-one">
                             <span class="heading-one-subtitle">Testimoials</span>
                             <h2 class="heading-one-title">What People Say</h2>
                         </div>
 
+
                         <div class="testimonialone">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
+
                                     <div class="testimonialone-single">
                                         <p class="testimonialone-text">PIXPLUS has transformed our office environment. Their interactive technology has made meetings and presentations more efficient. The installation was seamless, and their support team is always ready to help.</p>
                                         <div class="testimonialone-content">
                                             <div class="testimonialone-thumb">
+                                                <img src="assets/images/testimonial/Richa_pamnani.jpeg" alt="Testimonial-Image" style="height:90px; width:90px; border-radius: 50px 50px">
                                                 <img src="assets/images/testimonial/Richa_pamnani.jpeg" alt="Testimonial-Image" style="height:90px; width:90px; border-radius: 50px 50px">
                                             </div>
                                             <div class="testimonialone-info">
@@ -1178,6 +1362,7 @@ $tblkey = "id";
                                             </div>
                                         </div>
                                     </div>
+
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="testimonialone-single">
@@ -1185,15 +1370,19 @@ $tblkey = "id";
                                         <div class="testimonialone-content">
                                             <div class="testimonialone-thumb">
                                                 <img src="assets/images/testimonial/Miss_paras_jain_1.jpeg" alt="Testimonial-Image" style="height:90px; width:90px; border-radius: 50px 50px">
+                                                <img src="assets/images/testimonial/Miss_paras_jain.jpeg" alt="Testimonial-Image" style="height:90px; width:90px; border-radius: 50px 50px">
                                             </div>
+                                            <div class="testimonialone-info">
                                             <div class="testimonialone-info">
                                                 <span class="name">Miss Paras Jain</span>
                                                 <span class="designation">HR Shree Mahavir Jain H.S School, Durg</span>
                                             </div>
                                         </div>
                                     </div>
+
                                 </div>
                                 <div class="swiper-slide">
+
                                     <div class="testimonialone-single">
                                         <p class="testimonialone-text">With Interactive Flat Panels, IFP Stands, and Digital Kiosks, Murlidhar School has made learning more engaging. Technology has truly enhanced the classroom experience.</p>
                                         <div class="testimonialone-content">
@@ -1234,6 +1423,7 @@ $tblkey = "id";
                                             </div>
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
                             <div class="pagination-style-one">
