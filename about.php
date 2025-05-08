@@ -31,7 +31,7 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
             <div class="col-lg-6 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".3s">
                 <!-- Heading Start -->
                 <div class="heading-one">
-                    <span class="heading-one-subtitle" style="letter-spacing: 3px;">Empowering Spaces, Enabling Possibilities</span>
+                    <span class="heading-one-subtitle" class="fw-semibold text-dark fs-4" style="font-family: 'Georgia', serif;"style="letter-spacing: 3px;">Empowering Spaces, Enabling Possibilities</span>
                     <!-- <h2 class="heading-one-title">PARTHA GHOSH MOULICK</h2> -->
 
                     <div class="about-two-text">
@@ -399,6 +399,176 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
 </div> -->
 <!-- Team Section End -->
 
+<!-- who we are section -->
+<div class="section-padding strategy">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
+                <!-- Heading Start -->
+                <div class="heading-one text-center">
+                    <!-- <span class="heading-one-subtitle">We Are Experts</span> -->
+                    <h2 class="heading-one-title">Who We Are</h2>
+                </div>
+                <!-- Heading End -->
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mb-n30">
+
+            <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".1s">
+                <!-- Single Strategy Start -->
+                <div class="strategy-single">
+
+                    <!-- Strategy Icon Start -->
+                    <div class="strategy-icon">
+                        <span></span>
+                        <img src="assets/images/icon/icon-1.png" alt="Icon">
+                    </div>
+                    <!-- Strategy Icon End -->
+
+                    <!-- Strategy content Start -->
+                    <div class="strategy-content">
+                        <!-- <h5 class="title">Growth Strategy</h5> -->
+                        <p>A trusted partner in <strong>Interactive Technology</strong>, transforming spaces with advanced solutions.</p>
+                    </div>
+                    <!-- Strategy content End -->
+
+                </div>
+                <!-- Single Strategy End -->
+            </div>
+
+            <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
+                <!-- Single Strategy Start -->
+                <div class="strategy-single">
+
+                    <!-- Strategy Icon Start -->
+                    <div class="strategy-icon">
+                        <span></span>
+                        <img src="assets/images/icon/icon-2.png" alt="Icon">
+                    </div>
+                    <!-- Strategy Icon End -->
+
+                    <!-- Strategy content Start -->
+                    <div class="strategy-content">
+                        <!-- <h5 class="title">Brand Marketing</h5> -->
+                        <p>Specialists in <strong>Interactive Flat Panels, Digital Platforms, Wall Displays,</strong> and <strong>Standees</strong> for classrooms, businesses, and events.</p>
+                    </div>
+                    <!-- Strategy content End -->
+
+                </div>
+                <!-- Single Strategy End -->
+            </div>
+
+            <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".6s">
+                <!-- Single Strategy Start -->
+                <div class="strategy-single">
+
+                    <!-- Strategy Icon Start -->
+                    <div class="strategy-icon">
+                        <span></span>
+                        <img src="assets/images/icon/icon-10.png" alt="Icon">
+                    </div>
+                    <!-- Strategy Icon End -->
+
+                    <!-- Strategy content Start -->
+                    <div class="strategy-content">
+                        <!-- <h5 class="title">Data Analytics</h5> -->
+                        <p>We offer high-quality products such as <strong>OPS</strong> and <strong>I-Frame Standees</strong> at competitive prices.
+                        </p>
+                    </div>
+                    <!-- Strategy content End -->
+
+                </div>
+                <!-- Single Strategy End -->
+            </div>
+
+            <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".6s">
+                <!-- Single Strategy Start -->
+                <div class="strategy-single">
+
+                    <!-- Strategy Icon Start -->
+                    <div class="strategy-icon">
+                        <span></span>
+                        <img src="assets/images/icon/icon-12.png" alt="Icon" style="height: 60px;">
+                    </div>
+                    <!-- Strategy Icon End -->
+
+                    <!-- Strategy content Start -->
+                    <div class="strategy-content">
+                        <!-- <h5 class="title">Data Analytics</h5> -->
+                        <p>Our commitment to customer satisfaction includes seamless installation, dependable after-sales support, and tailored solutions.</p>
+                    </div>
+                    <!-- Strategy content End -->
+
+                </div>
+                <!-- Single Strategy End -->
+            </div>
+
+            <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".6s">
+                <!-- Single Strategy Start -->
+                <div class="strategy-single">
+
+                    <!-- Strategy Icon Start -->
+                    <div class="strategy-icon">
+                        <span></span>
+                        <img src="assets/images/icon/icon-9.png" alt="Icon" style="height: 60px;">
+                    </div>
+                    <!-- Strategy Icon End -->
+
+                    <!-- Strategy content Start -->
+                    <div class="strategy-content">
+                        <!-- <h5 class="title">Data Analytics</h5> -->
+                        <p>Dedicated to developing innovative environments that promote learning and enhance professional experiences.</p>
+                    </div>
+                    <!-- Strategy content End -->
+
+                </div>
+                <!-- Single Strategy End -->
+            </div>
+
+            <div class="col mb-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".6s">
+                <!-- Single Strategy Start -->
+                <div class="strategy-single">
+
+                    <!-- Strategy Icon Start -->
+                    <div class="strategy-icon">
+                        <span></span>
+                        <img src="assets/images/icon/icon-11.png" alt="Icon" style="height: 60px;">
+                    </div>
+                    <!-- Strategy Icon End -->
+
+                    <!-- Strategy content Start -->
+                    <div class="strategy-content">
+                        <!-- <h5 class="title">Data Analytics</h5> -->
+                        <p>We prioritize long-term relationships by offering consistent service, timely upgrades, and ongoing technical support.</p>
+                    </div>
+                    <!-- Strategy content End -->
+
+                </div>
+                <!-- Single Strategy End -->
+            </div>
+
+        </div>
+    </div>
+    <div class="strategy-shape shape-1">
+        <img src="assets/images/shape/shape-1.png" alt="Shape">
+    </div>
+    <div class="strategy-shape shape-2">
+        <img src="assets/images/shape/shape-2.png" alt="Shape">
+    </div>
+    <div class="strategy-shape shape-3">
+        <img src="assets/images/shape/shape-3.png" alt="Shape">
+    </div>
+    <div class="strategy-shape shape-4">
+        <img src="assets/images/shape/shape-4.png" alt="Shape">
+    </div>
+    <div class="strategy-shape shape-5">
+        <img src="assets/images/shape/shape-5.png" alt="Shape">
+    </div>
+
+    <h2 class="rotate-title rotate-left d-none d-xxl-block">PIXPLUS</h2>
+</div>
+<!-- who we are section end -->
+
 <!-- Testimonial Section Start -->
 <div class="section-padding testimonial-two scene">
     <div class="container">
@@ -422,7 +592,7 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
                                 <div class="quote gradient-1">
                                     <img src="assets/images/testimonial/quote.png" alt="QuoteIcon">
                                 </div>
-                                <p class="text">"PixPlus has transformed our office environment. Their interactive technology has made meetings and presentations more efficient. The installation was seamless, and their support team is always ready to help."</p>
+                                <p class="text">"Pix Plus upgraded our office with interactive panels and podiums that are simple to use and have made our meetings more effective. Installation was quick, and their fast maintenance support gives us complete confidence. Our workspace is now more engaging and productive, thanks to Pix Plus. And their support team is always ready to help."</p>
                                 <div class="user">
                                     <div class="user-image">
                                         <img src="assets/images/testimonial/Richa_pamnani-2.jpg" alt="UserImage">
@@ -439,7 +609,8 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
                                 <div class="quote gradient-1">
                                     <img src="assets/images/testimonial/quote.png" alt="QuoteIcon">
                                 </div>
-                                <p class="text">"Our school has transformed with Interactive Flat Panels, Digital Podiums, and Kiosk Machines. Teaching is now more interactive, enhancing student engagement and learning."</p>
+                                <p class="text"> Pix Plus’s interactive panels make lessons lively, engaging, and easy to manage. Teachers quickly adapted after their excellent training, and their fast support keeps us confident. Pix Plus truly makes smarter teaching possible."
+                                </p>
                                 <div class="user">
                                     <div class="user-image">
                                         <img src="assets/images/testimonial/Miss_paras_jain-2.jpg" alt="UserImage">
@@ -524,6 +695,8 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
         <img src="assets/images/shape/shape-20.png" alt="Shape">
     </div>
 </div>
+
+
 <!-- Testimonial Section End -->
 
 

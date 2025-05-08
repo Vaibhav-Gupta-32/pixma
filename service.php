@@ -9,6 +9,11 @@ $meta_description = "One of the best and affordable Interactive Flat Panel sales
 <?php include('includes/header.php'); ?>
 <?php include('includes/navbar.php'); ?>
 <?php include('includes/breadcrumb.php'); ?>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 <style>
     .custom-box {
         background-color: #f8f9fa;
@@ -33,6 +38,33 @@ $meta_description = "One of the best and affordable Interactive Flat Panel sales
         width: 100%;
         height: auto;
         border-radius: 10px;
+    }
+    .display-4{
+        font-size: 46pxs;
+    }
+    @keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    }
+
+    .fade-up {
+    animation: fadeUp 0.6s ease-in-out;
+    }
+    .slow-fade {
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
+    }
+
+    @keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
     }
 
     @media (max-width: 767.98px) {
@@ -59,9 +91,9 @@ $meta_description = "One of the best and affordable Interactive Flat Panel sales
 
 <!-- containt container start -->
 <!-- <div class="section-padding"> -->
-<div class="container text-justify mt-4" style="text-align: justify;">
-<h2>Pix Plus Services</h2>
-    <p class="content-text ">
+<div class="container text-justify mt-4 fade-up" style="text-align: justify;">
+<h2 class="mx-auto text-center display-4">Pix Plus Services</h2>
+    <p class="content-text slow-fade" style="font-size: 1.1rem; color: #555; line-height: 41px;">
         At Pix Plus, we don’t just provide innovative products—we deliver a comprehensive service experience that ensures our customers can fully realize the potential of interactive technology. Our service offerings are crafted to support every stage of your journey, from installation and training to long-term maintenance and automation. We're here to help you transform a classroom, upgrade a corporate workspace, or improve an event venue. Pix Plus is your trusted partner in creating smarter, more connected environments, offering expert guidance, strong warranty support, and end-to-end service excellence.
     </p>
 </div>
@@ -72,7 +104,7 @@ $meta_description = "One of the best and affordable Interactive Flat Panel sales
 
 
 <!-- Service Section Start -->
-<div class="section-padding">
+<div class="section-padding fade-up">
     <div class="container">
         <?php
         $sql = "SELECT * FROM $tblname ORDER BY $tblkey ASC";
