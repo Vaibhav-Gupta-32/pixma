@@ -698,7 +698,11 @@ hr {
   bottom: 0;
   background: rgb(113, 83, 217);
   background: linear-gradient(-45deg, #322fb3 20%, #417DD2 50%, #4fcbf1 100%);
+<<<<<<< Updated upstream
   /*background: linear-gradient(-45deg, #5BCFF2 20%, #417DD2 50%, #322fb3 100%);*/
+=======
+      /*background: linear-gradient(-45deg, #5BCFF2 20%, #417DD2 50%, #322fb3 100%);*/
+>>>>>>> Stashed changes
   opacity: 0;
   /*transition: 0.5s;*/
   transition: all 0.4s ease-in-out;
@@ -724,7 +728,11 @@ hr {
 
 .btn-style-two {
   /* background: linear-gradient(45deg, #d1e8fa 20%, #1d4372 50%, #417DD2 100%); */
+<<<<<<< Updated upstream
   background: linear-gradient(-45deg, #5BCFF2 20%, #417DD2 50%, #322fb3 100%);
+=======
+      background: linear-gradient(-45deg, #5BCFF2 20%, #417DD2 50%, #322fb3 100%);
+>>>>>>> Stashed changes
   /*background: linear-gradient(-50deg, #5BCFF2 15%, #417DD2 47%, #322fb3 80%);*/
   border: 0px;
   border-radius: 7px;
@@ -12590,7 +12598,11 @@ only screen and (max-width: 767px) {
 .footer-left {
   /*background-color: #1d4372;*/
   background-color: rgb(50, 47, 179);
+<<<<<<< Updated upstream
   padding: 20px 100px 175px 0;
+=======
+  padding: 120px 100px 175px 0;
+>>>>>>> Stashed changes
   position: relative;
   border-radius: 0 3px 0 0;
 }
