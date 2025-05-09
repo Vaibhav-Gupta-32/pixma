@@ -517,7 +517,8 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
                     <!-- Strategy content Start -->
                     <div class="strategy-content">
                         <!-- <h5 class="title">Data Analytics</h5> -->
-                        <p>Dedicated to developing innovative environments that promote learning and enhance professional experiences.</p>
+                        <p>Dedicated to building innovative environments that support learning, encourage growth, and enhance both educational and professional development experiences.
+                        </p>
                     </div>
                     <!-- Strategy content End -->
 

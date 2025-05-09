@@ -4,7 +4,10 @@ $logo2 = getvalfield($conn, "logo_icon", "footer_location", "1");
 ?>
 <style>
     .activee {
-        color: #0d6efd !important;
+        color: #99889c !important;
+    }
+    .activee:hover{
+        color: #b8a1bc !important;
     }
 </style>
 <header class="header-wrapper header-one sticky-header">
@@ -23,8 +26,8 @@ $logo2 = getvalfield($conn, "logo_icon", "footer_location", "1");
                         </div>
                         <div class="logo-text">
                             <a href="index.php" style="color:#ecc9e8;">
-                                <p style="color:#ecc9e8;" class="m-0 p-0 h3">PIXPLUS</p>
-                                <small>Limitless Innorvations Over The Pixels</small>
+                                <p style="color:#99889c;" class="m-0 p-0 h3">PIXPLUS</p>
+                                <small style="color:#99889c;">Limitless Innorvations Over The Pixels</small>
                                 <!-- <img class="logo-1" src="admin/dash/<?= $logo2 ?>" style="height:80px" alt="logoImage">
                                     <img class="logo-2" src="admin/dash/<?= $logo1 ?>" style="height:80px" alt="logoImage"> -->
                             </a>
