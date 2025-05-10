@@ -4,7 +4,7 @@ $logo2 = getvalfield($conn, "logo_icon", "footer_location", "1");
 ?>
 <style>
     .activee {
-        color: #99889c !important;
+        color: #4a3e4b !important;
     }
     .activee:hover{
         color: #b8a1bc !important;

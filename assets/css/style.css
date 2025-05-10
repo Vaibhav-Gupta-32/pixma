@@ -659,8 +659,9 @@ hr {
 /*  1.2 Button Styles CSS
 /*----------------------------------------*/
 .btn-style-one {
-  background: #322fb3;
-  background: linear-gradient(-45deg, #5BCFF2 20%, #417DD2 50%, #322fb3 100%);
+  /* background: #322fb3; */
+  /* background: linear-gradient(-45deg, #5BCFF2 20%, #417DD2 50%, #322fb3 100%); */
+  background: linear-gradient(135deg, #DCC7E0, #B8A1BC, #B5A4B7);
   border: 0px;
   border-radius: 7px;
   text-transform: uppercase;
@@ -697,8 +698,8 @@ hr {
   right: 0;
   bottom: 0;
   background: rgb(113, 83, 217);
-  background: linear-gradient(-45deg, #322fb3 20%, #417DD2 50%, #4fcbf1 100%);
-  /*background: linear-gradient(-45deg, #5BCFF2 20%, #417DD2 50%, #322fb3 100%);*/
+  /* background: linear-gradient(-45deg, #322fb3 20%, #417DD2 50%, #4fcbf1 100%); */
+  background: linear-gradient(135deg, #DCC7E0, #B8A1BC, #B5A4B7);
   opacity: 0;
   /*transition: 0.5s;*/
   transition: all 0.4s ease-in-out;
@@ -723,9 +724,7 @@ hr {
 }
 
 .btn-style-two {
-  /* background: linear-gradient(45deg, #d1e8fa 20%, #1d4372 50%, #417DD2 100%); */
-  background: linear-gradient(-45deg, #5BCFF2 20%, #417DD2 50%, #322fb3 100%);
-  /*background: linear-gradient(-50deg, #5BCFF2 15%, #417DD2 47%, #322fb3 80%);*/
+  background: linear-gradient(135deg, #DCC7E0, #B8A1BC, #B5A4B7);
   border: 0px;
   border-radius: 7px;
   text-transform: uppercase;
@@ -835,10 +834,10 @@ hr {
 /*  1.3 Heading Styles CSS
 /*----------------------------------------*/
 .heading-one-subtitle {
-  color: #4fcbf1;
-  font-size: 18px;
+  color: #b5a4b7;
+  font-size: 25px;
   letter-spacing: 4px;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
   line-height: 1;
 }
@@ -1321,13 +1320,13 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   line-height: 120px;
   cursor: pointer;
   font-weight: 500;
-  color: #99889c;
+  color: #4a3e4b;
   position: relative;
   transition: 0.3s;
 }
 
 .main-menu>ul>li:hover>a {
-  color: #b8a1bc;
+  color: #4a3e4b;
 }
 
 .main-menu .has-children {
@@ -9314,7 +9313,7 @@ only screen and (min-width: 1400px) and (max-width: 1549px) {
 
 .work-two .work-carousel .single-work-carousel::before {
   content: "";
-  background: linear-gradient(-50deg, #5BCFF2 15%, #417DD2 47%, #322fb3 80%);
+  background: linear-gradient(135deg, #DCC7E0, #B8A1BC, #B5A4B7);
   width: 100%;
   height: 100%;
   top: 0%;
@@ -11960,7 +11959,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 .blogpost-content {
   padding: 30px;
   border-radius: 0 0 7px 7px;
-  background-color: #f2fbfe;
+  background-color: #B5A4B7;
   transition: 0.4s;
 }
 
@@ -13793,8 +13792,9 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   height: 100%;
   top: 0;
   left: 0;
-  background: #322fb3;
-  background: linear-gradient(-45deg, #5BCFF2 20%, #417DD2 50%, #322fb3 100%);
+  background: #99889c;
+  background: linear-gradient(135deg, #DCC7E0, #B8A1BC, #B5A4B7);
+
   opacity: 0.81;
   z-index: 1;
 }
