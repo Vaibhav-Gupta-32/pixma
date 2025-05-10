@@ -696,9 +696,36 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
         <img src="assets/images/shape/shape-20.png" alt="Shape">
     </div>
 </div>
-
-
 <!-- Testimonial Section End -->
+
+<!-- Brand Section 2 Start -->
+<div class="logos">
+    <div class="logo_items">
+        <img src="assets\images\brand\b1.png">
+        <img src="assets\images\brand\b2.png">
+        <!-- <img src="assets\images\brand\b3.png"> -->
+        <img src="assets\images\brand\b4.png">
+    </div>
+    <div class="logo_items">
+        <img src="assets\images\brand\b1.png">
+        <img src="assets\images\brand\b2.png">
+        <!-- <img src="assets\images\brand\b3.png"> -->
+        <img src="assets\images\brand\b4.png">
+    </div>
+    <div class="logo_items">
+        <img src="assets\images\brand\b1.png">
+        <img src="assets\images\brand\b2.png">
+        <!-- <img src="assets\images\brand\b3.png"> -->
+        <img src="assets\images\brand\b4.png">
+    </div>
+    <div class="logo_items">
+        <img src="assets\images\brand\b1.png">
+        <img src="assets\images\brand\b2.png">
+        <!-- <img src="assets\images\brand\b3.png"> -->
+        <img src="assets\images\brand\b4.png">
+    </div>
+</div>
+<!-- Brand Section 2 End -->
 
 
 <?php include('includes/footer.php'); ?>
