@@ -73,20 +73,29 @@ $meta_description = "One of the best and affordable Interactive Flat Panel sales
     }
 
     .btn-buy {
-        background-color: #0d6efd;
+        background: linear-gradient(135deg, #DCC7E0, #B8A1BC, #B5A4B7);
         color: white;
     }
 
     .btn-buy:hover {
-        background-color: #0d6efd;
+        background-color: #564559;
+        color: #564559;
+    }
+    .fade-up {
+    animation: fadeUp 0.6s ease-in-out;
+    }
+    .slow-fade
+    {
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
     }
 </style>
 
 <!-- Hero Section -->
-<section class="container mt-4" style="text-align: justify;">
-    <h2>Pix Plus Products</h2>
-    <p class="content-text mt-3">At Pix Plus, we aim to change how people interact with technology. Our vision is to create spaces that inspire creativity, collaboration, and growth. We want technology to elevate how we learn, work, and connect.</p>
-    <p class="content-text mt-3">Pix Plus offers solutions that enhance learning, communication, and collaboration. Our products, like Interactive Flat Panels and Digital Podiums, are simple and perform well. They transform classrooms, businesses, and events into engaging spaces. Whether it’s interactive lessons or impactful presentations, Pix Plus helps create inspiring environments with advanced technology and sleek designs. Let’s explore our range of products.</p>
+<section class="container mt-4 fade-up" style="text-align: justify;">
+    <h2 class="mx-auto text-center display-4 fade-up">Pix Plus Products</h2>
+    <p class="content-text mt-3 slow-fade">At Pix Plus, we aim to change how people interact with technology. Our vision is to create spaces that inspire creativity, collaboration, and growth. We want technology to elevate how we learn, work, and connect.</p>
+    <p class="content-text mt-3 slow-fade">Pix Plus offers solutions that enhance learning, communication, and collaboration. Our products, like Interactive Flat Panels and Digital Podiums, are simple and perform well. They transform classrooms, businesses, and events into engaging spaces. Whether it’s interactive lessons or impactful presentations, Pix Plus helps create inspiring environments with advanced technology and sleek designs. Let’s explore our range of products.</p>
 </section>
 
 <!-- Product Grid -->

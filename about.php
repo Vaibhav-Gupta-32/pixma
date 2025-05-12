@@ -169,7 +169,7 @@ $meta_description = "We have whole range of video, digital, broucher and flat sc
 <!-- About Section End -->
 
 <!-- Funfact Section Start -->
-<div class="section-padding funfact" data-bg-image="assets/images/funfact/funfact-bg.png" style="padding: 64px 0;">
+<div class="section-padding funfact" data-bg-image="assets/images/funfact/bg.png" style="padding: 64px 0;">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">

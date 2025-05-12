@@ -452,6 +452,11 @@ $tblkey = "id";
 
 <!-- Service Industries start -->
 <!--  -->
+<Style>
+    .IWS{
+        color:#564559;
+    }
+</Style>
 <section class="vs-container pt-5">
     <div class="row m-2">
         <div class="col-md-12 text-md-center pt-4 vs-hline">
@@ -462,8 +467,8 @@ $tblkey = "id";
                     <img src="./assets/images/service/industries/education1.jpg" class="img-fluid lazyloaded" alt="spacebg"></div>
             </div>
             <div class="py-3">
-                <h4 vs-edit="">Education Institute</h4>
-                <p vs-edit="">Educational Institutions Enhance interactive learning with digital flat panels and real-time collaboration tools.</p>
+                <h4 vs-edit="" class="IWS">Education Institute</h4>
+                <p vs-edit="" class="IWS">Educational Institutions Enhance interactive learning with digital flat panels and real-time collaboration tools.</p>
             </div>
             <!-- <div class="vs-read-more"> <span vs-edit="">Learn More &nbsp; <i class="fa fa-angle-right" aria-hidden="true"></i></span> </div> -->
         </a> <a class="col-md-4 media-content-block">
@@ -472,8 +477,8 @@ $tblkey = "id";
                     <img src="./assets/images/service/industries/corporateOF2.jpg" class="img-fluid lazyloaded" alt="spacebg"></div>
             </div>
             <div class="py-3">
-                <h4 vs-edit="">Corporate Office</h4>
-                <p vs-edit=""> Streamline meetings with video conferencing, digital podiums, and professional display solutions. </p>
+                <h4 vs-edit=""class="IWS">Corporate Office</h4>
+                <p vs-edit=""class="IWS"> Streamline meetings with video conferencing, digital podiums, and professional display solutions. </p>
             </div>
             <!-- <div class="vs-read-more"> <span vs-edit="">Find a Solution &nbsp; <i class="fa fa-angle-right" aria-hidden="true"></i></span> </div> -->
         </a> <a class="col-md-4 media-content-block">
@@ -482,8 +487,8 @@ $tblkey = "id";
                     <img src="./assets/images/service/industries/Retail3.jpg" class="img-fluid lazyloaded" alt="spacebg"></div>
             </div>
             <div class="py-3">
-                <h4 vs-edit="">Retail & Showrooms</h4>
-                <p vs-edit="">Attract customers with dynamic digital signage and engaging promotional displays. </p>
+                <h4 vs-edit="" class="IWS">Retail & Showrooms</h4>
+                <p vs-edit="" class="IWS">Attract customers with dynamic digital signage and engaging promotional displays. </p>
             </div>
             <!-- <div class="vs-read-more"> <span vs-edit="">Explore &nbsp; <i class="fa fa-angle-right" aria-hidden="true"></i></span> </div> -->
         </a>
@@ -498,8 +503,8 @@ $tblkey = "id";
                     <img src="./assets/images/service/industries/event-venue4.jpeg" class="img-fluid lazyloaded" alt="spacebg"></div>
             </div>
             <div class="py-3">
-                <h4 vs-edit="">Event & Venues</h4>
-                <p vs-edit="">Elevate conferences and exhibitions with interactive standees and live presentation tools.</p>
+                <h4 vs-edit="" class="IWS" >Event & Venues</h4>
+                <p vs-edit="" class="IWS">Elevate conferences and exhibitions with interactive standees and live presentation tools.</p>
             </div>
             <!-- <div class="vs-read-more"> <span vs-edit="">Learn More &nbsp; <i class="fa fa-angle-right" aria-hidden="true"></i></span> </div> -->
         </a> <a class="col-md-4 media-content-block">
@@ -508,8 +513,8 @@ $tblkey = "id";
                     <img src="./assets/images/service/industries/hospitals5.jpg" class="img-fluid lazyloaded" alt="spacebg"></div>
             </div>
             <div class="py-3">
-                <h4 vs-edit="">Hospitals & Healthcare <br> Centers</h4>
-                <p vs-edit="">Improve patient communication with self-check-in kiosks and digital information boards.</p>
+                <h4 vs-edit="" class="IWS" >Hospitals & Healthcare <br> Centers</h4>
+                <p vs-edit="" class="IWS">Improve patient communication with self-check-in kiosks and digital information boards.</p>
             </div>
             <!-- <div class="vs-read-more"> <span vs-edit="">Find a Solution &nbsp; <i class="fa fa-angle-right" aria-hidden="true"></i></span> </div> -->
         </a> <a class="col-md-4 media-content-block">
@@ -518,8 +523,8 @@ $tblkey = "id";
                     <img src="./assets/images/service/industries/hotels6.jpg" class="img-fluid lazyloaded" alt="spacebg"></div>
             </div>
             <div class="py-3">
-                <h4 vs-edit="">Hotels Hospitality </h4>
-                <p vs-edit="">Enhance guest experience with interactive kiosks, digital signages, and smart display solutions.</p>
+                <h4 vs-edit="" class="IWS">Hotels Hospitality </h4>
+                <p vs-edit="" class="IWS">Enhance guest experience with interactive kiosks, digital signages, and smart display solutions.</p>
             </div>
             <!-- <div class="vs-read-more"> <span vs-edit="">Explore &nbsp; <i class="fa fa-angle-right" aria-hidden="true"></i></span> </div> -->
         </a>
